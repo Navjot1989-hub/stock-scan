@@ -1,0 +1,12 @@
+# One screener.in ticker per line. Lines starting with # are ignored.
+# Edit this list to change what gets scanned each run.
+TIPSMUSIC
+CAPLIPOINT
+GRAVITA
+NEWGEN
+ANANDRATHI
+GARFIBRES
+CONTROLPR
+PIXTRANS
+RACLGEAR
+SUPRAJIT
