@@ -3,10 +3,13 @@
 Automated screen of Indian (NSE/BSE) small/midcaps for multibagger potential,
 based on the **SQGLP / six-pillar** framework (Size, Quality, Growth, Longevity,
 Management, Price). It scrapes [screener.in](https://www.screener.in), runs a
-red-flag screen, scores each name as code, and writes a ranked Markdown report.
+**hard red-flag forensic screen first** (2+ hard flags ⇒ AVOID), scores each
+survivor as code against [`references/scoring-rubric.md`](references/scoring-rubric.md),
+and writes a ranked Markdown report with per-company **verdict box, red-flag
+table, pillar scorecard, multibagger-math table, kill-switches and sources**.
 
-It runs on **GitHub Actions on a schedule**, so it fires on GitHub's servers
-**even when your own machine is off**.
+It runs on **GitHub Actions on a daily schedule (11:00 IST)**, so it fires on
+GitHub's servers and emails you **even when your own machine is off**.
 
 > ⚠️ Analytical research, **not investment advice**. This scores *numbers only* —
 > it does not read annual reports or concalls, so the Longevity (moat) pillar and
@@ -22,10 +25,11 @@ It runs on **GitHub Actions on a schedule**, so it fires on GitHub's servers
 ## How it runs
 
 `.github/workflows/scan.yml`:
-- **Schedule:** `cron: "30 2 */2 * *"` → 02:30 UTC = **08:00 IST every alternate day**
+- **Schedule:** `cron: "30 5 * * *"` → 05:30 UTC = **11:00 IST, every day**
 - **Manual:** the **Run workflow** button on the repo's **Actions** tab runs it on demand
 
-GitHub Actions cron is in **UTC**; adjust the cron line if you want a different IST time.
+GitHub Actions cron is in **UTC**; adjust the cron line if you want a different IST
+time. Scheduled runs can lag a few minutes under GitHub load — that is normal.
 
 ## Configure the watchlist
 
@@ -68,4 +72,9 @@ Total = .15·S + .25·Q + .20·G + .15·L + .15·M + .10·P.
 Verdict: **≥75** Strong · **60–74** Watchlist · **45–59** Unproven · **<45** Pass ·
 **2+ hard red flags = AVOID**.
 
-Hard red flags: CFO/NP < 50%, promoter < 40%, promoter holding falling > 3pp, D/E > 1.
+**Hard red flags screened in code:** CFO/EBITDA < 50% (5y cumulative), promoter
+pledge > 20%, promoter stake < 40% or falling > 3pp, share-count CAGR > 4%,
+D/E > 1 or interest coverage < 3×. Receivables-vs-sales, auditor, related-party,
+contingent-liability and remuneration/SEBI checks need the annual report and are
+listed as **manual-review** items in each report. See the full framework and
+hard-flag list in [`references/scoring-rubric.md`](references/scoring-rubric.md).
