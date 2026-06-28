@@ -1,50 +1,612 @@
-# Multibagger Hunter — Automated Scan
+# Multibagger Hunter (India — NSE/BSE) — Automated Daily Scan
 
 **Date:** 2026-06-28 · **Framework:** SQGLP / six-pillar (quantitative proxy) · **Source:** screener.in
 
-> Analytical research, NOT investment advice. Longevity (moat) and management candor are heuristic proxies from numbers only — verify with annual reports and concalls.
+> Analytical research, **NOT investment advice**. This scores *numbers only* — it does not read annual reports or concalls, so Longevity (moat), Management candor, and red flags 5–8/10 are heuristic proxies flagged for manual review. Verify filings independently and size positions accordingly: multibagger hunting means accepting that many picks fail — portfolio construction matters as much as selection. Most small caps underperform.
 
-## Ranked verdict
+## Ranked comparison
 
-| Rank | Company | Ticker | Mcap (Rs cr) | Score | Verdict |
-|---|---|---|---|---|---|
-| 1 | Newgen Software Technologies Ltd | NEWGEN | 6742 | **79.7** | Strong candidate |
-| 2 | Anand Rathi Wealth Ltd | ANANDRATHI | 32087 | **69.2** | Watchlist |
-| 3 | Caplin Point Laboratories Ltd | CAPLIPOINT | 19052 | **68.5** | Watchlist |
-| 4 | Pix Transmission Ltd | PIXTRANS | 2448 | **66.0** | Watchlist |
-| 5 | Control Print Ltd | CONTROLPR | 1024 | **60.8** | Watchlist |
-| 6 | Garware Technical Fibres Ltd | GARFIBRES | 7230 | **60.1** | Watchlist |
-| 7 | RACL Geartech Ltd | RACLGEAR | 1583 | **60.0** | Watchlist |
-| 8 | Gravita India Ltd | GRAVITA | 12333 | **58.9** | AVOID |
-| 9 | Suprajit Engineering Ltd | SUPRAJIT | 6425 | **53.5** | Unproven |
-| 10 | Tips Music Ltd | TIPSMUSIC | n/a | **35.2** | Pass |
-
-## Pillar scorecard & flags
-
-| Ticker | S | Q | G | L | M | P | Total | ROCE | 5y Sales | 5y PAT | Prom % | Hard flags |
+| Rank | Company | Ticker | Mcap (Rs cr) | S | Q | G | L | M | P | **Total** | Hard flags | Verdict |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| NEWGEN | 62 | 95 | 82 | 72 | 75 | 82 | **79.7** | 25.8% | 19% | 21% | 53.52% | — |
-| ANANDRATHI | 40 | 95 | 82 | 72 | 40 | 62 | **69.2** | 59.2% | 36% | 55% | 41.37% | Promoter holding falling (49%→41%) |
-| CAPLIPOINT | 40 | 85 | 65 | 72 | 75 | 62 | **68.5** | 24.6% | 16% | 22% | 70.57% | — |
-| PIXTRANS | 82 | 85 | 32 | 72 | 75 | 40 | **66.0** | 21.8% | 9% | 10% | 62.06% | — |
-| CONTROLPR | 82 | 71 | 45 | 55 | 75 | 22 | **60.8** | 16.4% | 19% | 6% | 52.99% | — |
-| GARFIBRES | 62 | 85 | 32 | 65 | 75 | 22 | **60.1** | 22% | 8% | 6% | 53.36% | — |
-| RACLGEAR | 82 | 66 | 65 | 55 | 40 | 40 | **60.0** | 17% | 19% | 16% | 42.69% | Promoter holding falling (53%→43%) |
-| GRAVITA | 62 | 43 | 82 | 55 | 40 | 82 | **58.9** | 17% | 25% | 46% | 55.88% | CFO/NP 45% (<50%); Promoter holding falling (66%→56%) |
-| SUPRAJIT | 62 | 66 | 45 | 55 | 55 | 22 | **53.5** | 16% | 18% | 6% | 45.26% | — |
-| TIPSMUSIC | 30 | 30 | 35 | 45 | 40 | 35 | **35.2** | n/a | n/a | n/a | 64.15% | Promoter holding falling (75%→64%) |
+| 1 | Pix Transmission Ltd | PIXTRANS | 2448 | 84 | 85 | 82 | 72 | 75 | 82 | **80.5** | 0 | Strong candidate |
+| 2 | Newgen Software Technologies Ltd | NEWGEN | 6742 | 68 | 87 | 65 | 72 | 65 | 62 | **71.7** | 1 | Watchlist |
+| 3 | Caplin Point Laboratories Ltd | CAPLIPOINT | 19052 | 40 | 77 | 82 | 72 | 75 | 62 | **69.9** | 0 | Watchlist |
+| 4 | RACL Geartech Ltd | RACLGEAR | 1583 | 84 | 58 | 82 | 55 | 40 | 62 | **64.0** | 1 | Watchlist |
+| 5 | Garware Technical Fibres Ltd | GARFIBRES | 7230 | 68 | 77 | 42 | 65 | 65 | 40 | **61.4** | 1 | Watchlist |
+| 6 | Control Print Ltd | CONTROLPR | 1024 | 84 | 63 | 45 | 55 | 65 | 22 | **57.5** | 1 | Unproven |
+| 7 | Suprajit Engineering Ltd | SUPRAJIT | 6425 | 68 | 58 | 52 | 55 | 55 | 22 | **53.8** | 0 | Unproven |
+| 8 | Tips Music Ltd | TIPSMUSIC | n/a | 30 | 30 | 35 | 45 | 40 | 35 | **35.2** | 1 | Pass |
+| 9 | Anand Rathi Wealth Ltd | ANANDRATHI | 32087 | 40 | 87 | 82 | 72 | 30 | 18 | **61.2** | 2 | AVOID |
+| 10 | Gravita India Ltd | GRAVITA | 12333 | 56 | 43 | 82 | 55 | 40 | 82 | **58.0** | 2 | AVOID |
 
-## Sources
+*Weights: S 15% · Q 25% · G 20% · L 15% · M 15% · P 10%. Bands: ≥75 Strong · 60–74 Watchlist · 45–59 Unproven · <45 Pass · 2+ hard flags = AVOID.*
 
-- [NEWGEN](https://www.screener.in/company/NEWGEN/consolidated/)
-- [ANANDRATHI](https://www.screener.in/company/ANANDRATHI/consolidated/)
-- [CAPLIPOINT](https://www.screener.in/company/CAPLIPOINT/consolidated/)
-- [PIXTRANS](https://www.screener.in/company/PIXTRANS/consolidated/)
-- [CONTROLPR](https://www.screener.in/company/CONTROLPR/consolidated/)
-- [GARFIBRES](https://www.screener.in/company/GARFIBRES/consolidated/)
-- [RACLGEAR](https://www.screener.in/company/RACLGEAR/consolidated/)
-- [GRAVITA](https://www.screener.in/company/GRAVITA/consolidated/)
-- [SUPRAJIT](https://www.screener.in/company/SUPRAJIT/consolidated/)
-- [TIPSMUSIC](https://www.screener.in/company/TIPSMUSIC/consolidated/)
+---
 
-*Weights: S 15% · Q 25% · G 20% · L 15% · M 15% · P 10%. Verdict bands: ≥75 Strong · 60–74 Watchlist · 45–59 Unproven · <45 Pass · 2+ hard flags = AVOID. Not investment advice.*
+## Per-company detail
+
+### Pix Transmission Ltd (PIXTRANS)
+
+| | |
+|---|---|
+| **Score** | **80.5 / 100** |
+| **Classification** | Strong candidate |
+| **Thesis** | ROCE 21.8%, 35.1% earnings CAGR, Rs 2448 cr mcap |
+| **Top risk** | Small-cap base rate: most underperform; verify filings independently. |
+| **Hard flags** | 0 fired |
+
+**Red-flag forensic screen** (run first):
+
+| Check | Result | Evidence |
+|---|---|---|
+| CFO/EBITDA ≥ 50% (5y cum.) | 🟢 pass | CFO/EBITDA = 89% |
+| Promoter pledge ≤ 20% | 🟡 manual | pledge % not disclosed in table |
+| Promoter stake ≥ 40% & stable | 🟢 pass | promoter 62% (from 62%) |
+| Share count CAGR ≤ 4% | 🟢 pass | equity-cap CAGR ≈ 0.0% |
+| D/E ≤ 1 & interest cover ≥ 3× | 🟢 pass | D/E 0.03, int.cover 49.0× |
+| Receivables not outpacing sales (>1.5×, 2y) | 🟡 manual | needs AR / quarterly receivables — review manually |
+| No auditor resignation / small-auditor risk | 🟡 manual | needs auditor's report — review manually |
+| Related-party transactions reasonable | 🟡 manual | needs AR RPT schedule — review manually |
+| Contingent liabilities ≤ 25% of net worth | 🟡 manual | needs AR contingent-liability note — review manually |
+| Promoter remuneration / SEBI history clean | 🟡 manual | needs AR + SEBI orders — review manually |
+
+**Pillar scorecard:**
+
+| Pillar | Weight | Score | Justification |
+|---|---|---|---|
+| S — Size & obscurity | 15% | 84 | Mcap ≈ Rs 2448 cr → re-rating room scored 84. |
+| Q — Quality of business | 25% | 85 | ROCE 21.8%; CFO/EBITDA 89%; D/E 0.03 → 85. |
+| G — Growth | 20% | 82 | 5y Sales 9%, EPS/PAT 35.1% → 82 (stalled earnings capped at 45). |
+| L — Longevity / moat | 15% | 72 | OPM 26%, ROCE 21.8% → 72 (numeric proxy; confirm moat in AR/concall). |
+| M — Management & capital allocation | 15% | 75 | Promoter 62.06% → 75 (candor needs AR/concall review). |
+| P — Price | 10% | 82 | P/E 22.9, PEG 0.65 → 82. |
+| **Total** | 100% | **80.5** | weighted sum |
+
+**Multibagger math** (implied price multiple = EPS growth ^ n × exit-P/E re-rating):
+
+| Scenario | EPS CAGR | Exit P/E | 5y multiple | 10y multiple |
+|---|---|---|---|---|
+| Bear | 15.0% | 13.7x | 1.2x | 2.4x |
+| Base | 30.0% | 22.9x | 3.7x | 13.8x |
+| Bull | 35.0% | 34.3x | 6.7x | 30.2x |
+
+*From current P/E 22.9 and ~35.1% historical earnings CAGR. Forward-looking and illustrative only.*
+
+**What would change the thesis (kill-switches):**
+
+- Exit if promoter pledging appears, or pledge rises above 20%.
+- Exit if cumulative CFO/EBITDA drops below 60%.
+- Exit if promoter holding falls > 3pp in a year without a stated reason.
+- Exit if 5y EPS/PAT CAGR stalls below 8% or margins compress structurally.
+- Re-underwrite if D/E rises above 1 or interest coverage falls below 3×.
+- Before acting, manually clear: Promoter pledge ≤ 20%; Receivables not outpacing sales (>1.5×, 2y); No auditor resignation / small-auditor risk; Related-party transactions reasonable; Contingent liabilities ≤ 25% of net worth.
+
+**Sources:** [screener.in/PIXTRANS](https://www.screener.in/company/PIXTRANS/consolidated/) · verify on [NSE](https://www.nseindia.com), [BSE announcements](https://www.bseindia.com/corporates/ann.html), and CRISIL/ICRA/CARE rating rationales.
+
+
+### Newgen Software Technologies Ltd (NEWGEN)
+
+| | |
+|---|---|
+| **Score** | **71.7 / 100** |
+| **Classification** | Watchlist |
+| **Thesis** | ROCE 25.8%, 15.6% earnings CAGR, Rs 6742 cr mcap |
+| **Top risk** | Hard flag: Share count CAGR ≤ 4% |
+| **Hard flags** | 1 fired |
+
+**Red-flag forensic screen** (run first):
+
+| Check | Result | Evidence |
+|---|---|---|
+| CFO/EBITDA ≥ 50% (5y cum.) | 🟢 pass | CFO/EBITDA = 68% |
+| Promoter pledge ≤ 20% | 🟡 manual | pledge % not disclosed in table |
+| Promoter stake ≥ 40% & stable | 🟢 pass | promoter 54% (from 55%) |
+| Share count CAGR ≤ 4% | 🔴 FAIL | equity-cap CAGR ≈ 9.3% |
+| D/E ≤ 1 & interest cover ≥ 3× | 🟢 pass | D/E 0.02, int.cover 78.4× |
+| Receivables not outpacing sales (>1.5×, 2y) | 🟡 manual | needs AR / quarterly receivables — review manually |
+| No auditor resignation / small-auditor risk | 🟡 manual | needs auditor's report — review manually |
+| Related-party transactions reasonable | 🟡 manual | needs AR RPT schedule — review manually |
+| Contingent liabilities ≤ 25% of net worth | 🟡 manual | needs AR contingent-liability note — review manually |
+| Promoter remuneration / SEBI history clean | 🟡 manual | needs AR + SEBI orders — review manually |
+
+**Pillar scorecard:**
+
+| Pillar | Weight | Score | Justification |
+|---|---|---|---|
+| S — Size & obscurity | 15% | 68 | Mcap ≈ Rs 6742 cr → re-rating room scored 68. |
+| Q — Quality of business | 25% | 87 | ROCE 25.8%; CFO/EBITDA 68%; D/E 0.02 → 87. |
+| G — Growth | 20% | 65 | 5y Sales 19%, EPS/PAT 15.6% → 65 (stalled earnings capped at 45). |
+| L — Longevity / moat | 15% | 72 | OPM 26%, ROCE 25.8% → 72 (numeric proxy; confirm moat in AR/concall). |
+| M — Management & capital allocation | 15% | 65 | Promoter 53.52%; dilution 9.3% → 65 (candor needs AR/concall review). |
+| P — Price | 10% | 62 | P/E 20.3, PEG 1.3 → 62. |
+| **Total** | 100% | **71.7** | weighted sum |
+
+**Multibagger math** (implied price multiple = EPS growth ^ n × exit-P/E re-rating):
+
+| Scenario | EPS CAGR | Exit P/E | 5y multiple | 10y multiple |
+|---|---|---|---|---|
+| Bear | 7.8% | 12.2x | 0.9x | 1.3x |
+| Base | 15.6% | 20.3x | 2.1x | 4.3x |
+| Bull | 20.3% | 30.5x | 3.8x | 9.5x |
+
+*From current P/E 20.3 and ~15.6% historical earnings CAGR. Forward-looking and illustrative only.*
+
+**What would change the thesis (kill-switches):**
+
+- Exit if promoter pledging appears, or pledge rises above 20%.
+- Exit if cumulative CFO/EBITDA drops below 60%.
+- Exit if promoter holding falls > 3pp in a year without a stated reason.
+- Exit if 5y EPS/PAT CAGR stalls below 8% or margins compress structurally.
+- Re-underwrite if D/E rises above 1 or interest coverage falls below 3×.
+- Before acting, manually clear: Promoter pledge ≤ 20%; Receivables not outpacing sales (>1.5×, 2y); No auditor resignation / small-auditor risk; Related-party transactions reasonable; Contingent liabilities ≤ 25% of net worth.
+
+**Sources:** [screener.in/NEWGEN](https://www.screener.in/company/NEWGEN/consolidated/) · verify on [NSE](https://www.nseindia.com), [BSE announcements](https://www.bseindia.com/corporates/ann.html), and CRISIL/ICRA/CARE rating rationales.
+
+
+### Caplin Point Laboratories Ltd (CAPLIPOINT)
+
+| | |
+|---|---|
+| **Score** | **69.9 / 100** |
+| **Classification** | Watchlist |
+| **Thesis** | ROCE 24.6%, 28.3% earnings CAGR, Rs 19052 cr mcap |
+| **Top risk** | Small-cap base rate: most underperform; verify filings independently. |
+| **Hard flags** | 0 fired |
+
+**Red-flag forensic screen** (run first):
+
+| Check | Result | Evidence |
+|---|---|---|
+| CFO/EBITDA ≥ 50% (5y cum.) | 🟢 pass | CFO/EBITDA = 67% |
+| Promoter pledge ≤ 20% | 🟡 manual | pledge % not disclosed in table |
+| Promoter stake ≥ 40% & stable | 🟢 pass | promoter 71% (from 71%) |
+| Share count CAGR ≤ 4% | 🟢 pass | equity-cap CAGR ≈ 0.0% |
+| D/E ≤ 1 & interest cover ≥ 3× | 🟢 pass | D/E 0.0, int.cover 804.0× |
+| Receivables not outpacing sales (>1.5×, 2y) | 🟡 manual | needs AR / quarterly receivables — review manually |
+| No auditor resignation / small-auditor risk | 🟡 manual | needs auditor's report — review manually |
+| Related-party transactions reasonable | 🟡 manual | needs AR RPT schedule — review manually |
+| Contingent liabilities ≤ 25% of net worth | 🟡 manual | needs AR contingent-liability note — review manually |
+| Promoter remuneration / SEBI history clean | 🟡 manual | needs AR + SEBI orders — review manually |
+
+**Pillar scorecard:**
+
+| Pillar | Weight | Score | Justification |
+|---|---|---|---|
+| S — Size & obscurity | 15% | 40 | Mcap ≈ Rs 19052 cr → re-rating room scored 40. |
+| Q — Quality of business | 25% | 77 | ROCE 24.6%; CFO/EBITDA 67%; D/E 0.0 → 77. |
+| G — Growth | 20% | 82 | 5y Sales 16%, EPS/PAT 28.3% → 82 (stalled earnings capped at 45). |
+| L — Longevity / moat | 15% | 72 | OPM 35%, ROCE 24.6% → 72 (numeric proxy; confirm moat in AR/concall). |
+| M — Management & capital allocation | 15% | 75 | Promoter 70.57% → 75 (candor needs AR/concall review). |
+| P — Price | 10% | 62 | P/E 29.7, PEG 1.05 → 62. |
+| **Total** | 100% | **69.9** | weighted sum |
+
+**Multibagger math** (implied price multiple = EPS growth ^ n × exit-P/E re-rating):
+
+| Scenario | EPS CAGR | Exit P/E | 5y multiple | 10y multiple |
+|---|---|---|---|---|
+| Bear | 14.2% | 17.8x | 1.2x | 2.3x |
+| Base | 28.3% | 29.7x | 3.5x | 12.1x |
+| Bull | 35.0% | 44.5x | 6.7x | 30.2x |
+
+*From current P/E 29.7 and ~28.3% historical earnings CAGR. Forward-looking and illustrative only.*
+
+**What would change the thesis (kill-switches):**
+
+- Exit if promoter pledging appears, or pledge rises above 20%.
+- Exit if cumulative CFO/EBITDA drops below 60%.
+- Exit if promoter holding falls > 3pp in a year without a stated reason.
+- Exit if 5y EPS/PAT CAGR stalls below 8% or margins compress structurally.
+- Re-underwrite if D/E rises above 1 or interest coverage falls below 3×.
+- Before acting, manually clear: Promoter pledge ≤ 20%; Receivables not outpacing sales (>1.5×, 2y); No auditor resignation / small-auditor risk; Related-party transactions reasonable; Contingent liabilities ≤ 25% of net worth.
+
+**Sources:** [screener.in/CAPLIPOINT](https://www.screener.in/company/CAPLIPOINT/consolidated/) · verify on [NSE](https://www.nseindia.com), [BSE announcements](https://www.bseindia.com/corporates/ann.html), and CRISIL/ICRA/CARE rating rationales.
+
+
+### RACL Geartech Ltd (RACLGEAR)
+
+| | |
+|---|---|
+| **Score** | **64.0 / 100** |
+| **Classification** | Watchlist |
+| **Thesis** | ROCE 17%, 23.5% earnings CAGR, Rs 1583 cr mcap |
+| **Top risk** | Hard flag: Promoter stake ≥ 40% & stable |
+| **Hard flags** | 1 fired |
+
+**Red-flag forensic screen** (run first):
+
+| Check | Result | Evidence |
+|---|---|---|
+| CFO/EBITDA ≥ 50% (5y cum.) | 🟢 pass | CFO/EBITDA = 60% |
+| Promoter pledge ≤ 20% | 🟡 manual | pledge % not disclosed in table |
+| Promoter stake ≥ 40% & stable | 🔴 FAIL | promoter 43% (from 53%) |
+| Share count CAGR ≤ 4% | 🟢 pass | equity-cap CAGR ≈ 2.6% |
+| D/E ≤ 1 & interest cover ≥ 3× | 🟢 pass | D/E 0.67, int.cover 3.2× |
+| Receivables not outpacing sales (>1.5×, 2y) | 🟡 manual | needs AR / quarterly receivables — review manually |
+| No auditor resignation / small-auditor risk | 🟡 manual | needs auditor's report — review manually |
+| Related-party transactions reasonable | 🟡 manual | needs AR RPT schedule — review manually |
+| Contingent liabilities ≤ 25% of net worth | 🟡 manual | needs AR contingent-liability note — review manually |
+| Promoter remuneration / SEBI history clean | 🟡 manual | needs AR + SEBI orders — review manually |
+
+**Pillar scorecard:**
+
+| Pillar | Weight | Score | Justification |
+|---|---|---|---|
+| S — Size & obscurity | 15% | 84 | Mcap ≈ Rs 1583 cr → re-rating room scored 84. |
+| Q — Quality of business | 25% | 58 | ROCE 17%; CFO/EBITDA 60%; D/E 0.67 → 58. |
+| G — Growth | 20% | 82 | 5y Sales 19%, EPS/PAT 23.5% → 82 (stalled earnings capped at 45). |
+| L — Longevity / moat | 15% | 55 | OPM 22%, ROCE 17% → 55 (numeric proxy; confirm moat in AR/concall). |
+| M — Management & capital allocation | 15% | 40 | Promoter 42.69%; falling from 53% → 40 (candor needs AR/concall review). |
+| P — Price | 10% | 62 | P/E 32.2, PEG 1.37 → 62. |
+| **Total** | 100% | **64.0** | weighted sum |
+
+**Multibagger math** (implied price multiple = EPS growth ^ n × exit-P/E re-rating):
+
+| Scenario | EPS CAGR | Exit P/E | 5y multiple | 10y multiple |
+|---|---|---|---|---|
+| Bear | 11.8% | 19.3x | 1.0x | 1.8x |
+| Base | 23.5% | 32.2x | 2.9x | 8.3x |
+| Bull | 30.6% | 45x | 5.3x | 20.1x |
+
+*From current P/E 32.2 and ~23.5% historical earnings CAGR. Forward-looking and illustrative only.*
+
+**What would change the thesis (kill-switches):**
+
+- Exit if promoter pledging appears, or pledge rises above 20%.
+- Exit if cumulative CFO/EBITDA drops below 60%.
+- Exit if promoter holding falls > 3pp in a year without a stated reason.
+- Exit if 5y EPS/PAT CAGR stalls below 8% or margins compress structurally.
+- Re-underwrite if D/E rises above 1 or interest coverage falls below 3×.
+- Before acting, manually clear: Promoter pledge ≤ 20%; Receivables not outpacing sales (>1.5×, 2y); No auditor resignation / small-auditor risk; Related-party transactions reasonable; Contingent liabilities ≤ 25% of net worth.
+
+**Sources:** [screener.in/RACLGEAR](https://www.screener.in/company/RACLGEAR/consolidated/) · verify on [NSE](https://www.nseindia.com), [BSE announcements](https://www.bseindia.com/corporates/ann.html), and CRISIL/ICRA/CARE rating rationales.
+
+
+### Garware Technical Fibres Ltd (GARFIBRES)
+
+| | |
+|---|---|
+| **Score** | **61.4 / 100** |
+| **Classification** | Watchlist |
+| **Thesis** | ROCE 22%, 15.9% earnings CAGR, Rs 7230 cr mcap |
+| **Top risk** | Hard flag: Share count CAGR ≤ 4% |
+| **Hard flags** | 1 fired |
+
+**Red-flag forensic screen** (run first):
+
+| Check | Result | Evidence |
+|---|---|---|
+| CFO/EBITDA ≥ 50% (5y cum.) | 🟢 pass | CFO/EBITDA = 62% |
+| Promoter pledge ≤ 20% | 🟡 manual | pledge % not disclosed in table |
+| Promoter stake ≥ 40% & stable | 🟢 pass | promoter 53% (from 53%) |
+| Share count CAGR ≤ 4% | 🔴 FAIL | equity-cap CAGR ≈ 14.7% |
+| D/E ≤ 1 & interest cover ≥ 3× | 🟢 pass | D/E 0.03, int.cover 20.2× |
+| Receivables not outpacing sales (>1.5×, 2y) | 🟡 manual | needs AR / quarterly receivables — review manually |
+| No auditor resignation / small-auditor risk | 🟡 manual | needs auditor's report — review manually |
+| Related-party transactions reasonable | 🟡 manual | needs AR RPT schedule — review manually |
+| Contingent liabilities ≤ 25% of net worth | 🟡 manual | needs AR contingent-liability note — review manually |
+| Promoter remuneration / SEBI history clean | 🟡 manual | needs AR + SEBI orders — review manually |
+
+**Pillar scorecard:**
+
+| Pillar | Weight | Score | Justification |
+|---|---|---|---|
+| S — Size & obscurity | 15% | 68 | Mcap ≈ Rs 7230 cr → re-rating room scored 68. |
+| Q — Quality of business | 25% | 77 | ROCE 22%; CFO/EBITDA 62%; D/E 0.03 → 77. |
+| G — Growth | 20% | 42 | 5y Sales 8%, EPS/PAT 15.9% → 42 (stalled earnings capped at 45). |
+| L — Longevity / moat | 15% | 65 | OPM 19%, ROCE 22% → 65 (numeric proxy; confirm moat in AR/concall). |
+| M — Management & capital allocation | 15% | 65 | Promoter 53.36%; dilution 14.7% → 65 (candor needs AR/concall review). |
+| P — Price | 10% | 40 | P/E 34.6, PEG 2.18 → 40. |
+| **Total** | 100% | **61.4** | weighted sum |
+
+**Multibagger math** (implied price multiple = EPS growth ^ n × exit-P/E re-rating):
+
+| Scenario | EPS CAGR | Exit P/E | 5y multiple | 10y multiple |
+|---|---|---|---|---|
+| Bear | 8.0% | 20.8x | 0.9x | 1.3x |
+| Base | 15.9% | 34.6x | 2.1x | 4.4x |
+| Bull | 20.7% | 45x | 3.3x | 8.5x |
+
+*From current P/E 34.6 and ~15.9% historical earnings CAGR. Forward-looking and illustrative only.*
+
+**What would change the thesis (kill-switches):**
+
+- Exit if promoter pledging appears, or pledge rises above 20%.
+- Exit if cumulative CFO/EBITDA drops below 60%.
+- Exit if promoter holding falls > 3pp in a year without a stated reason.
+- Exit if 5y EPS/PAT CAGR stalls below 8% or margins compress structurally.
+- Re-underwrite if D/E rises above 1 or interest coverage falls below 3×.
+- Before acting, manually clear: Promoter pledge ≤ 20%; Receivables not outpacing sales (>1.5×, 2y); No auditor resignation / small-auditor risk; Related-party transactions reasonable; Contingent liabilities ≤ 25% of net worth.
+
+**Sources:** [screener.in/GARFIBRES](https://www.screener.in/company/GARFIBRES/consolidated/) · verify on [NSE](https://www.nseindia.com), [BSE announcements](https://www.bseindia.com/corporates/ann.html), and CRISIL/ICRA/CARE rating rationales.
+
+
+### Control Print Ltd (CONTROLPR)
+
+| | |
+|---|---|
+| **Score** | **57.5 / 100** |
+| **Classification** | Unproven |
+| **Thesis** | ROCE 16.4%, 7.2% earnings CAGR, Rs 1024 cr mcap |
+| **Top risk** | Hard flag: Share count CAGR ≤ 4% |
+| **Hard flags** | 1 fired |
+
+**Red-flag forensic screen** (run first):
+
+| Check | Result | Evidence |
+|---|---|---|
+| CFO/EBITDA ≥ 50% (5y cum.) | 🟢 pass | CFO/EBITDA = 65% |
+| Promoter pledge ≤ 20% | 🟡 manual | pledge % not disclosed in table |
+| Promoter stake ≥ 40% & stable | 🟢 pass | promoter 53% (from 52%) |
+| Share count CAGR ≤ 4% | 🔴 FAIL | equity-cap CAGR ≈ 4.4% |
+| D/E ≤ 1 & interest cover ≥ 3× | 🟢 pass | D/E 0.02, int.cover 19.2× |
+| Receivables not outpacing sales (>1.5×, 2y) | 🟡 manual | needs AR / quarterly receivables — review manually |
+| No auditor resignation / small-auditor risk | 🟡 manual | needs auditor's report — review manually |
+| Related-party transactions reasonable | 🟡 manual | needs AR RPT schedule — review manually |
+| Contingent liabilities ≤ 25% of net worth | 🟡 manual | needs AR contingent-liability note — review manually |
+| Promoter remuneration / SEBI history clean | 🟡 manual | needs AR + SEBI orders — review manually |
+
+**Pillar scorecard:**
+
+| Pillar | Weight | Score | Justification |
+|---|---|---|---|
+| S — Size & obscurity | 15% | 84 | Mcap ≈ Rs 1024 cr → re-rating room scored 84. |
+| Q — Quality of business | 25% | 63 | ROCE 16.4%; CFO/EBITDA 65%; D/E 0.02 → 63. |
+| G — Growth | 20% | 45 | 5y Sales 19%, EPS/PAT 7.2% → 45 (stalled earnings capped at 45). |
+| L — Longevity / moat | 15% | 55 | OPM 18%, ROCE 16.4% → 55 (numeric proxy; confirm moat in AR/concall). |
+| M — Management & capital allocation | 15% | 65 | Promoter 52.99%; dilution 4.4% → 65 (candor needs AR/concall review). |
+| P — Price | 10% | 22 | P/E 24.9, PEG 3.46 → 22. |
+| **Total** | 100% | **57.5** | weighted sum |
+
+**Multibagger math** (implied price multiple = EPS growth ^ n × exit-P/E re-rating):
+
+| Scenario | EPS CAGR | Exit P/E | 5y multiple | 10y multiple |
+|---|---|---|---|---|
+| Bear | 3.6% | 14.9x | 0.7x | 0.9x |
+| Base | 7.2% | 24.9x | 1.4x | 2.0x |
+| Bull | 9.4% | 37.3x | 2.3x | 3.7x |
+
+*From current P/E 24.9 and ~7.2% historical earnings CAGR. Forward-looking and illustrative only.*
+
+**What would change the thesis (kill-switches):**
+
+- Exit if promoter pledging appears, or pledge rises above 20%.
+- Exit if cumulative CFO/EBITDA drops below 60%.
+- Exit if promoter holding falls > 3pp in a year without a stated reason.
+- Exit if 5y EPS/PAT CAGR stalls below 8% or margins compress structurally.
+- Re-underwrite if D/E rises above 1 or interest coverage falls below 3×.
+- Before acting, manually clear: Promoter pledge ≤ 20%; Receivables not outpacing sales (>1.5×, 2y); No auditor resignation / small-auditor risk; Related-party transactions reasonable; Contingent liabilities ≤ 25% of net worth.
+
+**Sources:** [screener.in/CONTROLPR](https://www.screener.in/company/CONTROLPR/consolidated/) · verify on [NSE](https://www.nseindia.com), [BSE announcements](https://www.bseindia.com/corporates/ann.html), and CRISIL/ICRA/CARE rating rationales.
+
+
+### Suprajit Engineering Ltd (SUPRAJIT)
+
+| | |
+|---|---|
+| **Score** | **53.8 / 100** |
+| **Classification** | Unproven |
+| **Thesis** | ROCE 16%, 11.1% earnings CAGR, Rs 6425 cr mcap |
+| **Top risk** | Growth engine modest — needs an inflection to compound. |
+| **Hard flags** | 0 fired |
+
+**Red-flag forensic screen** (run first):
+
+| Check | Result | Evidence |
+|---|---|---|
+| CFO/EBITDA ≥ 50% (5y cum.) | 🟢 pass | CFO/EBITDA = 63% |
+| Promoter pledge ≤ 20% | 🟡 manual | pledge % not disclosed in table |
+| Promoter stake ≥ 40% & stable | 🟢 pass | promoter 45% (from 45%) |
+| Share count CAGR ≤ 4% | 🟢 pass | equity-cap CAGR ≈ 1.4% |
+| D/E ≤ 1 & interest cover ≥ 3× | 🟢 pass | D/E 0.69, int.cover 5.5× |
+| Receivables not outpacing sales (>1.5×, 2y) | 🟡 manual | needs AR / quarterly receivables — review manually |
+| No auditor resignation / small-auditor risk | 🟡 manual | needs auditor's report — review manually |
+| Related-party transactions reasonable | 🟡 manual | needs AR RPT schedule — review manually |
+| Contingent liabilities ≤ 25% of net worth | 🟡 manual | needs AR contingent-liability note — review manually |
+| Promoter remuneration / SEBI history clean | 🟡 manual | needs AR + SEBI orders — review manually |
+
+**Pillar scorecard:**
+
+| Pillar | Weight | Score | Justification |
+|---|---|---|---|
+| S — Size & obscurity | 15% | 68 | Mcap ≈ Rs 6425 cr → re-rating room scored 68. |
+| Q — Quality of business | 25% | 58 | ROCE 16%; CFO/EBITDA 63%; D/E 0.69 → 58. |
+| G — Growth | 20% | 52 | 5y Sales 18%, EPS/PAT 11.1% → 52 (stalled earnings capped at 45). |
+| L — Longevity / moat | 15% | 55 | OPM 10%, ROCE 16% → 55 (numeric proxy; confirm moat in AR/concall). |
+| M — Management & capital allocation | 15% | 55 | Promoter 45.26% → 55 (candor needs AR/concall review). |
+| P — Price | 10% | 22 | P/E 34.3, PEG 3.09 → 22. |
+| **Total** | 100% | **53.8** | weighted sum |
+
+**Multibagger math** (implied price multiple = EPS growth ^ n × exit-P/E re-rating):
+
+| Scenario | EPS CAGR | Exit P/E | 5y multiple | 10y multiple |
+|---|---|---|---|---|
+| Bear | 5.5% | 20.6x | 0.8x | 1.0x |
+| Base | 11.1% | 34.3x | 1.7x | 2.9x |
+| Bull | 14.4% | 45x | 2.6x | 5.1x |
+
+*From current P/E 34.3 and ~11.1% historical earnings CAGR. Forward-looking and illustrative only.*
+
+**What would change the thesis (kill-switches):**
+
+- Exit if promoter pledging appears, or pledge rises above 20%.
+- Exit if cumulative CFO/EBITDA drops below 60%.
+- Exit if promoter holding falls > 3pp in a year without a stated reason.
+- Exit if 5y EPS/PAT CAGR stalls below 8% or margins compress structurally.
+- Re-underwrite if D/E rises above 1 or interest coverage falls below 3×.
+- Before acting, manually clear: Promoter pledge ≤ 20%; Receivables not outpacing sales (>1.5×, 2y); No auditor resignation / small-auditor risk; Related-party transactions reasonable; Contingent liabilities ≤ 25% of net worth.
+
+**Sources:** [screener.in/SUPRAJIT](https://www.screener.in/company/SUPRAJIT/consolidated/) · verify on [NSE](https://www.nseindia.com), [BSE announcements](https://www.bseindia.com/corporates/ann.html), and CRISIL/ICRA/CARE rating rationales.
+
+
+### Tips Music Ltd (TIPSMUSIC)
+
+| | |
+|---|---|
+| **Score** | **35.2 / 100** |
+| **Classification** | Pass |
+| **Thesis** | limited data |
+| **Top risk** | Hard flag: Promoter stake ≥ 40% & stable |
+| **Hard flags** | 1 fired |
+
+**Red-flag forensic screen** (run first):
+
+| Check | Result | Evidence |
+|---|---|---|
+| CFO/EBITDA ≥ 50% (5y cum.) | 🟡 manual | cash-flow data unavailable |
+| Promoter pledge ≤ 20% | 🟡 manual | pledge % not disclosed in table |
+| Promoter stake ≥ 40% & stable | 🔴 FAIL | promoter 64% (from 75%) |
+| Share count CAGR ≤ 4% | 🟡 manual | equity-capital history unavailable |
+| D/E ≤ 1 & interest cover ≥ 3× | 🟡 manual | balance-sheet data unavailable |
+| Receivables not outpacing sales (>1.5×, 2y) | 🟡 manual | needs AR / quarterly receivables — review manually |
+| No auditor resignation / small-auditor risk | 🟡 manual | needs auditor's report — review manually |
+| Related-party transactions reasonable | 🟡 manual | needs AR RPT schedule — review manually |
+| Contingent liabilities ≤ 25% of net worth | 🟡 manual | needs AR contingent-liability note — review manually |
+| Promoter remuneration / SEBI history clean | 🟡 manual | needs AR + SEBI orders — review manually |
+
+**Pillar scorecard:**
+
+| Pillar | Weight | Score | Justification |
+|---|---|---|---|
+| S — Size & obscurity | 15% | 30 | Mcap ≈ Rs n/a cr → re-rating room scored 30. |
+| Q — Quality of business | 25% | 30 | ROCE n/a → 30. |
+| G — Growth | 20% | 35 | 5y Sales n/a, EPS/PAT n/a → 35 (stalled earnings capped at 45). |
+| L — Longevity / moat | 15% | 45 | OPM n/a, ROCE n/a → 45 (numeric proxy; confirm moat in AR/concall). |
+| M — Management & capital allocation | 15% | 40 | Promoter 64.15%; falling from 75% → 40 (candor needs AR/concall review). |
+| P — Price | 10% | 35 | P/E n/a, PEG n/a → 35. |
+| **Total** | 100% | **35.2** | weighted sum |
+
+*Multibagger math: insufficient P/E or growth data.*
+
+**What would change the thesis (kill-switches):**
+
+- Exit if promoter pledging appears, or pledge rises above 20%.
+- Exit if cumulative CFO/EBITDA drops below 60%.
+- Exit if promoter holding falls > 3pp in a year without a stated reason.
+- Exit if 5y EPS/PAT CAGR stalls below 8% or margins compress structurally.
+- Re-underwrite if D/E rises above 1 or interest coverage falls below 3×.
+- Before acting, manually clear: CFO/EBITDA ≥ 50% (5y cum.); Promoter pledge ≤ 20%; Share count CAGR ≤ 4%; D/E ≤ 1 & interest cover ≥ 3×; Receivables not outpacing sales (>1.5×, 2y).
+
+**Sources:** [screener.in/TIPSMUSIC](https://www.screener.in/company/TIPSMUSIC/consolidated/) · verify on [NSE](https://www.nseindia.com), [BSE announcements](https://www.bseindia.com/corporates/ann.html), and CRISIL/ICRA/CARE rating rationales.
+
+
+### Anand Rathi Wealth Ltd (ANANDRATHI)
+
+| | |
+|---|---|
+| **Score** | **61.2 / 100** |
+| **Classification** | AVOID |
+| **Thesis** | ROCE 59.2%, 23.3% earnings CAGR, Rs 32087 cr mcap |
+| **Top risk** | Hard flag: Promoter stake ≥ 40% & stable |
+| **Hard flags** | 2 fired |
+
+**Red-flag forensic screen** (run first):
+
+| Check | Result | Evidence |
+|---|---|---|
+| CFO/EBITDA ≥ 50% (5y cum.) | 🟢 pass | CFO/EBITDA = 56% |
+| Promoter pledge ≤ 20% | 🟡 manual | pledge % not disclosed in table |
+| Promoter stake ≥ 40% & stable | 🔴 FAIL | promoter 41% (from 49%) |
+| Share count CAGR ≤ 4% | 🔴 FAIL | equity-cap CAGR ≈ 18.2% |
+| D/E ≤ 1 & interest cover ≥ 3× | 🟢 pass | D/E 0.08, int.cover 34.5× |
+| Receivables not outpacing sales (>1.5×, 2y) | 🟡 manual | needs AR / quarterly receivables — review manually |
+| No auditor resignation / small-auditor risk | 🟡 manual | needs auditor's report — review manually |
+| Related-party transactions reasonable | 🟡 manual | needs AR RPT schedule — review manually |
+| Contingent liabilities ≤ 25% of net worth | 🟡 manual | needs AR contingent-liability note — review manually |
+| Promoter remuneration / SEBI history clean | 🟡 manual | needs AR + SEBI orders — review manually |
+
+**Pillar scorecard:**
+
+| Pillar | Weight | Score | Justification |
+|---|---|---|---|
+| S — Size & obscurity | 15% | 40 | Mcap ≈ Rs 32087 cr → re-rating room scored 40. |
+| Q — Quality of business | 25% | 87 | ROCE 59.2%; CFO/EBITDA 56%; D/E 0.08 → 87. |
+| G — Growth | 20% | 82 | 5y Sales 36%, EPS/PAT 23.3% → 82 (stalled earnings capped at 45). |
+| L — Longevity / moat | 15% | 72 | OPM 47%, ROCE 59.2% → 72 (numeric proxy; confirm moat in AR/concall). |
+| M — Management & capital allocation | 15% | 30 | Promoter 41.37%; falling from 49%; dilution 18.2% → 30 (candor needs AR/concall review). |
+| P — Price | 10% | 18 | P/E 81.2, PEG 3.48 → 18. |
+| **Total** | 100% | **61.2** | weighted sum |
+
+**Multibagger math** (implied price multiple = EPS growth ^ n × exit-P/E re-rating):
+
+| Scenario | EPS CAGR | Exit P/E | 5y multiple | 10y multiple |
+|---|---|---|---|---|
+| Bear | 11.7% | 48.7x | 1.0x | 1.8x |
+| Base | 23.3% | 81.2x | 2.8x | 8.1x |
+| Bull | 30.3% | 45x | 2.1x | 7.8x |
+
+*From current P/E 81.2 and ~23.3% historical earnings CAGR. Forward-looking and illustrative only.*
+
+**What would change the thesis (kill-switches):**
+
+- Exit if promoter pledging appears, or pledge rises above 20%.
+- Exit if cumulative CFO/EBITDA drops below 60%.
+- Exit if promoter holding falls > 3pp in a year without a stated reason.
+- Exit if 5y EPS/PAT CAGR stalls below 8% or margins compress structurally.
+- Re-underwrite if D/E rises above 1 or interest coverage falls below 3×.
+- Before acting, manually clear: Promoter pledge ≤ 20%; Receivables not outpacing sales (>1.5×, 2y); No auditor resignation / small-auditor risk; Related-party transactions reasonable; Contingent liabilities ≤ 25% of net worth.
+
+**Sources:** [screener.in/ANANDRATHI](https://www.screener.in/company/ANANDRATHI/consolidated/) · verify on [NSE](https://www.nseindia.com), [BSE announcements](https://www.bseindia.com/corporates/ann.html), and CRISIL/ICRA/CARE rating rationales.
+
+
+### Gravita India Ltd (GRAVITA)
+
+| | |
+|---|---|
+| **Score** | **58.0 / 100** |
+| **Classification** | AVOID |
+| **Thesis** | ROCE 17%, 43.4% earnings CAGR, Rs 12333 cr mcap |
+| **Top risk** | Hard flag: CFO/EBITDA ≥ 50% (5y cum.) |
+| **Hard flags** | 2 fired |
+
+**Red-flag forensic screen** (run first):
+
+| Check | Result | Evidence |
+|---|---|---|
+| CFO/EBITDA ≥ 50% (5y cum.) | 🔴 FAIL | CFO/EBITDA = 48% |
+| Promoter pledge ≤ 20% | 🟡 manual | pledge % not disclosed in table |
+| Promoter stake ≥ 40% & stable | 🔴 FAIL | promoter 56% (from 66%) |
+| Share count CAGR ≤ 4% | 🟢 pass | equity-cap CAGR ≈ 0.6% |
+| D/E ≤ 1 & interest cover ≥ 3× | 🟢 pass | D/E 0.3, int.cover 18.9× |
+| Receivables not outpacing sales (>1.5×, 2y) | 🟡 manual | needs AR / quarterly receivables — review manually |
+| No auditor resignation / small-auditor risk | 🟡 manual | needs auditor's report — review manually |
+| Related-party transactions reasonable | 🟡 manual | needs AR RPT schedule — review manually |
+| Contingent liabilities ≤ 25% of net worth | 🟡 manual | needs AR contingent-liability note — review manually |
+| Promoter remuneration / SEBI history clean | 🟡 manual | needs AR + SEBI orders — review manually |
+
+**Pillar scorecard:**
+
+| Pillar | Weight | Score | Justification |
+|---|---|---|---|
+| S — Size & obscurity | 15% | 56 | Mcap ≈ Rs 12333 cr → re-rating room scored 56. |
+| Q — Quality of business | 25% | 43 | ROCE 17%; CFO/EBITDA 48%; D/E 0.3 → 43. |
+| G — Growth | 20% | 82 | 5y Sales 25%, EPS/PAT 43.4% → 82 (stalled earnings capped at 45). |
+| L — Longevity / moat | 15% | 55 | OPM 10%, ROCE 17% → 55 (numeric proxy; confirm moat in AR/concall). |
+| M — Management & capital allocation | 15% | 40 | Promoter 55.88%; falling from 66% → 40 (candor needs AR/concall review). |
+| P — Price | 10% | 82 | P/E 32.6, PEG 0.75 → 82. |
+| **Total** | 100% | **58.0** | weighted sum |
+
+**Multibagger math** (implied price multiple = EPS growth ^ n × exit-P/E re-rating):
+
+| Scenario | EPS CAGR | Exit P/E | 5y multiple | 10y multiple |
+|---|---|---|---|---|
+| Bear | 15.0% | 19.6x | 1.2x | 2.4x |
+| Base | 30.0% | 32.6x | 3.7x | 13.8x |
+| Bull | 35.0% | 45x | 6.2x | 27.8x |
+
+*From current P/E 32.6 and ~43.4% historical earnings CAGR. Forward-looking and illustrative only.*
+
+**What would change the thesis (kill-switches):**
+
+- Exit if promoter pledging appears, or pledge rises above 20%.
+- Exit if cumulative CFO/EBITDA drops below 60%.
+- Exit if promoter holding falls > 3pp in a year without a stated reason.
+- Exit if 5y EPS/PAT CAGR stalls below 8% or margins compress structurally.
+- Re-underwrite if D/E rises above 1 or interest coverage falls below 3×.
+- Before acting, manually clear: Promoter pledge ≤ 20%; Receivables not outpacing sales (>1.5×, 2y); No auditor resignation / small-auditor risk; Related-party transactions reasonable; Contingent liabilities ≤ 25% of net worth.
+
+**Sources:** [screener.in/GRAVITA](https://www.screener.in/company/GRAVITA/consolidated/) · verify on [NSE](https://www.nseindia.com), [BSE announcements](https://www.bseindia.com/corporates/ann.html), and CRISIL/ICRA/CARE rating rationales.
+
+
+---
+
+*Hard red flags screened: CFO/EBITDA < 50% (5y), promoter pledge > 20%, promoter stake < 40% or falling > 3pp, share-count CAGR > 4%, D/E > 1 or interest cover < 3×. Receivables, auditor, related-party, contingent-liability and remuneration/SEBI checks need the annual report and are flagged for manual review. Not investment advice.*
