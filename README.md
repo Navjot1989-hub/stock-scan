@@ -150,8 +150,9 @@ Uncomment them in
 ### How it runs
 
 [`.github/workflows/turnaround.yml`](.github/workflows/turnaround.yml):
-- **Schedule:** `cron: "0 3 1-31/2 * *"` → 03:00 UTC = **08:30 IST every alternate
-  day** (offset 30 min from the multibagger scan so the two don't race to commit)
+- **Schedule:** `cron: "30 5 * * *"` → 05:30 UTC = **11:00 IST, every day**. The
+  multibagger scan runs at the same time; the commit step retries on push
+  conflicts so the two jobs don't clobber each other.
 - **Manual:** the **Run workflow** button on the **Actions** tab runs it on demand
 
 ```bash

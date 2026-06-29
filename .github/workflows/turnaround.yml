@@ -3,9 +3,9 @@ name: Turnaround Scan
 # Runs on GitHub's servers — fires regardless of whether your machine is on.
 on:
   schedule:
-    # 03:00 UTC = 08:30 IST, every alternate day. Offset from the multibagger
-    # scan (02:30 UTC) so the two jobs don't race to commit reports/.
-    - cron: "0 3 1-31/2 * *"
+    # 05:30 UTC = 11:00 IST, every day. The multibagger scan runs at the same
+    # time, so the commit step below retries on push conflicts to avoid races.
+    - cron: "30 5 * * *"
   workflow_dispatch:        # adds a manual "Run workflow" button in the Actions tab
 
 permissions:
@@ -41,7 +41,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase --autostash || true
           git add reports/
-          git diff --staged --quiet || git commit -m "Turnaround scan $(date -u +%Y-%m-%d)"
-          git push
+          if git diff --staged --quiet; then
+            echo "No report changes to commit."; exit 0
+          fi
+          git commit -m "Turnaround scan $(date -u +%Y-%m-%d)"
+          # The multibagger scan commits at the same time — retry on push races.
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash && git push && exit 0
+            echo "push attempt $i failed (likely concurrent commit); retrying..."
+            sleep 5
+          done
+          echo "Could not push after retries."; exit 1
