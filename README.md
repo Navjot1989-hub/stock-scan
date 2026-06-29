@@ -110,12 +110,14 @@ turning around on domestic + global factors.
 
 ### How it works
 
-1. **Universe** — queries screener.in's *screen* with the market-cap band and a
-   "operating profit positive **and** improving year-on-year" filter (see
-   [`screen_query.txt`](screen_query.txt)). This narrows the universe server-side.
-2. **Per-company analysis** — for each candidate it reads the company page and
-   computes: % above the 52-week low, the last four quarters of Operating Profit /
-   OPM / Sales, YoY and QoQ EBITDA change, trough-to-latest recovery, and the sector.
+1. **Universe** — reads candidate tickers from [`universe.txt`](universe.txt),
+   seeded with the **Nifty 500** constituents. (screener.in's custom *screens*
+   require a login, so the scan works off **public company pages** instead and
+   filters to the small/mid-cap band per company — see step 3.)
+2. **Per-company analysis** — for each candidate it reads the public company page
+   and computes: % above the 52-week low, the last four quarters of Operating
+   Profit / OPM / Sales, YoY and QoQ EBITDA change, trough-to-latest recovery, and
+   the sector.
 3. **Gating filter** — a name only makes the report if **all** of:
    - market cap in **Rs 500–75,000 cr** (small + mid),
    - price **within 15% of its 52-week low**,
@@ -130,12 +132,12 @@ turning around on domestic + global factors.
 
 | File | What to edit |
 |---|---|
-| [`screen_query.txt`](screen_query.txt) | The screener.in screen query defining the universe. Split across lines for readability; `#` comments ignored. If screener renames a field and the screen returns nothing, the scan falls back to `watchlist.txt` — fix the field names here. |
+| [`universe.txt`](universe.txt) | The candidate tickers (screener.in / NSE codes). Comma- or newline-separated; `#` comments ignored. Add or remove names freely — large caps left in are simply filtered out by the market-cap band. If empty/missing, the scan falls back to `watchlist.txt`. |
 | [`sectors.json`](sectors.json) | Your **editable macro assumption**: which sectors are turning around, with a one-line domestic + global rationale. Matched as a case-insensitive substring against each company's industry; adds a score bonus + a note. Set `turnaround_sectors` to `{}` to disable. |
 
 Thresholds can also be overridden via environment variables (defaults in parentheses):
-`MCAP_MIN` (500), `MCAP_MAX` (75000), `NEAR_LOW_PCT` (15), `MAX_PAGES` (10),
-`PAGE_DELAY` (0.7s). Uncomment them in
+`MCAP_MIN` (500), `MCAP_MAX` (75000), `NEAR_LOW_PCT` (15), `PAGE_DELAY` (0.7s).
+Uncomment them in
 [`.github/workflows/turnaround.yml`](.github/workflows/turnaround.yml) to change a run.
 
 ### What it produces

@@ -34,7 +34,7 @@ jobs:
           # MCAP_MIN: "500"
           # MCAP_MAX: "75000"
           # NEAR_LOW_PCT: "15"
-          # MAX_PAGES: "10"
+          # PAGE_DELAY: "0.7"
         run: python turnaround.py
 
       - name: Commit report

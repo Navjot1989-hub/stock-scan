@@ -2,15 +2,17 @@
 """
 Turnaround Hunter — automated 52-week-low recovery scan.
 
-Sweeps the small/mid-cap universe on screener.in for *beaten-down turnarounds*:
+Sweeps a small/mid-cap universe on screener.in for *beaten-down turnarounds*:
 companies trading near their 52-week LOW where the business is visibly improving
 — the last four quarters' EBITDA (Operating Profit) is positive and the latest
 quarter is growing — with an optional overlay for sectors the user believes are
 turning around on domestic + global factors.
 
 Pipeline:
-  1. screen_universe()  — query screener.in's screen for the small/mid-cap band
-     with positive, YoY-improving operating profit (shrinks the universe server-side).
+  1. load_universe()    — read the candidate tickers from universe.txt (seeded with
+     the Nifty 500 constituents; edit freely). screener.in's custom *screens* need
+     a login, so we work off public company pages instead and filter to the
+     small/mid-cap band per company below.
   2. analyze()          — per company: market cap, % above 52-week low, the last
      four quarters of Operating Profit / OPM / Sales, and (best-effort) the sector.
   3. gate + score()     — keep only names that clear the turnaround filter, then
@@ -29,14 +31,10 @@ import sys
 import json
 import time
 import datetime
-from urllib.parse import quote_plus
-
-import requests
 
 # Reuse the proven screener.in parsing helpers from the existing scanner so the
 # two scans stay consistent and we don't duplicate fragile scraping logic.
 from scan import (
-    HEADERS,
     fetch,
     parse_top_ratios,
     row_values,
@@ -51,83 +49,38 @@ from scan import (
 MCAP_MIN = float(os.environ.get("MCAP_MIN", 500))        # Rs cr — drop micro-caps
 MCAP_MAX = float(os.environ.get("MCAP_MAX", 75000))      # Rs cr — drop large-caps
 NEAR_LOW_PCT = float(os.environ.get("NEAR_LOW_PCT", 15))  # % above 52w low to qualify
-MAX_PAGES = int(os.environ.get("MAX_PAGES", 10))         # screen pages (25 names/page)
-PAGE_DELAY = float(os.environ.get("PAGE_DELAY", 0.7))    # polite delay between requests
-
-SCREEN_URL = "https://www.screener.in/screen/raw/"
-
-# Default screen query. Overridable via screen_query.txt. Pushes the market-cap
-# band and the "EBITDA positive and improving YoY" cut to screener's server so we
-# fetch far fewer company pages.
-DEFAULT_SCREEN_QUERY = (
-    f"Market Capitalization < {MCAP_MAX:g} AND "
-    f"Market Capitalization > {MCAP_MIN:g} AND "
-    "Operating profit latest quarter > 0 AND "
-    "Operating profit latest quarter > Operating profit preceding year quarter"
-)
+PAGE_DELAY = float(os.environ.get("PAGE_DELAY", 0.7))    # polite delay between fetches
 
 
 # --------------------------------------------------------------------------- #
-# Universe — screener.in screen
+# Universe
 # --------------------------------------------------------------------------- #
-def load_screen_query():
-    path = os.path.join(os.path.dirname(__file__), "screen_query.txt")
-    if os.path.exists(path):
-        with open(path, encoding="utf-8") as f:
-            lines = [ln.strip() for ln in f
-                     if ln.strip() and not ln.lstrip().startswith("#")]
-        if lines:
-            # Allow the query to be split across lines for readability.
-            return " ".join(lines)
-    return DEFAULT_SCREEN_QUERY
-
-
-def _codes_from_results(html):
-    """Extract screener company codes from a screen-results page, in order."""
+def _read_codes(path):
+    """Read screener codes from a file: comma- or whitespace-separated, # comments
+    ignored, de-duplicated, order preserved."""
+    with open(path, encoding="utf-8") as f:
+        text = f.read()
+    text = re.sub(r"#.*", "", text)            # strip comments
     codes, seen = [], set()
-    # Anchors look like /company/CODE/ or /company/CODE/consolidated/ — grab the
-    # code up to the next slash/quote/query regardless of any trailing path.
-    for m in re.finditer(r'/company/([^/"?]+)', html):
-        code = m.group(1)
-        if code and code.upper() not in seen and code != "compare":
-            seen.add(code.upper())
-            codes.append(code)
+    for tok in re.split(r"[,\s]+", text):
+        c = tok.strip().upper()
+        if c and c not in seen:
+            seen.add(c)
+            codes.append(c)
     return codes
 
 
-def screen_universe(query, max_pages):
-    """Return a de-duplicated list of screener codes matching `query`."""
-    all_codes, seen = [], set()
-    for page in range(1, max_pages + 1):
-        url = f"{SCREEN_URL}?query={quote_plus(query)}&page={page}"
-        try:
-            r = requests.get(url, headers=HEADERS, timeout=30)
-        except requests.RequestException as e:
-            print(f"  screen page {page} failed: {e}")
-            break
-        if r.status_code != 200:
-            print(f"  screen page {page} -> HTTP {r.status_code}; stopping.")
-            break
-        page_codes = _codes_from_results(r.text)
-        new = [c for c in page_codes if c.upper() not in seen]
-        if not new:
-            break                       # no more results
-        for c in new:
-            seen.add(c.upper())
-            all_codes.append(c)
-        print(f"  screen page {page}: +{len(new)} (total {len(all_codes)})")
-        time.sleep(PAGE_DELAY)
-    return all_codes
-
-
-def load_watchlist_fallback():
-    """Fall back to watchlist.txt so a run never comes back empty."""
-    path = os.path.join(os.path.dirname(__file__), "watchlist.txt")
-    if os.path.exists(path):
-        with open(path, encoding="utf-8") as f:
-            return [ln.strip().upper() for ln in f
-                    if ln.strip() and not ln.startswith("#")]
-    return []
+def load_universe():
+    """Candidate tickers, in priority order. universe.txt is the Nifty-500 seed;
+    watchlist.txt is the fallback so a run never comes back empty."""
+    here = os.path.dirname(__file__)
+    for fname in ("universe.txt", "watchlist.txt"):
+        path = os.path.join(here, fname)
+        if os.path.exists(path):
+            codes = _read_codes(path)
+            if codes:
+                return codes, fname
+    return [], None
 
 
 # --------------------------------------------------------------------------- #
@@ -378,7 +331,7 @@ def _trend(vals):
     return " → ".join(fmt(v) for v in vals)
 
 
-def build_report(rows, today, scanned, query):
+def build_report(rows, today, scanned, source):
     lines = []
     lines.append("# Turnaround Hunter — 52-Week-Low Recovery Scan\n")
     lines.append(
@@ -389,13 +342,12 @@ def build_report(rows, today, scanned, query):
         "\"Operating Profit\"; \"improving\" and \"sector turnaround\" are heuristics "
         "from numbers + an editable overlay. Verify concalls/filings before acting.\n")
     lines.append(
-        f"Scanned **{scanned}** names from the screen; **{len(rows)}** cleared the "
-        "turnaround filter (near 52w low · 4 quarters of positive EBITDA · latest "
-        "quarter improving).\n")
+        f"Screened **{scanned}** names from `{source}`; **{len(rows)}** cleared the "
+        "turnaround filter (small/mid-cap · near 52w low · 4 quarters of positive "
+        "EBITDA · latest quarter improving).\n")
 
     if not rows:
         lines.append("_No names cleared the filter this run._\n")
-        lines.append(f"\n*Screen query:* `{query}`")
         return "\n".join(lines)
 
     lines.append("## Ranked setups\n")
@@ -430,7 +382,6 @@ def build_report(rows, today, scanned, query):
     lines.append("\n## Sources\n")
     for r in rows:
         lines.append(f"- [{r['ticker']}]({r['url']})")
-    lines.append(f"\n*Screen query:* `{query}`")
     lines.append("\n*Score = 30% proximity-to-low + 28% EBITDA YoY + 24% "
                  "trough-recovery + 18% OPM expansion (+6 sector overlay). "
                  "Verdict: ≥70 Strong · 55–69 Watch · 45–54 Early · <45 Pass. "
@@ -465,30 +416,27 @@ def build_email_html(rows, today):
 # --------------------------------------------------------------------------- #
 def main():
     today = datetime.date.today().isoformat()
-    query = load_screen_query()
     turnaround_sectors = load_sectors()
 
-    print(f"Screen query: {query}")
-    universe = screen_universe(query, MAX_PAGES)
+    universe, source = load_universe()
     if not universe:
-        universe = load_watchlist_fallback()
-        print(f"Screen returned nothing — falling back to watchlist "
-              f"({len(universe)} names).")
-    print(f"Universe: {len(universe)} names. Analysing...")
+        print("No universe found (universe.txt / watchlist.txt missing or empty).")
+        sys.exit(1)
+    print(f"Universe: {len(universe)} names from {source}. Analysing...")
 
     rows = []
-    for t in universe:
+    for i, t in enumerate(universe, 1):
         m = analyze(t, turnaround_sectors)
         if m.get("ok") and qualifies(m):
             m["total"] = score(m)
             m["verdict"] = verdict(m["total"])
             rows.append(m)
-            print(f"  ✓ {t}: {m['pct_above_low']}% above low, "
+            print(f"  ✓ [{i}/{len(universe)}] {t}: {m['pct_above_low']}% above low, "
                   f"EBITDA YoY {m['op_yoy']}%, score {m['total']}")
         time.sleep(PAGE_DELAY)
 
     rows.sort(key=lambda r: r["total"], reverse=True)
-    report = build_report(rows, today, len(universe), query)
+    report = build_report(rows, today, len(universe), source)
 
     reports_dir = os.path.join(os.path.dirname(__file__), "reports")
     os.makedirs(reports_dir, exist_ok=True)
