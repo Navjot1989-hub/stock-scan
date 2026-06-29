@@ -126,11 +126,13 @@ def quarterly(soup):
         if len(opm) >= 5:
             out["opm_yoy_delta"] = round(opm[-1] - opm[-5], 1)
 
-    # "Improving" = YoY EBITDA growth, OR latest is the best of the last four and
-    # above the prior quarter (a fresh sequential up-leg off the bottom).
+    # "Improving" = YoY EBITDA growth. If the year-ago quarter is missing, fall
+    # back to a fresh sequential up-leg (latest is the best of the last four and
+    # above the prior quarter). A KNOWN negative YoY is deterioration, not a
+    # turnaround, so a mere sequential/seasonal bump does not rescue it.
     yoy_up = out["op_yoy"] is not None and out["op_yoy"] > 0
     seq_up = latest == max(last4) and latest > prev
-    out["improving"] = bool(yoy_up or seq_up)
+    out["improving"] = bool(yoy_up or (out["op_yoy"] is None and seq_up))
     return out
 
 
