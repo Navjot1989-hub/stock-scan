@@ -1,0 +1,11 @@
+{
+  "_comment": "Sector-turnaround overlay for turnaround.py. THIS IS YOUR EDITABLE MACRO ASSUMPTION about which sectors are turning around on domestic + global factors. A company is tagged (and gets a small score bonus + a note in the report) when its screener industry matches a key below, case-insensitively, as a substring. Review and edit periodically — these views go stale. Set turnaround_sectors to {} to disable the overlay.",
+  "turnaround_sectors": {
+    "Chemicals": "Domestic: destocking cycle ending, capex restarting. Global: specialty/agrochem demand recovering off cyclical lows.",
+    "Textiles": "Domestic: PLI support, stable cotton prices. Global: US/EU retail restocking and China+1 sourcing shift.",
+    "Metals": "Domestic: infra and capex-led demand. Global: supply discipline plus China stimulus supporting prices.",
+    "Auto Ancillaries": "Domestic: CV/PV upcycle. Global: rising export content per vehicle and EV component demand.",
+    "Capital Goods": "Domestic: private capex revival, defence and railways ordering. Global: supply-chain diversification (China+1).",
+    "Information Technology": "Domestic: deal pipeline stabilising. Global: discretionary IT spend bottoming, AI-led deal flow."
+  }
+}

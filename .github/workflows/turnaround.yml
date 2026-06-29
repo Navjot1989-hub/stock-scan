@@ -1,0 +1,47 @@
+name: Turnaround Scan
+
+# Runs on GitHub's servers — fires regardless of whether your machine is on.
+on:
+  schedule:
+    # 03:00 UTC = 08:30 IST, every alternate day. Offset from the multibagger
+    # scan (02:30 UTC) so the two jobs don't race to commit reports/.
+    - cron: "0 3 1-31/2 * *"
+  workflow_dispatch:        # adds a manual "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write           # allow the job to commit the report back to the repo
+
+jobs:
+  turnaround:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run turnaround scan
+        env:
+          # Optional email delivery — reuses the same secrets as the multibagger scan.
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          # Optional tuning (defaults match README). Uncomment to override:
+          # MCAP_MIN: "500"
+          # MCAP_MAX: "75000"
+          # NEAR_LOW_PCT: "15"
+          # MAX_PAGES: "10"
+        run: python turnaround.py
+
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash || true
+          git add reports/
+          git diff --staged --quiet || git commit -m "Turnaround scan $(date -u +%Y-%m-%d)"
+          git push

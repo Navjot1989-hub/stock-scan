@@ -1,4 +1,18 @@
-# Stock Scan — Multibagger Hunter (automated)
+# Stock Scan — automated Indian small/mid-cap screeners
+
+Two independent automated screens of Indian (NSE/BSE) small/mid-caps. Both scrape
+[screener.in](https://www.screener.in), score names as code, and write ranked
+Markdown reports. Both run on **GitHub Actions on a schedule**, so they fire on
+GitHub's servers **even when your own machine is off**.
+
+| Scanner | File | What it finds |
+|---|---|---|
+| **Multibagger Hunter** | [`scan.py`](scan.py) | A watchlist scored on the **SQGLP / six-pillar** framework (Size, Quality, Growth, Longevity, Management, Price). |
+| **Turnaround Hunter** | [`turnaround.py`](turnaround.py) | The whole small/mid-cap universe filtered to names **near their 52-week low with improving EBITDA** — see [below](#turnaround-hunter--52-week-low-recovery-scan). |
+
+---
+
+## Multibagger Hunter
 
 Automated screen of Indian (NSE/BSE) small/midcaps for multibagger potential,
 based on the **SQGLP / six-pillar** framework (Size, Quality, Growth, Longevity,
@@ -78,3 +92,67 @@ D/E > 1 or interest coverage < 3×. Receivables-vs-sales, auditor, related-party
 contingent-liability and remuneration/SEBI checks need the annual report and are
 listed as **manual-review** items in each report. See the full framework and
 hard-flag list in [`references/scoring-rubric.md`](references/scoring-rubric.md).
+
+---
+
+## Turnaround Hunter — 52-week-low recovery scan
+
+Unlike the watchlist-driven multibagger scan, this one sweeps the **whole
+small/mid-cap universe** and surfaces **beaten-down turnarounds**: stocks trading
+**near their 52-week low** where the **last four quarters' EBITDA (Operating
+Profit) is healthy and improving** — plus an overlay for sectors you believe are
+turning around on domestic + global factors.
+
+> ⚠️ Analytical research, **not investment advice**. EBITDA is approximated by
+> screener's *Operating Profit* line; "improving" and "sector turnaround" are
+> heuristics from numbers + an editable overlay. Most stocks near 52-week lows are
+> there for good reasons — verify concalls and filings before acting.
+
+### How it works
+
+1. **Universe** — queries screener.in's *screen* with the market-cap band and a
+   "operating profit positive **and** improving year-on-year" filter (see
+   [`screen_query.txt`](screen_query.txt)). This narrows the universe server-side.
+2. **Per-company analysis** — for each candidate it reads the company page and
+   computes: % above the 52-week low, the last four quarters of Operating Profit /
+   OPM / Sales, YoY and QoQ EBITDA change, trough-to-latest recovery, and the sector.
+3. **Gating filter** — a name only makes the report if **all** of:
+   - market cap in **Rs 500–75,000 cr** (small + mid),
+   - price **within 15% of its 52-week low**,
+   - **all four** of the last quarters have **positive** Operating Profit,
+   - the latest quarter is **improving** (EBITDA up YoY, or the best of the last
+     four and above the prior quarter).
+4. **Score & rank (0–100)** = 30% proximity-to-low + 28% EBITDA YoY + 24%
+   trough-recovery + 18% OPM expansion, **+6** if the sector is in your turnaround
+   overlay. Verdict: **≥70** Strong setup · **55–69** Watch · **45–54** Early · **<45** Pass.
+
+### Configure it
+
+| File | What to edit |
+|---|---|
+| [`screen_query.txt`](screen_query.txt) | The screener.in screen query defining the universe. Split across lines for readability; `#` comments ignored. If screener renames a field and the screen returns nothing, the scan falls back to `watchlist.txt` — fix the field names here. |
+| [`sectors.json`](sectors.json) | Your **editable macro assumption**: which sectors are turning around, with a one-line domestic + global rationale. Matched as a case-insensitive substring against each company's industry; adds a score bonus + a note. Set `turnaround_sectors` to `{}` to disable. |
+
+Thresholds can also be overridden via environment variables (defaults in parentheses):
+`MCAP_MIN` (500), `MCAP_MAX` (75000), `NEAR_LOW_PCT` (15), `MAX_PAGES` (10),
+`PAGE_DELAY` (0.7s). Uncomment them in
+[`.github/workflows/turnaround.yml`](.github/workflows/turnaround.yml) to change a run.
+
+### What it produces
+
+- `reports/turnaround-YYYY-MM-DD.md` — dated report, committed back each run
+- `reports/turnaround-latest.md` — always the most recent turnaround scan
+- An optional email summary (reuses the **same** `SMTP_USER` / `SMTP_PASS` /
+  `EMAIL_TO` secrets as the multibagger scan — see [above](#optional-email-the-results))
+
+### How it runs
+
+[`.github/workflows/turnaround.yml`](.github/workflows/turnaround.yml):
+- **Schedule:** `cron: "0 3 1-31/2 * *"` → 03:00 UTC = **08:30 IST every alternate
+  day** (offset 30 min from the multibagger scan so the two don't race to commit)
+- **Manual:** the **Run workflow** button on the **Actions** tab runs it on demand
+
+```bash
+# Run locally (needs working HTTPS to screener.in):
+python turnaround.py
+```
