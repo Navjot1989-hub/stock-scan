@@ -2,11 +2,13 @@ name: Turnaround Scan
 
 # Runs on GitHub's servers — fires regardless of whether your machine is on.
 on:
-  # Triggered daily at 11:00 IST by a reliable external scheduler (a Claude
-  # routine running `gh workflow run turnaround.yml`) instead of GitHub's
-  # built-in cron, which is best-effort and often skips/delays scheduled runs.
-  # Still runnable manually from the Actions tab.
-  workflow_dispatch:
+  schedule:
+    # 05:30 UTC = 11:00 IST daily — primary, cloud-side trigger (runs even when
+    # the user's PC is off). GitHub's cron is best-effort and can skip/delay, so
+    # a Claude routine at 11:20 IST backs it up: it dispatches this workflow only
+    # if no run succeeded today, then reports the results.
+    - cron: "30 5 * * *"
+  workflow_dispatch:        # manual "Run workflow" button + the backup routine
 
 permissions:
   contents: write           # allow the job to commit the report back to the repo

@@ -150,11 +150,13 @@ Uncomment them in
 ### How it runs
 
 [`.github/workflows/turnaround.yml`](.github/workflows/turnaround.yml):
-- **Schedule:** **11:00 IST, every day**, triggered by a reliable external
-  scheduler (a Claude routine that runs `gh workflow run turnaround.yml`) rather
-  than GitHub's built-in `cron`, which is best-effort and frequently skips or
-  delays scheduled runs. The commit step retries on push conflicts so it can't
-  clobber the multibagger scan's report commit.
+- **Schedule:** `cron: "30 5 * * *"` → 05:30 UTC = **11:00 IST, every day**
+  (primary, cloud-side trigger — runs even when your PC is off). The commit step
+  retries on push conflicts so it can't clobber the multibagger scan's report.
+- **Backup + reporting:** GitHub's `cron` is best-effort and can skip/delay runs,
+  so a local Claude routine at **11:20 IST** checks whether the scan ran today and,
+  if not, dispatches it via `gh workflow run turnaround.yml` — then reports the
+  ranked results. No double-runs.
 - **Manual:** the **Run workflow** button on the **Actions** tab runs it on demand
 
 ```bash
