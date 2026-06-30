@@ -9,6 +9,7 @@ GitHub's servers **even when your own machine is off**.
 |---|---|---|
 | **Multibagger Hunter** | [`scan.py`](scan.py) | A watchlist scored on the **SQGLP / six-pillar** framework (Size, Quality, Growth, Longevity, Management, Price). |
 | **Turnaround Hunter** | [`turnaround.py`](turnaround.py) | The whole small/mid-cap universe filtered to names **near their 52-week low with improving EBITDA** — see [below](#turnaround-hunter--52-week-low-recovery-scan). |
+| **Volume Surge Scanner** | [`volume_scan.py`](volume_scan.py) | All NSE large-caps (mcap ≥ Rs 5,000 cr) with a **recent volume build-up** (last ~5 days' average volume well above the prior ~20 days) — see [below](#volume-surge-scanner--nse-large-caps). |
 
 ---
 
@@ -163,3 +164,59 @@ Uncomment them in
 # Run locally (needs working HTTPS to screener.in):
 python turnaround.py
 ```
+
+---
+
+## Volume Surge Scanner — NSE large-caps
+
+Scans the **whole NSE cash market** for stocks above a market-cap floor
+(Rs 5,000 cr by default) whose **average volume over the last ~5 trading days is
+well above their prior ~20-day average** — a volume build-up / accumulation
+signal that often precedes a move.
+
+> ⚠️ Analytical research, **not investment advice**. A volume spike is
+> **direction-agnostic** — it can precede a breakdown as easily as a breakout.
+> Always check the chart, news, and delivery quality before acting.
+
+### How it works
+
+1. **Bulk volume** — downloads the last ~25 NSE *security-wise full bhavcopy* CSVs
+   (one per trading day, ~2,000 symbols each) from `archives.nseindia.com`. Volume
+   for the entire market in a handful of files — no per-stock requests yet.
+2. **Surge metric** — for every NSE **EQ** symbol: `mean(last 5 days' volume) ÷
+   mean(prior 20 days' volume)` = the **surge ratio**, plus a **liquidity floor**
+   (recent average turnover ≥ Rs 20 cr/day) to drop illiquid noise, and the 5-day
+   price change for context.
+3. **Market-cap gate** — only the surging, liquid shortlist is looked up on
+   screener.in (public company pages) to confirm **market cap ≥ Rs 5,000 cr**.
+   Doing the volume filter first keeps these per-company fetches small.
+4. **Score & rank** — ranked by surge ratio; the report shows mcap, 5-day vs
+   20-day average volume, 5-day price move, delivery %, and turnover.
+
+### Configure it (env vars; defaults in parentheses)
+
+`MCAP_MIN` (5000), `VOL_SURGE_MIN` (1.5 — i.e. 1.5× the baseline),
+`RECENT_DAYS` (5), `BASE_DAYS` (20), `MIN_TURNOVER_LACS` (2000 = Rs 20 cr/day),
+`MAX_LOOKUP` (200). Uncomment them in
+[`.github/workflows/volume.yml`](.github/workflows/volume.yml) to change a run.
+
+### What it produces
+
+- `reports/volume-YYYY-MM-DD.md` — dated report, committed back each run
+- `reports/volume-latest.md` — always the most recent volume scan
+- An optional email summary (reuses the same `SMTP_USER` / `SMTP_PASS` /
+  `EMAIL_TO` secrets)
+
+### How it runs
+
+[`.github/workflows/volume.yml`](.github/workflows/volume.yml):
+- **Schedule:** `cron: "40 5 * * *"` → 05:40 UTC = **11:10 IST, every day**
+  (offset from the other scans so report commits don't race). GitHub's cron is
+  best-effort, so a Claude routine can back it up the same way the turnaround scan
+  is backed up.
+- **Manual:** the **Run workflow** button on the **Actions** tab runs it on demand
+
+> **Note on data access:** NSE sometimes blocks automated/datacenter IPs. The scan
+> uses browser-like headers and a warmed session, and aborts with a clear message
+> if it can't gather enough trading days. If GitHub's runners get blocked, the fix
+> is to point it at a bhavcopy mirror or a data API.

@@ -1,0 +1,54 @@
+name: Volume Surge Scan
+
+# Runs on GitHub's servers — fires regardless of whether your machine is on.
+on:
+  workflow_dispatch:        # manual button + triggered by the Claude routine
+  schedule:
+    # 05:40 UTC = 11:10 IST daily. Offset from the other scans so the commit
+    # steps don't race. GitHub cron is best-effort; the Claude routine backs it up.
+    - cron: "40 5 * * *"
+
+permissions:
+  contents: write           # allow the job to commit the report back to the repo
+
+jobs:
+  volume:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run volume scan
+        env:
+          # Optional email delivery — reuses the same secrets as the other scans.
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          # Optional tuning (defaults match README). Uncomment to override:
+          # MCAP_MIN: "5000"
+          # VOL_SURGE_MIN: "1.5"
+          # MIN_TURNOVER_LACS: "2000"
+        run: python volume_scan.py
+
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports/
+          if git diff --staged --quiet; then
+            echo "No report changes to commit."; exit 0
+          fi
+          git commit -m "Volume surge scan $(date -u +%Y-%m-%d)"
+          # Other scans commit around the same time — retry on push races.
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash && git push && exit 0
+            echo "push attempt $i failed (likely concurrent commit); retrying..."
+            sleep 5
+          done
+          echo "Could not push after retries."; exit 1
