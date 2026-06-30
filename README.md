@@ -150,9 +150,11 @@ Uncomment them in
 ### How it runs
 
 [`.github/workflows/turnaround.yml`](.github/workflows/turnaround.yml):
-- **Schedule:** `cron: "30 5 * * *"` → 05:30 UTC = **11:00 IST, every day**. The
-  multibagger scan runs at the same time; the commit step retries on push
-  conflicts so the two jobs don't clobber each other.
+- **Schedule:** **11:00 IST, every day**, triggered by a reliable external
+  scheduler (a Claude routine that runs `gh workflow run turnaround.yml`) rather
+  than GitHub's built-in `cron`, which is best-effort and frequently skips or
+  delays scheduled runs. The commit step retries on push conflicts so it can't
+  clobber the multibagger scan's report commit.
 - **Manual:** the **Run workflow** button on the **Actions** tab runs it on demand
 
 ```bash
