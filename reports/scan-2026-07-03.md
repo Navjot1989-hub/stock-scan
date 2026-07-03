@@ -8,16 +8,16 @@
 
 | Rank | Company | Ticker | Mcap (Rs cr) | S | Q | G | L | M | P | **Total** | Hard flags | Verdict |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Pix Transmission Ltd | PIXTRANS | 2474 | 84 | 85 | 82 | 72 | 75 | 82 | **80.5** | 0 | Strong candidate |
-| 2 | Newgen Software Technologies Ltd | NEWGEN | 6897 | 68 | 87 | 65 | 72 | 65 | 62 | **71.7** | 1 | Watchlist |
-| 3 | Caplin Point Laboratories Ltd | CAPLIPOINT | 19201 | 40 | 77 | 82 | 72 | 75 | 62 | **69.9** | 0 | Watchlist |
-| 4 | RACL Geartech Ltd | RACLGEAR | 1626 | 84 | 58 | 82 | 55 | 40 | 62 | **64.0** | 1 | Watchlist |
-| 5 | Garware Technical Fibres Ltd | GARFIBRES | 7237 | 68 | 77 | 42 | 65 | 65 | 40 | **61.4** | 1 | Watchlist |
+| 1 | Pix Transmission Ltd | PIXTRANS | 2476 | 84 | 85 | 82 | 72 | 75 | 82 | **80.5** | 0 | Strong candidate |
+| 2 | Newgen Software Technologies Ltd | NEWGEN | 6872 | 68 | 87 | 65 | 72 | 65 | 62 | **71.7** | 1 | Watchlist |
+| 3 | Caplin Point Laboratories Ltd | CAPLIPOINT | 19224 | 40 | 77 | 82 | 72 | 75 | 62 | **69.9** | 0 | Watchlist |
+| 4 | RACL Geartech Ltd | RACLGEAR | 1636 | 84 | 58 | 82 | 55 | 40 | 62 | **64.0** | 1 | Watchlist |
+| 5 | Garware Technical Fibres Ltd | GARFIBRES | 7241 | 68 | 77 | 42 | 65 | 65 | 40 | **61.4** | 1 | Watchlist |
 | 6 | Control Print Ltd | CONTROLPR | 1099 | 84 | 63 | 45 | 55 | 65 | 22 | **57.5** | 1 | Unproven |
-| 7 | Suprajit Engineering Ltd | SUPRAJIT | 6571 | 68 | 58 | 52 | 55 | 55 | 22 | **53.8** | 0 | Unproven |
+| 7 | Suprajit Engineering Ltd | SUPRAJIT | 6602 | 68 | 58 | 52 | 55 | 55 | 22 | **53.8** | 0 | Unproven |
 | 8 | Tips Music Ltd | TIPSMUSIC | n/a | 30 | 30 | 35 | 45 | 40 | 35 | **35.2** | 1 | Pass |
-| 9 | Anand Rathi Wealth Ltd | ANANDRATHI | 34055 | 40 | 87 | 82 | 72 | 30 | 18 | **61.2** | 2 | AVOID |
-| 10 | Gravita India Ltd | GRAVITA | 12717 | 56 | 43 | 82 | 55 | 40 | 82 | **58.0** | 2 | AVOID |
+| 9 | Anand Rathi Wealth Ltd | ANANDRATHI | 34217 | 40 | 87 | 82 | 72 | 30 | 18 | **61.2** | 2 | AVOID |
+| 10 | Gravita India Ltd | GRAVITA | 12732 | 56 | 43 | 82 | 55 | 40 | 82 | **58.0** | 2 | AVOID |
 
 *Weights: S 15% · Q 25% · G 20% · L 15% · M 15% · P 10%. Bands: ≥75 Strong · 60–74 Watchlist · 45–59 Unproven · <45 Pass · 2+ hard flags = AVOID.*
 
@@ -31,7 +31,7 @@
 |---|---|
 | **Score** | **80.5 / 100** |
 | **Classification** | Strong candidate |
-| **Thesis** | ROCE 21.8%, 35.1% earnings CAGR, Rs 2474 cr mcap |
+| **Thesis** | ROCE 21.8%, 35.1% earnings CAGR, Rs 2476 cr mcap |
 | **Top risk** | Small-cap base rate: most underperform; verify filings independently. |
 | **Hard flags** | 0 fired |
 
@@ -54,7 +54,7 @@
 
 | Pillar | Weight | Score | Justification |
 |---|---|---|---|
-| S — Size & obscurity | 15% | 84 | Mcap ≈ Rs 2474 cr → re-rating room scored 84. |
+| S — Size & obscurity | 15% | 84 | Mcap ≈ Rs 2476 cr → re-rating room scored 84. |
 | Q — Quality of business | 25% | 85 | ROCE 21.8%; CFO/EBITDA 89%; D/E 0.03 → 85. |
 | G — Growth | 20% | 82 | 5y Sales 9%, EPS/PAT 35.1% → 82 (stalled earnings capped at 45). |
 | L — Longevity / moat | 15% | 72 | OPM 26%, ROCE 21.8% → 72 (numeric proxy; confirm moat in AR/concall). |
@@ -90,7 +90,7 @@
 |---|---|
 | **Score** | **71.7 / 100** |
 | **Classification** | Watchlist |
-| **Thesis** | ROCE 25.8%, 15.6% earnings CAGR, Rs 6897 cr mcap |
+| **Thesis** | ROCE 25.8%, 15.6% earnings CAGR, Rs 6872 cr mcap |
 | **Top risk** | Hard flag: Share count CAGR ≤ 4% |
 | **Hard flags** | 1 fired |
 
@@ -113,23 +113,23 @@
 
 | Pillar | Weight | Score | Justification |
 |---|---|---|---|
-| S — Size & obscurity | 15% | 68 | Mcap ≈ Rs 6897 cr → re-rating room scored 68. |
+| S — Size & obscurity | 15% | 68 | Mcap ≈ Rs 6872 cr → re-rating room scored 68. |
 | Q — Quality of business | 25% | 87 | ROCE 25.8%; CFO/EBITDA 68%; D/E 0.02 → 87. |
 | G — Growth | 20% | 65 | 5y Sales 19%, EPS/PAT 15.6% → 65 (stalled earnings capped at 45). |
 | L — Longevity / moat | 15% | 72 | OPM 26%, ROCE 25.8% → 72 (numeric proxy; confirm moat in AR/concall). |
 | M — Management & capital allocation | 15% | 65 | Promoter 53.52%; dilution 9.3% → 65 (candor needs AR/concall review). |
-| P — Price | 10% | 62 | P/E 20.8, PEG 1.33 → 62. |
+| P — Price | 10% | 62 | P/E 20.7, PEG 1.33 → 62. |
 | **Total** | 100% | **71.7** | weighted sum |
 
 **Multibagger math** (implied price multiple = EPS growth ^ n × exit-P/E re-rating):
 
 | Scenario | EPS CAGR | Exit P/E | 5y multiple | 10y multiple |
 |---|---|---|---|---|
-| Bear | 7.8% | 12.5x | 0.9x | 1.3x |
-| Base | 15.6% | 20.8x | 2.1x | 4.3x |
-| Bull | 20.3% | 31.2x | 3.8x | 9.5x |
+| Bear | 7.8% | 12.4x | 0.9x | 1.3x |
+| Base | 15.6% | 20.7x | 2.1x | 4.3x |
+| Bull | 20.3% | 31.0x | 3.8x | 9.5x |
 
-*From current P/E 20.8 and ~15.6% historical earnings CAGR. Forward-looking and illustrative only.*
+*From current P/E 20.7 and ~15.6% historical earnings CAGR. Forward-looking and illustrative only.*
 
 **What would change the thesis (kill-switches):**
 
@@ -149,7 +149,7 @@
 |---|---|
 | **Score** | **69.9 / 100** |
 | **Classification** | Watchlist |
-| **Thesis** | ROCE 24.6%, 28.3% earnings CAGR, Rs 19201 cr mcap |
+| **Thesis** | ROCE 24.6%, 28.3% earnings CAGR, Rs 19224 cr mcap |
 | **Top risk** | Small-cap base rate: most underperform; verify filings independently. |
 | **Hard flags** | 0 fired |
 
@@ -172,23 +172,23 @@
 
 | Pillar | Weight | Score | Justification |
 |---|---|---|---|
-| S — Size & obscurity | 15% | 40 | Mcap ≈ Rs 19201 cr → re-rating room scored 40. |
+| S — Size & obscurity | 15% | 40 | Mcap ≈ Rs 19224 cr → re-rating room scored 40. |
 | Q — Quality of business | 25% | 77 | ROCE 24.6%; CFO/EBITDA 67%; D/E 0.0 → 77. |
 | G — Growth | 20% | 82 | 5y Sales 16%, EPS/PAT 28.3% → 82 (stalled earnings capped at 45). |
 | L — Longevity / moat | 15% | 72 | OPM 35%, ROCE 24.6% → 72 (numeric proxy; confirm moat in AR/concall). |
 | M — Management & capital allocation | 15% | 75 | Promoter 70.57% → 75 (candor needs AR/concall review). |
-| P — Price | 10% | 62 | P/E 29.9, PEG 1.06 → 62. |
+| P — Price | 10% | 62 | P/E 30, PEG 1.06 → 62. |
 | **Total** | 100% | **69.9** | weighted sum |
 
 **Multibagger math** (implied price multiple = EPS growth ^ n × exit-P/E re-rating):
 
 | Scenario | EPS CAGR | Exit P/E | 5y multiple | 10y multiple |
 |---|---|---|---|---|
-| Bear | 14.2% | 17.9x | 1.2x | 2.3x |
-| Base | 28.3% | 29.9x | 3.5x | 12.1x |
-| Bull | 35.0% | 44.8x | 6.7x | 30.2x |
+| Bear | 14.2% | 18.0x | 1.2x | 2.3x |
+| Base | 28.3% | 30.0x | 3.5x | 12.1x |
+| Bull | 35.0% | 45.0x | 6.7x | 30.2x |
 
-*From current P/E 29.9 and ~28.3% historical earnings CAGR. Forward-looking and illustrative only.*
+*From current P/E 30 and ~28.3% historical earnings CAGR. Forward-looking and illustrative only.*
 
 **What would change the thesis (kill-switches):**
 
@@ -208,7 +208,7 @@
 |---|---|
 | **Score** | **64.0 / 100** |
 | **Classification** | Watchlist |
-| **Thesis** | ROCE 17%, 23.5% earnings CAGR, Rs 1626 cr mcap |
+| **Thesis** | ROCE 17%, 23.5% earnings CAGR, Rs 1636 cr mcap |
 | **Top risk** | Hard flag: Promoter stake ≥ 40% & stable |
 | **Hard flags** | 1 fired |
 
@@ -231,23 +231,23 @@
 
 | Pillar | Weight | Score | Justification |
 |---|---|---|---|
-| S — Size & obscurity | 15% | 84 | Mcap ≈ Rs 1626 cr → re-rating room scored 84. |
+| S — Size & obscurity | 15% | 84 | Mcap ≈ Rs 1636 cr → re-rating room scored 84. |
 | Q — Quality of business | 25% | 58 | ROCE 17%; CFO/EBITDA 60%; D/E 0.67 → 58. |
 | G — Growth | 20% | 82 | 5y Sales 19%, EPS/PAT 23.5% → 82 (stalled earnings capped at 45). |
 | L — Longevity / moat | 15% | 55 | OPM 22%, ROCE 17% → 55 (numeric proxy; confirm moat in AR/concall). |
 | M — Management & capital allocation | 15% | 40 | Promoter 42.69%; falling from 53% → 40 (candor needs AR/concall review). |
-| P — Price | 10% | 62 | P/E 33.1, PEG 1.41 → 62. |
+| P — Price | 10% | 62 | P/E 33.3, PEG 1.42 → 62. |
 | **Total** | 100% | **64.0** | weighted sum |
 
 **Multibagger math** (implied price multiple = EPS growth ^ n × exit-P/E re-rating):
 
 | Scenario | EPS CAGR | Exit P/E | 5y multiple | 10y multiple |
 |---|---|---|---|---|
-| Bear | 11.8% | 19.9x | 1.0x | 1.8x |
-| Base | 23.5% | 33.1x | 2.9x | 8.3x |
-| Bull | 30.6% | 45x | 5.2x | 19.6x |
+| Bear | 11.8% | 20.0x | 1.0x | 1.8x |
+| Base | 23.5% | 33.3x | 2.9x | 8.3x |
+| Bull | 30.6% | 45x | 5.1x | 19.4x |
 
-*From current P/E 33.1 and ~23.5% historical earnings CAGR. Forward-looking and illustrative only.*
+*From current P/E 33.3 and ~23.5% historical earnings CAGR. Forward-looking and illustrative only.*
 
 **What would change the thesis (kill-switches):**
 
@@ -267,7 +267,7 @@
 |---|---|
 | **Score** | **61.4 / 100** |
 | **Classification** | Watchlist |
-| **Thesis** | ROCE 22%, 15.9% earnings CAGR, Rs 7237 cr mcap |
+| **Thesis** | ROCE 22%, 15.9% earnings CAGR, Rs 7241 cr mcap |
 | **Top risk** | Hard flag: Share count CAGR ≤ 4% |
 | **Hard flags** | 1 fired |
 
@@ -290,7 +290,7 @@
 
 | Pillar | Weight | Score | Justification |
 |---|---|---|---|
-| S — Size & obscurity | 15% | 68 | Mcap ≈ Rs 7237 cr → re-rating room scored 68. |
+| S — Size & obscurity | 15% | 68 | Mcap ≈ Rs 7241 cr → re-rating room scored 68. |
 | Q — Quality of business | 25% | 77 | ROCE 22%; CFO/EBITDA 62%; D/E 0.03 → 77. |
 | G — Growth | 20% | 42 | 5y Sales 8%, EPS/PAT 15.9% → 42 (stalled earnings capped at 45). |
 | L — Longevity / moat | 15% | 65 | OPM 19%, ROCE 22% → 65 (numeric proxy; confirm moat in AR/concall). |
@@ -385,7 +385,7 @@
 |---|---|
 | **Score** | **53.8 / 100** |
 | **Classification** | Unproven |
-| **Thesis** | ROCE 16%, 11.1% earnings CAGR, Rs 6571 cr mcap |
+| **Thesis** | ROCE 16%, 11.1% earnings CAGR, Rs 6602 cr mcap |
 | **Top risk** | Growth engine modest — needs an inflection to compound. |
 | **Hard flags** | 0 fired |
 
@@ -408,12 +408,12 @@
 
 | Pillar | Weight | Score | Justification |
 |---|---|---|---|
-| S — Size & obscurity | 15% | 68 | Mcap ≈ Rs 6571 cr → re-rating room scored 68. |
+| S — Size & obscurity | 15% | 68 | Mcap ≈ Rs 6602 cr → re-rating room scored 68. |
 | Q — Quality of business | 25% | 58 | ROCE 16%; CFO/EBITDA 63%; D/E 0.69 → 58. |
 | G — Growth | 20% | 52 | 5y Sales 18%, EPS/PAT 11.1% → 52 (stalled earnings capped at 45). |
 | L — Longevity / moat | 15% | 55 | OPM 10%, ROCE 16% → 55 (numeric proxy; confirm moat in AR/concall). |
 | M — Management & capital allocation | 15% | 55 | Promoter 45.26% → 55 (candor needs AR/concall review). |
-| P — Price | 10% | 22 | P/E 35.1, PEG 3.16 → 22. |
+| P — Price | 10% | 22 | P/E 35.2, PEG 3.17 → 22. |
 | **Total** | 100% | **53.8** | weighted sum |
 
 **Multibagger math** (implied price multiple = EPS growth ^ n × exit-P/E re-rating):
@@ -421,10 +421,10 @@
 | Scenario | EPS CAGR | Exit P/E | 5y multiple | 10y multiple |
 |---|---|---|---|---|
 | Bear | 5.5% | 21.1x | 0.8x | 1.0x |
-| Base | 11.1% | 35.1x | 1.7x | 2.9x |
+| Base | 11.1% | 35.2x | 1.7x | 2.9x |
 | Bull | 14.4% | 45x | 2.5x | 4.9x |
 
-*From current P/E 35.1 and ~11.1% historical earnings CAGR. Forward-looking and illustrative only.*
+*From current P/E 35.2 and ~11.1% historical earnings CAGR. Forward-looking and illustrative only.*
 
 **What would change the thesis (kill-switches):**
 
@@ -495,7 +495,7 @@
 |---|---|
 | **Score** | **61.2 / 100** |
 | **Classification** | AVOID |
-| **Thesis** | ROCE 59.2%, 23.3% earnings CAGR, Rs 34055 cr mcap |
+| **Thesis** | ROCE 59.2%, 23.3% earnings CAGR, Rs 34217 cr mcap |
 | **Top risk** | Hard flag: Promoter stake ≥ 40% & stable |
 | **Hard flags** | 2 fired |
 
@@ -518,23 +518,23 @@
 
 | Pillar | Weight | Score | Justification |
 |---|---|---|---|
-| S — Size & obscurity | 15% | 40 | Mcap ≈ Rs 34055 cr → re-rating room scored 40. |
+| S — Size & obscurity | 15% | 40 | Mcap ≈ Rs 34217 cr → re-rating room scored 40. |
 | Q — Quality of business | 25% | 87 | ROCE 59.2%; CFO/EBITDA 56%; D/E 0.08 → 87. |
 | G — Growth | 20% | 82 | 5y Sales 36%, EPS/PAT 23.3% → 82 (stalled earnings capped at 45). |
 | L — Longevity / moat | 15% | 72 | OPM 47%, ROCE 59.2% → 72 (numeric proxy; confirm moat in AR/concall). |
 | M — Management & capital allocation | 15% | 30 | Promoter 41.37%; falling from 49%; dilution 18.2% → 30 (candor needs AR/concall review). |
-| P — Price | 10% | 18 | P/E 86.2, PEG 3.7 → 18. |
+| P — Price | 10% | 18 | P/E 86.6, PEG 3.72 → 18. |
 | **Total** | 100% | **61.2** | weighted sum |
 
 **Multibagger math** (implied price multiple = EPS growth ^ n × exit-P/E re-rating):
 
 | Scenario | EPS CAGR | Exit P/E | 5y multiple | 10y multiple |
 |---|---|---|---|---|
-| Bear | 11.7% | 51.7x | 1.0x | 1.8x |
-| Base | 23.3% | 86.2x | 2.8x | 8.1x |
-| Bull | 30.3% | 45x | 2.0x | 7.4x |
+| Bear | 11.7% | 52.0x | 1.0x | 1.8x |
+| Base | 23.3% | 86.6x | 2.8x | 8.1x |
+| Bull | 30.3% | 45x | 2.0x | 7.3x |
 
-*From current P/E 86.2 and ~23.3% historical earnings CAGR. Forward-looking and illustrative only.*
+*From current P/E 86.6 and ~23.3% historical earnings CAGR. Forward-looking and illustrative only.*
 
 **What would change the thesis (kill-switches):**
 
@@ -554,7 +554,7 @@
 |---|---|
 | **Score** | **58.0 / 100** |
 | **Classification** | AVOID |
-| **Thesis** | ROCE 17%, 43.4% earnings CAGR, Rs 12717 cr mcap |
+| **Thesis** | ROCE 17%, 43.4% earnings CAGR, Rs 12732 cr mcap |
 | **Top risk** | Hard flag: CFO/EBITDA ≥ 50% (5y cum.) |
 | **Hard flags** | 2 fired |
 
@@ -577,23 +577,23 @@
 
 | Pillar | Weight | Score | Justification |
 |---|---|---|---|
-| S — Size & obscurity | 15% | 56 | Mcap ≈ Rs 12717 cr → re-rating room scored 56. |
+| S — Size & obscurity | 15% | 56 | Mcap ≈ Rs 12732 cr → re-rating room scored 56. |
 | Q — Quality of business | 25% | 43 | ROCE 17%; CFO/EBITDA 48%; D/E 0.3 → 43. |
 | G — Growth | 20% | 82 | 5y Sales 25%, EPS/PAT 43.4% → 82 (stalled earnings capped at 45). |
 | L — Longevity / moat | 15% | 55 | OPM 10%, ROCE 17% → 55 (numeric proxy; confirm moat in AR/concall). |
 | M — Management & capital allocation | 15% | 40 | Promoter 55.88%; falling from 66% → 40 (candor needs AR/concall review). |
-| P — Price | 10% | 82 | P/E 33.5, PEG 0.77 → 82. |
+| P — Price | 10% | 82 | P/E 33.6, PEG 0.77 → 82. |
 | **Total** | 100% | **58.0** | weighted sum |
 
 **Multibagger math** (implied price multiple = EPS growth ^ n × exit-P/E re-rating):
 
 | Scenario | EPS CAGR | Exit P/E | 5y multiple | 10y multiple |
 |---|---|---|---|---|
-| Bear | 15.0% | 20.1x | 1.2x | 2.4x |
-| Base | 30.0% | 33.5x | 3.7x | 13.8x |
-| Bull | 35.0% | 45x | 6.0x | 27.0x |
+| Bear | 15.0% | 20.2x | 1.2x | 2.4x |
+| Base | 30.0% | 33.6x | 3.7x | 13.8x |
+| Bull | 35.0% | 45x | 6.0x | 26.9x |
 
-*From current P/E 33.5 and ~43.4% historical earnings CAGR. Forward-looking and illustrative only.*
+*From current P/E 33.6 and ~43.4% historical earnings CAGR. Forward-looking and illustrative only.*
 
 **What would change the thesis (kill-switches):**
 
