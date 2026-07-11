@@ -1,5 +1,7 @@
 # One screener.in ticker per line. Lines starting with # are ignored.
 # Edit this list to change what gets scanned each run.
+# Broadened to ~25 major NSE/BSE mid-cap and small-cap names across sectors
+# (was a narrower 10-name core watchlist). Scoring/red-flag logic unchanged.
 TIPSMUSIC
 CAPLIPOINT
 GRAVITA
@@ -10,3 +12,18 @@ CONTROLPR
 PIXTRANS
 RACLGEAR
 SUPRAJIT
+KAYNES
+JYOTICNC
+DATAPATTNS
+ANURAS
+NEULANDLAB
+GRAPHITE
+APARINDS
+HBLENGINE
+FINCABLES
+CRAFTSMAN
+BLUEJET
+KPIL
+CGCL
+RKFORGE
+TEGA
