@@ -51,15 +51,15 @@ Scanned **2308** NSE EQ symbols over **25** trading days; **98** are ≥ Rs 5000
 | 39 | Balaji Amines Ltd | BALAMINES | 7825 | **2.54×** | 723,845 | 284,473 | 10.1% | 23.88% | 164.896 |
 | 40 | UTI Asset Management Company Ltd | UTIAMC | 12908 | **2.53×** | 405,387 | 160,175 | 2.9% | 52.26% | 40.1224 |
 | 41 | SignatureGlobal India Ltd | SIGNATURE | 11942 | **2.51×** | 734,854 | 292,350 | 12% | 27.93% | 59.007 |
-| 42 | Capri Global Capital Ltd | CGCL | 24267 | **2.5×** | 10,856,377 | 4,340,010 | 7.8% | 32.96% | 264.785 |
-| 43 | Happiest Minds Technologies Ltd | HAPPSTMNDS | 5882 | **2.5×** | 1,905,912 | 762,839 | 10.4% | 27.87% | 70.9856 |
+| 42 | Happiest Minds Technologies Ltd | HAPPSTMNDS | 5882 | **2.5×** | 1,905,912 | 762,839 | 10.4% | 27.87% | 70.9856 |
+| 43 | Capri Global Capital Ltd | CGCL | 24267 | **2.5×** | 10,856,377 | 4,340,010 | 7.8% | 32.96% | 264.785 |
 | 44 | Allied Blenders & Distillers Ltd | ABDL | 18146 | **2.48×** | 1,178,048 | 474,608 | -1% | 65.44% | 80.4135 |
 | 45 | Grindwell Norton Ltd | GRINDWELL | 22793 | **2.42×** | 183,106 | 75,709 | -1.4% | 45.62% | 37.0581 |
 | 46 | Anant Raj Ltd | ANANTRAJ | 21083 | **2.36×** | 4,213,873 | 1,783,413 | 5.6% | 38.9% | 237.189 |
 | 47 | Lodha Developers Ltd | LODHA | 121964 | **2.35×** | 6,532,208 | 2,779,128 | 15.5% | 33.01% | 740.208 |
 | 48 | Havells India Ltd | HAVELLS | 74579 | **2.32×** | 1,741,328 | 750,259 | 0.6% | 51.18% | 209.394 |
-| 49 | Borosil Renewables Ltd | BORORENEW | 8986 | **2.3×** | 1,656,235 | 720,011 | 3% | 32.48% | 106.296 |
-| 50 | Phoenix Mills Ltd | PHOENIXLTD | 76496 | **2.3×** | 1,456,486 | 633,530 | 4.5% | 58.56% | 304.664 |
+| 49 | Phoenix Mills Ltd | PHOENIXLTD | 76496 | **2.3×** | 1,456,486 | 633,530 | 4.5% | 58.56% | 304.664 |
+| 50 | Borosil Renewables Ltd | BORORENEW | 8986 | **2.3×** | 1,656,235 | 720,011 | 3% | 32.48% | 106.296 |
 | 51 | Zensar Technologies Ltd | ZENSARTECH | 11564 | **2.24×** | 12,396,037 | 5,540,407 | -1.5% | 6.06% | 611.742 |
 | 52 | Sun Pharma Advanced Research Company Ltd | SPARC | 8587 | **2.22×** | 6,146,353 | 2,764,379 | 10.5% | 36.93% | 163.936 |
 | 53 | Dr Reddys Laboratories Ltd | DRREDDY | 103859 | **2.21×** | 3,986,620 | 1,803,222 | -9.4% | 53.8% | 512.056 |
@@ -69,8 +69,8 @@ Scanned **2308** NSE EQ symbols over **25** trading days; **98** are ≥ Rs 5000
 | 57 | Swan Corp Ltd | SWANCORP | 10006 | **2.1×** | 2,153,862 | 1,025,551 | 2.7% | 54.28% | 70.5867 |
 | 58 | Jammu and Kashmir Bank Ltd | J&KBANK | 21214 | **2.09×** | 8,529,041 | 4,071,206 | 16.6% | 32.65% | 151.082 |
 | 59 | Latent View Analytics Ltd | LATENTVIEW | 6232 | **2.08×** | 1,905,009 | 916,451 | 7.2% | 35.26% | 56.5777 |
-| 60 | Greaves Cotton Ltd | GREAVESCOT | 6141 | **2.08×** | 6,221,737 | 2,998,231 | 16.3% | 16.93% | 154.317 |
-| 61 | Indus Towers Ltd | INDUSTOWER | 107149 | **2.08×** | 12,841,238 | 6,171,134 | 6% | 48.51% | 499.28 |
+| 60 | Indus Towers Ltd | INDUSTOWER | 107149 | **2.08×** | 12,841,238 | 6,171,134 | 6% | 48.51% | 499.28 |
+| 61 | Greaves Cotton Ltd | GREAVESCOT | 6141 | **2.08×** | 6,221,737 | 2,998,231 | 16.3% | 16.93% | 154.317 |
 | 62 | Jubilant Ingrevia Ltd | JUBLINGREA | 11505 | **2.06×** | 583,581 | 283,580 | 6.4% | 59.72% | 40.8718 |
 | 63 | Amara Raja Energy & Mobility Ltd | ARE&M | 16290 | **2.06×** | 1,011,344 | 491,715 | 4.1% | 53.21% | 87.6419 |
 | 64 | Mrs Bectors Food Specialities Ltd | BECTORFOOD | 5200 | **2.04×** | 1,631,574 | 799,341 | -4.1% | 70.94% | 28.1749 |
@@ -83,8 +83,8 @@ Scanned **2308** NSE EQ symbols over **25** trading days; **98** are ≥ Rs 5000
 | 71 | CRISIL Ltd | CRISIL | 29964 | **1.94×** | 93,662 | 48,219 | 2% | 46.45% | 37.5453 |
 | 72 | Aether Industries Ltd | AETHER | 19918 | **1.9×** | 827,847 | 434,853 | 10.4% | 57.1% | 119.376 |
 | 73 | Birlasoft Ltd | BSOFT | 8113 | **1.88×** | 3,127,619 | 1,662,227 | 2.7% | 26.07% | 88.1747 |
-| 74 | Dixon Technologies (India) Ltd | DIXON | 82059 | **1.87×** | 1,027,945 | 550,952 | 7.7% | 35.02% | 1372.63 |
-| 75 | Titan Company Ltd | TITAN | 406997 | **1.87×** | 1,490,113 | 796,078 | 2.8% | 65.09% | 683.503 |
+| 74 | Titan Company Ltd | TITAN | 406997 | **1.87×** | 1,490,113 | 796,078 | 2.8% | 65.09% | 683.503 |
+| 75 | Dixon Technologies (India) Ltd | DIXON | 82059 | **1.87×** | 1,027,945 | 550,952 | 7.7% | 35.02% | 1372.63 |
 | 76 | Premier Energies Ltd | PREMIERENE | 50715 | **1.82×** | 1,862,118 | 1,020,834 | 6.7% | 41.53% | 198.513 |
 | 77 | Oberoi Realty Ltd | OBEROIRLTY | 69986 | **1.79×** | 1,111,729 | 621,643 | -0.5% | 42.91% | 212.893 |
 | 78 | South Indian Bank Ltd | SOUTHBANK | 11993 | **1.78×** | 33,358,398 | 18,758,108 | -0.6% | 44.49% | 152.342 |
@@ -96,15 +96,15 @@ Scanned **2308** NSE EQ symbols over **25** trading days; **98** are ≥ Rs 5000
 | 84 | Elecon Engineering Company Ltd | ELECON | 11457 | **1.65×** | 998,930 | 603,642 | -3.1% | 17.15% | 50.3627 |
 | 85 | Trent Ltd | TRENT | 154787 | **1.63×** | 3,047,817 | 1,872,404 | -13.1% | 48.88% | 909.183 |
 | 86 | Hexaware Technologies Ltd | HEXT | 33621 | **1.62×** | 2,105,245 | 1,300,040 | 0.7% | 74.93% | 114.174 |
-| 87 | Nephrocare Health Services Ltd | NEPHROPLUS | 6512 | **1.6×** | 353,504 | 221,016 | -3.4% | 47.62% | 22.647 |
+| 87 | Godrej Properties Ltd | GODREJPROP | 64252 | **1.6×** | 1,063,067 | 665,119 | 6.8% | 36.21% | 217.828 |
 | 88 | DLF Ltd | DLF | 169744 | **1.6×** | 6,948,434 | 4,343,637 | 1.5% | 45.61% | 462.638 |
-| 89 | Godrej Properties Ltd | GODREJPROP | 64252 | **1.6×** | 1,063,067 | 665,119 | 6.8% | 36.21% | 217.828 |
-| 90 | Graphite India Ltd | GRAPHITE | 11969 | **1.59×** | 1,142,019 | 720,260 | -2.4% | 24.12% | 69.0665 |
-| 91 | Akums Drugs & Pharmaceuticals Ltd | AKUMS | 11048 | **1.59×** | 649,863 | 409,060 | 12% | 57.19% | 43.1058 |
+| 89 | Nephrocare Health Services Ltd | NEPHROPLUS | 6512 | **1.6×** | 353,504 | 221,016 | -3.4% | 47.62% | 22.647 |
+| 90 | Akums Drugs & Pharmaceuticals Ltd | AKUMS | 11048 | **1.59×** | 649,863 | 409,060 | 12% | 57.19% | 43.1058 |
+| 91 | Graphite India Ltd | GRAPHITE | 11969 | **1.59×** | 1,142,019 | 720,260 | -2.4% | 24.12% | 69.0665 |
 | 92 | Kotak Mahindra Bank Ltd | KOTAKBANK | 375588 | **1.58×** | 25,217,727 | 15,937,815 | -4.8% | 64.83% | 953.717 |
-| 93 | CEAT Ltd | CEATLTD | 15640 | **1.56×** | 256,843 | 164,253 | 1.8% | 52.85% | 100.219 |
-| 94 | ITC Ltd | ITC | 353018 | **1.56×** | 18,299,494 | 11,704,732 | -2.8% | 66.48% | 522.524 |
-| 95 | IndusInd Bank Ltd | INDUSINDBK | 79144 | **1.56×** | 3,544,409 | 2,271,139 | 4.3% | 38.93% | 359.086 |
+| 93 | ITC Ltd | ITC | 353018 | **1.56×** | 18,299,494 | 11,704,732 | -2.8% | 66.48% | 522.524 |
+| 94 | IndusInd Bank Ltd | INDUSINDBK | 79144 | **1.56×** | 3,544,409 | 2,271,139 | 4.3% | 38.93% | 359.086 |
+| 95 | CEAT Ltd | CEATLTD | 15640 | **1.56×** | 256,843 | 164,253 | 1.8% | 52.85% | 100.219 |
 | 96 | Rain Industries Ltd | RAIN | 6964 | **1.54×** | 7,237,666 | 4,699,775 | 10.3% | 36.65% | 146.053 |
 | 97 | PNB Housing Finance Ltd | PNBHOUSING | 28941 | **1.52×** | 1,306,301 | 857,977 | 4.3% | 60.78% | 142.861 |
 | 98 | Sky Gold & Diamonds Ltd | SKYGOLD | 9662 | **1.5×** | 1,846,745 | 1,231,191 | 11.4% | 36.59% | 111.01 |
@@ -152,15 +152,15 @@ Scanned **2308** NSE EQ symbols over **25** trading days; **98** are ≥ Rs 5000
 - [BALAMINES](https://www.screener.in/company/BALAMINES/consolidated/)
 - [UTIAMC](https://www.screener.in/company/UTIAMC/consolidated/)
 - [SIGNATURE](https://www.screener.in/company/SIGNATURE/consolidated/)
-- [CGCL](https://www.screener.in/company/CGCL/consolidated/)
 - [HAPPSTMNDS](https://www.screener.in/company/HAPPSTMNDS/consolidated/)
+- [CGCL](https://www.screener.in/company/CGCL/consolidated/)
 - [ABDL](https://www.screener.in/company/ABDL/consolidated/)
 - [GRINDWELL](https://www.screener.in/company/GRINDWELL/consolidated/)
 - [ANANTRAJ](https://www.screener.in/company/ANANTRAJ/consolidated/)
 - [LODHA](https://www.screener.in/company/LODHA/consolidated/)
 - [HAVELLS](https://www.screener.in/company/HAVELLS/consolidated/)
-- [BORORENEW](https://www.screener.in/company/BORORENEW/consolidated/)
 - [PHOENIXLTD](https://www.screener.in/company/PHOENIXLTD/consolidated/)
+- [BORORENEW](https://www.screener.in/company/BORORENEW/consolidated/)
 - [ZENSARTECH](https://www.screener.in/company/ZENSARTECH/consolidated/)
 - [SPARC](https://www.screener.in/company/SPARC/consolidated/)
 - [DRREDDY](https://www.screener.in/company/DRREDDY/consolidated/)
@@ -170,8 +170,8 @@ Scanned **2308** NSE EQ symbols over **25** trading days; **98** are ≥ Rs 5000
 - [SWANCORP](https://www.screener.in/company/SWANCORP/consolidated/)
 - [J&KBANK](https://www.screener.in/company/J&KBANK/consolidated/)
 - [LATENTVIEW](https://www.screener.in/company/LATENTVIEW/consolidated/)
-- [GREAVESCOT](https://www.screener.in/company/GREAVESCOT/consolidated/)
 - [INDUSTOWER](https://www.screener.in/company/INDUSTOWER/consolidated/)
+- [GREAVESCOT](https://www.screener.in/company/GREAVESCOT/consolidated/)
 - [JUBLINGREA](https://www.screener.in/company/JUBLINGREA/consolidated/)
 - [ARE&M](https://www.screener.in/company/ARE&M/consolidated/)
 - [BECTORFOOD](https://www.screener.in/company/BECTORFOOD/consolidated/)
@@ -184,8 +184,8 @@ Scanned **2308** NSE EQ symbols over **25** trading days; **98** are ≥ Rs 5000
 - [CRISIL](https://www.screener.in/company/CRISIL/consolidated/)
 - [AETHER](https://www.screener.in/company/AETHER/consolidated/)
 - [BSOFT](https://www.screener.in/company/BSOFT/consolidated/)
-- [DIXON](https://www.screener.in/company/DIXON/consolidated/)
 - [TITAN](https://www.screener.in/company/TITAN/consolidated/)
+- [DIXON](https://www.screener.in/company/DIXON/consolidated/)
 - [PREMIERENE](https://www.screener.in/company/PREMIERENE/consolidated/)
 - [OBEROIRLTY](https://www.screener.in/company/OBEROIRLTY/consolidated/)
 - [SOUTHBANK](https://www.screener.in/company/SOUTHBANK/consolidated/)
@@ -197,15 +197,15 @@ Scanned **2308** NSE EQ symbols over **25** trading days; **98** are ≥ Rs 5000
 - [ELECON](https://www.screener.in/company/ELECON/consolidated/)
 - [TRENT](https://www.screener.in/company/TRENT/consolidated/)
 - [HEXT](https://www.screener.in/company/HEXT/consolidated/)
-- [NEPHROPLUS](https://www.screener.in/company/NEPHROPLUS/consolidated/)
-- [DLF](https://www.screener.in/company/DLF/consolidated/)
 - [GODREJPROP](https://www.screener.in/company/GODREJPROP/consolidated/)
-- [GRAPHITE](https://www.screener.in/company/GRAPHITE/consolidated/)
+- [DLF](https://www.screener.in/company/DLF/consolidated/)
+- [NEPHROPLUS](https://www.screener.in/company/NEPHROPLUS/consolidated/)
 - [AKUMS](https://www.screener.in/company/AKUMS/consolidated/)
+- [GRAPHITE](https://www.screener.in/company/GRAPHITE/consolidated/)
 - [KOTAKBANK](https://www.screener.in/company/KOTAKBANK/consolidated/)
-- [CEATLTD](https://www.screener.in/company/CEATLTD/consolidated/)
 - [ITC](https://www.screener.in/company/ITC/consolidated/)
 - [INDUSINDBK](https://www.screener.in/company/INDUSINDBK/consolidated/)
+- [CEATLTD](https://www.screener.in/company/CEATLTD/consolidated/)
 - [RAIN](https://www.screener.in/company/RAIN/consolidated/)
 - [PNBHOUSING](https://www.screener.in/company/PNBHOUSING/consolidated/)
 - [SKYGOLD](https://www.screener.in/company/SKYGOLD/consolidated/)
