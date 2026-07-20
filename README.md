@@ -207,6 +207,25 @@ signal that often precedes a move.
 - An optional email summary (reuses the same `SMTP_USER` / `SMTP_PASS` /
   `EMAIL_TO` secrets)
 
+### If it fails with "0/25 trading days"
+
+NSE's CDN (Akamai) blocks GitHub-hosted runners' datacenter IPs with an
+outright HTTP 503 on `archives.nseindia.com` — confirmed via the diagnostic
+line the script prints on the first miss (`status 503`, body from
+`errors.edgesuite.net`). This is an IP-range block, not a rate limit, so
+retries alone don't get past it.
+
+**Fix:** get a residential/rotating proxy from any provider (e.g. Webshare,
+Bright Data, Smartproxy), then add its URL as a repo secret:
+
+| Secret | Value |
+|---|---|
+| `NSE_PROXY_URL` | `http://user:pass@host:port` |
+
+Once the secret exists, `volume_scan.py` routes all NSE requests through it
+automatically — no other changes needed. Without it, the workflow still runs
+but will keep 503ing from GitHub's IPs.
+
 ### How it runs
 
 [`.github/workflows/volume.yml`](.github/workflows/volume.yml):
