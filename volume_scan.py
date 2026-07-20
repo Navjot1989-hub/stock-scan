@@ -46,6 +46,7 @@ MIN_TURNOVER_LACS = float(os.environ.get("MIN_TURNOVER_LACS", 2000))  # ~Rs 20 c
 MAX_LOOKUP = int(os.environ.get("MAX_LOOKUP", 200))        # cap screener mcap lookups
 PAGE_DELAY = float(os.environ.get("PAGE_DELAY", 0.5))      # polite delay between fetches
 MAX_CALENDAR_BACK = int(os.environ.get("MAX_CALENDAR_BACK", 50))  # holiday-safe scan back
+NSE_PROXY_URL = os.environ.get("NSE_PROXY_URL", "").strip()  # e.g. http://user:pass@host:port
 
 NEEDED = RECENT_DAYS + BASE_DAYS
 
@@ -65,9 +66,13 @@ HEADERS = {
 # --------------------------------------------------------------------------- #
 def nse_session():
     """A requests session warmed with NSE cookies (best-effort; NSE can gate
-    datacenter IPs)."""
+    datacenter IPs). Routes through NSE_PROXY_URL if set — GitHub-hosted
+    runners sit on datacenter IP ranges that NSE's CDN (Akamai) 503s outright,
+    independent of retries, so a residential/rotating proxy is the actual fix."""
     s = requests.Session()
     s.headers.update(HEADERS)
+    if NSE_PROXY_URL:
+        s.proxies.update({"http": NSE_PROXY_URL, "https": NSE_PROXY_URL})
     try:
         s.get(NSE_HOME, timeout=20)
     except requests.RequestException:

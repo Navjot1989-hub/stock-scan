@@ -30,6 +30,10 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          # GitHub-hosted runners sit on datacenter IPs that NSE's CDN (Akamai)
+          # 503s outright — see README. Set this repo secret to a residential/
+          # rotating proxy URL (http://user:pass@host:port) to route around it.
+          NSE_PROXY_URL: ${{ secrets.NSE_PROXY_URL }}
           # Optional tuning (defaults match README). Uncomment to override:
           # MCAP_MIN: "5000"
           # VOL_SURGE_MIN: "1.5"
