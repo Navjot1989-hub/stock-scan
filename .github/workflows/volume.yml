@@ -34,7 +34,17 @@ jobs:
           # MCAP_MIN: "5000"
           # VOL_SURGE_MIN: "1.5"
           # MIN_TURNOVER_LACS: "2000"
-        run: python volume_scan.py
+        run: |
+          # NSE occasionally WAF-blocks the whole runner IP for a run (all
+          # bhavcopy requests fail at once). volume_scan.py already retries
+          # per-request; this retries the whole script a couple of times,
+          # spaced out, in case the block outlasts a single run.
+          for i in 1 2 3; do
+            python volume_scan.py && exit 0
+            echo "volume scan attempt $i failed; retrying in 60s..."
+            sleep 60
+          done
+          exit 1
 
       - name: Commit report
         run: |
