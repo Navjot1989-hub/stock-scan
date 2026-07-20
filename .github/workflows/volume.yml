@@ -4,9 +4,9 @@ name: Volume Surge Scan
 on:
   workflow_dispatch:        # manual button + triggered by the Claude routine
   schedule:
-    # 05:40 UTC = 11:10 IST daily. Offset from the other scans so the commit
-    # steps don't race. GitHub cron is best-effort; the Claude routine backs it up.
-    - cron: "40 5 * * *"
+    # 07:00 UTC = 12:30 IST daily. GitHub cron is best-effort; the Claude
+    # routine backs it up.
+    - cron: "0 7 * * *"
 
 permissions:
   contents: write           # allow the job to commit the report back to the repo

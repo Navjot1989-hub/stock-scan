@@ -229,10 +229,9 @@ but will keep 503ing from GitHub's IPs.
 ### How it runs
 
 [`.github/workflows/volume.yml`](.github/workflows/volume.yml):
-- **Schedule:** `cron: "40 5 * * *"` → 05:40 UTC = **11:10 IST, every day**
-  (offset from the other scans so report commits don't race). GitHub's cron is
-  best-effort, so a Claude routine can back it up the same way the turnaround scan
-  is backed up.
+- **Schedule:** `cron: "0 7 * * *"` → 07:00 UTC = **12:30 IST, every day**.
+  GitHub's cron is best-effort, so a Claude routine can back it up the same
+  way the turnaround scan is backed up.
 - **Manual:** the **Run workflow** button on the **Actions** tab runs it on demand
 
 > **Note on data access:** NSE sometimes blocks automated/datacenter IPs. The scan
