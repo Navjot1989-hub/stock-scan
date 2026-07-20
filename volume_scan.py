@@ -75,15 +75,43 @@ def nse_session():
     return s
 
 
-def fetch_bhavcopy(session, d):
-    """Return {SYMBOL: row} for SERIES==EQ on date d, or None if no file."""
+_diag_printed = False   # print one full diagnostic snippet per run, on the first miss
+
+
+def fetch_bhavcopy(session, d, retries=3):
+    """Return {SYMBOL: row} for SERIES==EQ on date d, or None if no file.
+
+    Retries transient failures (NSE rate-limiting / momentary WAF blocks) with
+    backoff, re-warming cookies before each retry. A clean 404 (no file for
+    that date — holiday) is not retried."""
+    global _diag_printed
     url = BHAV_URL.format(ddmmyyyy=d.strftime("%d%m%Y"))
-    try:
-        r = session.get(url, timeout=30)
-    except requests.RequestException as e:
-        print(f"  {d:%Y-%m-%d}: fetch error ({e})")
-        return None
-    if r.status_code != 200 or "SYMBOL" not in r.text[:200]:
+    last_status = "error"
+    for attempt in range(1, retries + 1):
+        try:
+            r = session.get(url, timeout=30)
+        except requests.RequestException as e:
+            print(f"  {d:%Y-%m-%d}: fetch error ({e}), attempt {attempt}/{retries}")
+            r = None
+        else:
+            if r.status_code == 404:
+                return None
+            if r.status_code == 200 and "SYMBOL" in r.text[:200]:
+                break
+            last_status = r.status_code
+            if not _diag_printed:
+                _diag_printed = True
+                print(f"  {d:%Y-%m-%d}: diagnostic — status {r.status_code}, "
+                      f"content-type {r.headers.get('Content-Type')!r}, "
+                      f"body[:200]={r.text[:200]!r}")
+        if attempt < retries:
+            time.sleep(2 * attempt)
+            try:
+                session.get(NSE_HOME, timeout=20)     # re-warm cookies before retry
+            except requests.RequestException:
+                pass
+    else:
+        print(f"  {d:%Y-%m-%d}: giving up after {retries} attempts (last status: {last_status})")
         return None
     out = {}
     reader = csv.DictReader(io.StringIO(r.text))
