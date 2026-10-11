@@ -1,6 +1,6 @@
 # Volume Surge Scanner — NSE large-caps
 
-**Date:** 2026-10-10 · **Universe:** NSE EQ, market cap ≥ Rs 5000 cr · **Signal:** last 5-day avg volume ≥ 1.5× the prior 20-day avg · **Source:** NSE bhavcopy + screener.in
+**Date:** 2026-10-11 · **Universe:** NSE EQ, market cap ≥ Rs 5000 cr · **Signal:** last 5-day avg volume ≥ 1.5× the prior 20-day avg · **Source:** NSE bhavcopy + screener.in
 
 > Analytical research, **NOT investment advice**. A volume build-up is direction-agnostic — it can precede a breakdown as easily as a breakout. Check the chart, news and delivery quality before acting.
 
@@ -24,8 +24,8 @@ Scanned **2543** NSE EQ symbols over **25** trading days; **72** are ≥ Rs 5000
 | 12 | Nuvama Wealth Management Ltd | NUVAMA | 32556 | **3.34×** | 1,084,065 | 324,514 | 3.7% | 51.89% | 197 |
 | 13 | Black Box Ltd | BBOX | 15844 | **3.08×** | 2,478,958 | 805,504 | 12.1% | 11.39% | 219.715 |
 | 14 | Tube Investments of India Ltd | TIINDIA | 42838 | **2.95×** | 727,666 | 246,422 | -5.4% | 58.93% | 169.612 |
-| 15 | Sky Gold & Diamonds Ltd | SKYGOLD | 14264 | **2.94×** | 2,364,292 | 803,355 | 13.6% | 36.12% | 205.934 |
-| 16 | Honasa Consumer Ltd | HONASA | 15281 | **2.94×** | 5,584,069 | 1,902,476 | 9.5% | 38.23% | 265.994 |
+| 15 | Honasa Consumer Ltd | HONASA | 15281 | **2.94×** | 5,584,069 | 1,902,476 | 9.5% | 38.23% | 265.994 |
+| 16 | Sky Gold & Diamonds Ltd | SKYGOLD | 14264 | **2.94×** | 2,364,292 | 803,355 | 13.6% | 36.12% | 205.934 |
 | 17 | GMR Airports Ltd | GMRAIRPORT | 97470 | **2.89×** | 34,008,544 | 11,763,254 | -0.9% | 85.45% | 307.619 |
 | 18 | Trent Ltd | TRENT | 155608 | **2.88×** | 2,183,584 | 757,242 | 13.1% | 40.7% | 623.907 |
 | 19 | TBO Tek Ltd | TBOTEK | 18095 | **2.87×** | 505,015 | 176,158 | -0.3% | 60.98% | 86.2849 |
@@ -63,8 +63,8 @@ Scanned **2543** NSE EQ symbols over **25** trading days; **72** are ≥ Rs 5000
 | 51 | Indiabulls Limited | IBULLSLTD | 8541 | **1.72×** | 36,238,210 | 21,051,721 | 24.4% | 36.05% | 122.104 |
 | 52 | Angel One Ltd | ANGELONE | 26706 | **1.72×** | 7,320,575 | 4,248,273 | 5.5% | 25.46% | 216.257 |
 | 53 | Inox Wind Ltd | INOXWIND | 11519 | **1.7×** | 17,176,478 | 10,100,455 | -3.1% | 16.09% | 113.58 |
-| 54 | Intellect Design Arena Ltd | INTELLECT | 8204 | **1.67×** | 500,223 | 299,736 | -4.4% | 46.13% | 29.4154 |
-| 55 | Bank of India | BANKINDIA | 61215 | **1.67×** | 8,337,411 | 4,993,848 | 3.8% | 42.9% | 111.362 |
+| 54 | Bank of India | BANKINDIA | 61215 | **1.67×** | 8,337,411 | 4,993,848 | 3.8% | 42.9% | 111.362 |
+| 55 | Intellect Design Arena Ltd | INTELLECT | 8204 | **1.67×** | 500,223 | 299,736 | -4.4% | 46.13% | 29.4154 |
 | 56 | Aditya Birla Lifestyle Brands Ltd | ABLBL | 8844 | **1.67×** | 4,028,242 | 2,410,427 | -2.7% | 46.25% | 29.7674 |
 | 57 | Kalpataru Projects International Ltd | KPIL | 23770 | **1.63×** | 231,482 | 141,806 | 2.6% | 47.36% | 33.284 |
 | 58 | Radico Khaitan Ltd | RADICO | 60965 | **1.61×** | 404,508 | 251,851 | 7.4% | 45.16% | 179.552 |
@@ -74,14 +74,14 @@ Scanned **2543** NSE EQ symbols over **25** trading days; **72** are ≥ Rs 5000
 | 62 | Tilaknagar Industries Ltd | TI | 13411 | **1.58×** | 1,279,829 | 809,381 | -0.3% | 41.35% | 70.6714 |
 | 63 | Tata Communications Ltd | TATACOMM | 47230 | **1.57×** | 331,100 | 211,205 | -1.6% | 31.48% | 55.0748 |
 | 64 | Nava Ltd | NAVA | 15557 | **1.57×** | 414,668 | 263,956 | -0.6% | 50.33% | 23.319 |
-| 65 | Aditya Birla Capital Ltd | ABCAPITAL | 104231 | **1.55×** | 4,401,087 | 2,843,625 | 1.5% | 64.93% | 165.237 |
-| 66 | Jamna Auto Industries Ltd | JAMNAAUTO | 5707 | **1.55×** | 5,275,992 | 3,396,683 | 8.4% | 37.09% | 77.6912 |
+| 65 | Jamna Auto Industries Ltd | JAMNAAUTO | 5707 | **1.55×** | 5,275,992 | 3,396,683 | 8.4% | 37.09% | 77.6912 |
+| 66 | Aditya Birla Capital Ltd | ABCAPITAL | 104231 | **1.55×** | 4,401,087 | 2,843,625 | 1.5% | 64.93% | 165.237 |
 | 67 | Tata Consultancy Services Ltd | TCS | 780060 | **1.55×** | 4,996,676 | 3,231,405 | 3.9% | 30.64% | 1065.86 |
 | 68 | Prime Focus Ltd | PFOCUS | 20334 | **1.54×** | 5,011,791 | 3,264,220 | -13.4% | 10.58% | 139.652 |
 | 69 | Happy Forgings Ltd | HAPPYFORGE | 18150 | **1.53×** | 118,035 | 77,215 | -4% | 52.39% | 23.2848 |
 | 70 | Kotak Mahindra Bank Ltd | KOTAKBANK | 438702 | **1.51×** | 30,713,496 | 20,307,587 | 5.4% | 72.39% | 1334.32 |
-| 71 | TD Power Systems Ltd | TDPOWERSYS | 24900 | **1.5×** | 4,549,118 | 3,031,099 | 0.2% | 34.5% | 372.967 |
-| 72 | Universal Cables Ltd | UNIVCABLES | 5270 | **1.5×** | 171,235 | 114,226 | 4.7% | 50.58% | 26.9989 |
+| 71 | Universal Cables Ltd | UNIVCABLES | 5270 | **1.5×** | 171,235 | 114,226 | 4.7% | 50.58% | 26.9989 |
+| 72 | TD Power Systems Ltd | TDPOWERSYS | 24900 | **1.5×** | 4,549,118 | 3,031,099 | 0.2% | 34.5% | 372.967 |
 
 ## Sources
 
@@ -99,8 +99,8 @@ Scanned **2543** NSE EQ symbols over **25** trading days; **72** are ≥ Rs 5000
 - [NUVAMA](https://www.screener.in/company/NUVAMA/consolidated/)
 - [BBOX](https://www.screener.in/company/BBOX/consolidated/)
 - [TIINDIA](https://www.screener.in/company/TIINDIA/consolidated/)
-- [SKYGOLD](https://www.screener.in/company/SKYGOLD/consolidated/)
 - [HONASA](https://www.screener.in/company/HONASA/consolidated/)
+- [SKYGOLD](https://www.screener.in/company/SKYGOLD/consolidated/)
 - [GMRAIRPORT](https://www.screener.in/company/GMRAIRPORT/consolidated/)
 - [TRENT](https://www.screener.in/company/TRENT/consolidated/)
 - [TBOTEK](https://www.screener.in/company/TBOTEK/consolidated/)
@@ -138,8 +138,8 @@ Scanned **2543** NSE EQ symbols over **25** trading days; **72** are ≥ Rs 5000
 - [IBULLSLTD](https://www.screener.in/company/IBULLSLTD/consolidated/)
 - [ANGELONE](https://www.screener.in/company/ANGELONE/consolidated/)
 - [INOXWIND](https://www.screener.in/company/INOXWIND/consolidated/)
-- [INTELLECT](https://www.screener.in/company/INTELLECT/consolidated/)
 - [BANKINDIA](https://www.screener.in/company/BANKINDIA/consolidated/)
+- [INTELLECT](https://www.screener.in/company/INTELLECT/consolidated/)
 - [ABLBL](https://www.screener.in/company/ABLBL/consolidated/)
 - [KPIL](https://www.screener.in/company/KPIL/consolidated/)
 - [RADICO](https://www.screener.in/company/RADICO/consolidated/)
@@ -149,13 +149,13 @@ Scanned **2543** NSE EQ symbols over **25** trading days; **72** are ≥ Rs 5000
 - [TI](https://www.screener.in/company/TI/consolidated/)
 - [TATACOMM](https://www.screener.in/company/TATACOMM/consolidated/)
 - [NAVA](https://www.screener.in/company/NAVA/consolidated/)
-- [ABCAPITAL](https://www.screener.in/company/ABCAPITAL/consolidated/)
 - [JAMNAAUTO](https://www.screener.in/company/JAMNAAUTO/consolidated/)
+- [ABCAPITAL](https://www.screener.in/company/ABCAPITAL/consolidated/)
 - [TCS](https://www.screener.in/company/TCS/consolidated/)
 - [PFOCUS](https://www.screener.in/company/PFOCUS/consolidated/)
 - [HAPPYFORGE](https://www.screener.in/company/HAPPYFORGE/consolidated/)
 - [KOTAKBANK](https://www.screener.in/company/KOTAKBANK/consolidated/)
-- [TDPOWERSYS](https://www.screener.in/company/TDPOWERSYS/consolidated/)
 - [UNIVCABLES](https://www.screener.in/company/UNIVCABLES/consolidated/)
+- [TDPOWERSYS](https://www.screener.in/company/TDPOWERSYS/consolidated/)
 
 *Volume surge = mean(last 5d volume) ÷ mean(prior 20d volume), NSE EQ series. Liquidity floor: avg turnover ≥ Rs 20 cr/day. Not investment advice.*
