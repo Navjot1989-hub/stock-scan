@@ -1,6 +1,6 @@
 # Turnaround Hunter — 52-Week-Low Recovery Scan
 
-**Date:** 2026-10-10 · **Universe:** small/mid-caps Rs 500–75000 cr · **Near-low cut:** ≤15% above 52w low · **Source:** screener.in
+**Date:** 2026-10-11 · **Universe:** small/mid-caps Rs 500–75000 cr · **Near-low cut:** ≤15% above 52w low · **Source:** screener.in
 
 > Analytical research, **NOT investment advice**. EBITDA ≈ screener's "Operating Profit"; "improving" and "sector turnaround" are heuristics from numbers + an editable overlay. Verify concalls/filings before acting.
 
