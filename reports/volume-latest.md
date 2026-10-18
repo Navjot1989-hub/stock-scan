@@ -1,6 +1,6 @@
 # Volume Surge Scanner — NSE large-caps
 
-**Date:** 2026-10-17 · **Universe:** NSE EQ, market cap ≥ Rs 5000 cr · **Signal:** last 5-day avg volume ≥ 1.5× the prior 20-day avg · **Source:** NSE bhavcopy + screener.in
+**Date:** 2026-10-18 · **Universe:** NSE EQ, market cap ≥ Rs 5000 cr · **Signal:** last 5-day avg volume ≥ 1.5× the prior 20-day avg · **Source:** NSE bhavcopy + screener.in
 
 > Analytical research, **NOT investment advice**. A volume build-up is direction-agnostic — it can precede a breakdown as easily as a breakout. Check the chart, news and delivery quality before acting.
 
@@ -48,8 +48,8 @@ Scanned **2532** NSE EQ symbols over **25** trading days; **93** are ≥ Rs 5000
 | 36 | Sobha Ltd | SOBHA | 12708 | **2.67×** | 279,041 | 104,570 | 2.3% | 78.66% | 32.7619 |
 | 37 | Transformers & Rectifiers India Ltd | TARIL | 9878 | **2.57×** | 19,100,798 | 7,441,487 | 13.2% | 23.17% | 654.65 |
 | 38 | Jayaswal Neco Industries Ltd | JAYNECOIND | 9770 | **2.56×** | 6,979,744 | 2,722,927 | 10.1% | 24.48% | 68.9513 |
-| 39 | Cyient DLM Ltd | CYIENTDLM | 7123 | **2.51×** | 1,254,070 | 500,122 | -5.8% | 37.38% | 116.22 |
-| 40 | Tata Consultancy Services Ltd | TCS | 891859 | **2.51×** | 9,610,328 | 3,833,536 | 14.3% | 57.35% | 2234.09 |
+| 39 | Tata Consultancy Services Ltd | TCS | 891859 | **2.51×** | 9,610,328 | 3,833,536 | 14.3% | 57.35% | 2234.09 |
+| 40 | Cyient DLM Ltd | CYIENTDLM | 7123 | **2.51×** | 1,254,070 | 500,122 | -5.8% | 37.38% | 116.22 |
 | 41 | Persistent Systems Ltd | PERSISTENT | 90564 | **2.51×** | 1,101,871 | 439,667 | -0.5% | 30.37% | 638.426 |
 | 42 | Waterways Leisure Tourism Limited | CORDELIA | 7070 | **2.47×** | 3,871,633 | 1,566,087 | -3.3% | 42.38% | 40.2357 |
 | 43 | KPIT Technologies Ltd | KPITTECH | 15215 | **2.38×** | 4,140,655 | 1,736,403 | 15.9% | 22.9% | 216.536 |
@@ -64,20 +64,20 @@ Scanned **2532** NSE EQ symbols over **25** trading days; **93** are ≥ Rs 5000
 | 52 | Gujarat Ambuja Exports Ltd | GAEL | 7987 | **2.13×** | 1,413,172 | 663,037 | 6.6% | 49.57% | 24.4447 |
 | 53 | Syngene International Ltd | SYNGENE | 15586 | **2.1×** | 1,310,555 | 624,737 | 11.1% | 49.16% | 49.2658 |
 | 54 | EIH Ltd | EIHOTEL | 18902 | **2.09×** | 784,417 | 374,787 | 3.8% | 36% | 23.7893 |
-| 55 | Angel One Ltd | ANGELONE | 27438 | **2.03×** | 9,644,191 | 4,754,735 | 2.7% | 25.5% | 296.332 |
+| 55 | South Indian Bank Ltd | SOUTHBANK | 13477 | **2.03×** | 29,953,283 | 14,772,348 | 7.4% | 45.89% | 150.763 |
 | 56 | Jubilant Pharmova Ltd | JUBLPHARMA | 14952 | **2.03×** | 522,511 | 257,523 | 0.7% | 53.37% | 48.8948 |
-| 57 | South Indian Bank Ltd | SOUTHBANK | 13477 | **2.03×** | 29,953,283 | 14,772,348 | 7.4% | 45.89% | 150.763 |
+| 57 | Angel One Ltd | ANGELONE | 27438 | **2.03×** | 9,644,191 | 4,754,735 | 2.7% | 25.5% | 296.332 |
 | 58 | Sky Gold & Diamonds Ltd | SKYGOLD | 16426 | **2.0×** | 2,347,453 | 1,174,146 | 15.2% | 29.29% | 233.748 |
-| 59 | SJVN Ltd | SJVN | 21174 | **1.98×** | 5,874,329 | 2,966,515 | -2.5% | 65.54% | 32.1031 |
-| 60 | Cartrade Tech Ltd | CARTRADE | 14640 | **1.98×** | 538,457 | 271,919 | 2% | 36.79% | 167.322 |
-| 61 | L&T Technology Services Ltd | LTTS | 39407 | **1.95×** | 116,920 | 59,932 | 13.6% | 28.42% | 41.7818 |
-| 62 | Newgen Software Technologies Ltd | NEWGEN | 7039 | **1.95×** | 1,385,049 | 710,461 | 9.9% | 22.55% | 66.0376 |
+| 59 | Cartrade Tech Ltd | CARTRADE | 14640 | **1.98×** | 538,457 | 271,919 | 2% | 36.79% | 167.322 |
+| 60 | SJVN Ltd | SJVN | 21174 | **1.98×** | 5,874,329 | 2,966,515 | -2.5% | 65.54% | 32.1031 |
+| 61 | Newgen Software Technologies Ltd | NEWGEN | 7039 | **1.95×** | 1,385,049 | 710,461 | 9.9% | 22.55% | 66.0376 |
+| 62 | L&T Technology Services Ltd | LTTS | 39407 | **1.95×** | 116,920 | 59,932 | 13.6% | 28.42% | 41.7818 |
 | 63 | Polycab India Ltd | POLYCAB | 123866 | **1.9×** | 771,273 | 406,691 | -0.4% | 55.82% | 633.511 |
 | 64 | PC Jeweller Ltd | PCJEWELLER | 15967 | **1.89×** | 767,752,674 | 406,364,107 | 9.9% | 23.39% | 1182.25 |
-| 65 | JSW Energy Ltd | JSWENERGY | 88484 | **1.86×** | 3,210,200 | 1,722,650 | 4.4% | 49.63% | 153.289 |
-| 66 | Aarti Industries Ltd | AARTIIND | 18246 | **1.86×** | 995,458 | 536,268 | 9.3% | 66.62% | 49.006 |
-| 67 | Le Travenues Technology Ltd | IXIGO | 6372 | **1.86×** | 2,306,436 | 1,237,433 | -4.2% | 41.49% | 32.8712 |
-| 68 | JK Paper Ltd | JKPAPER | 7182 | **1.86×** | 741,501 | 397,802 | 8.4% | 34.31% | 29.1692 |
+| 65 | JK Paper Ltd | JKPAPER | 7182 | **1.86×** | 741,501 | 397,802 | 8.4% | 34.31% | 29.1692 |
+| 66 | Le Travenues Technology Ltd | IXIGO | 6372 | **1.86×** | 2,306,436 | 1,237,433 | -4.2% | 41.49% | 32.8712 |
+| 67 | JSW Energy Ltd | JSWENERGY | 88484 | **1.86×** | 3,210,200 | 1,722,650 | 4.4% | 49.63% | 153.289 |
+| 68 | Aarti Industries Ltd | AARTIIND | 18246 | **1.86×** | 995,458 | 536,268 | 9.3% | 66.62% | 49.006 |
 | 69 | Union Bank of India | UNIONBANK | 131054 | **1.84×** | 15,237,493 | 8,270,884 | -0.8% | 56.57% | 262.195 |
 | 70 | Happiest Minds Technologies Ltd | HAPPSTMNDS | 5115 | **1.82×** | 1,140,018 | 626,960 | 9.7% | 40.96% | 37.4084 |
 | 71 | Mangalore Refinery And Petrochemicals Ltd | MRPL | 30269 | **1.81×** | 20,116,834 | 11,143,786 | 0.3% | 23.73% | 356.554 |
@@ -87,13 +87,13 @@ Scanned **2532** NSE EQ symbols over **25** trading days; **93** are ≥ Rs 5000
 | 75 | Rain Industries Ltd | RAIN | 7687 | **1.77×** | 6,163,177 | 3,479,640 | 6.1% | 32.76% | 139.936 |
 | 76 | Infosys Ltd | INFY | 471247 | **1.75×** | 18,780,579 | 10,734,189 | 13.5% | 54.79% | 2054.01 |
 | 77 | Neogen Chemicals Ltd | NEOGEN | 7465 | **1.74×** | 359,038 | 206,257 | 4.5% | 32.13% | 93.4127 |
-| 78 | Prime Focus Ltd | PFOCUS | 22608 | **1.73×** | 7,343,976 | 4,236,599 | 11.2% | 6.74% | 209.703 |
-| 79 | Aditya Infotech Ltd | CPPLUS | 49831 | **1.73×** | 543,721 | 314,584 | -2.9% | 43.34% | 230.845 |
+| 78 | Aditya Infotech Ltd | CPPLUS | 49831 | **1.73×** | 543,721 | 314,584 | -2.9% | 43.34% | 230.845 |
+| 79 | Prime Focus Ltd | PFOCUS | 22608 | **1.73×** | 7,343,976 | 4,236,599 | 11.2% | 6.74% | 209.703 |
 | 80 | Emmvee Photovoltaic Power Ltd | EMMVEE | 19192 | **1.7×** | 4,287,460 | 2,527,709 | -7.6% | 29.77% | 122.947 |
 | 81 | Torrent Power Ltd | TORNTPOWER | 61794 | **1.67×** | 365,718 | 219,175 | 3.2% | 44.63% | 44.3796 |
-| 82 | ICICI Prudential Life Insurance Company Ltd | ICICIPRULI | 64580 | **1.66×** | 2,606,035 | 1,572,876 | -3.4% | 74.07% | 117.045 |
-| 83 | Avenue Supermarts Ltd | DMART | 218002 | **1.66×** | 1,062,304 | 639,763 | -5% | 43.16% | 359.302 |
-| 84 | Bharti Airtel Ltd | BHARTIARTL | 1.18903e+06 | **1.66×** | 10,549,485 | 6,336,955 | 5.5% | 80.63% | 1955.08 |
+| 82 | Avenue Supermarts Ltd | DMART | 218002 | **1.66×** | 1,062,304 | 639,763 | -5% | 43.16% | 359.302 |
+| 83 | Bharti Airtel Ltd | BHARTIARTL | 1.18903e+06 | **1.66×** | 10,549,485 | 6,336,955 | 5.5% | 80.63% | 1955.08 |
+| 84 | ICICI Prudential Life Insurance Company Ltd | ICICIPRULI | 64580 | **1.66×** | 2,606,035 | 1,572,876 | -3.4% | 74.07% | 117.045 |
 | 85 | Adani Ports & Special Economic Zone Ltd | ADANIPORTS | 403377 | **1.64×** | 3,930,581 | 2,402,722 | -0.6% | 56.14% | 688.372 |
 | 86 | Paradeep Phosphates Ltd | PARADEEP | 15283 | **1.63×** | 2,840,239 | 1,737,335 | 0.3% | 41.02% | 40.7109 |
 | 87 | Jindal Saw Ltd | JINDALSAW | 19284 | **1.62×** | 2,347,279 | 1,450,430 | 11.9% | 36.91% | 69.2685 |
@@ -101,8 +101,8 @@ Scanned **2532** NSE EQ symbols over **25** trading days; **93** are ≥ Rs 5000
 | 89 | CG Power & Industrial Solutions Ltd | CGPOWER | 133285 | **1.57×** | 3,696,973 | 2,360,048 | -1.1% | 50.82% | 309.949 |
 | 90 | Aegis Logistics Ltd | AEGISLOG | 47971 | **1.53×** | 1,531,473 | 1,001,094 | -1.6% | 32.03% | 221.487 |
 | 91 | Brigade Enterprises Ltd | BRIGADE | 18765 | **1.51×** | 426,365 | 282,191 | 4.8% | 35.11% | 24.9364 |
-| 92 | Hindustan Unilever Ltd | HINDUNILVR | 444966 | **1.5×** | 1,969,814 | 1,312,391 | 2% | 62.88% | 369.807 |
-| 93 | Waaree Energies Ltd | WAAREEENER | 73794 | **1.5×** | 950,509 | 631,598 | 10.4% | 68.66% | 235.321 |
+| 92 | Waaree Energies Ltd | WAAREEENER | 73794 | **1.5×** | 950,509 | 631,598 | 10.4% | 68.66% | 235.321 |
+| 93 | Hindustan Unilever Ltd | HINDUNILVR | 444966 | **1.5×** | 1,969,814 | 1,312,391 | 2% | 62.88% | 369.807 |
 
 ## Sources
 
@@ -144,8 +144,8 @@ Scanned **2532** NSE EQ symbols over **25** trading days; **93** are ≥ Rs 5000
 - [SOBHA](https://www.screener.in/company/SOBHA/consolidated/)
 - [TARIL](https://www.screener.in/company/TARIL/consolidated/)
 - [JAYNECOIND](https://www.screener.in/company/JAYNECOIND/consolidated/)
-- [CYIENTDLM](https://www.screener.in/company/CYIENTDLM/consolidated/)
 - [TCS](https://www.screener.in/company/TCS/consolidated/)
+- [CYIENTDLM](https://www.screener.in/company/CYIENTDLM/consolidated/)
 - [PERSISTENT](https://www.screener.in/company/PERSISTENT/consolidated/)
 - [CORDELIA](https://www.screener.in/company/CORDELIA/consolidated/)
 - [KPITTECH](https://www.screener.in/company/KPITTECH/consolidated/)
@@ -160,20 +160,20 @@ Scanned **2532** NSE EQ symbols over **25** trading days; **93** are ≥ Rs 5000
 - [GAEL](https://www.screener.in/company/GAEL/consolidated/)
 - [SYNGENE](https://www.screener.in/company/SYNGENE/consolidated/)
 - [EIHOTEL](https://www.screener.in/company/EIHOTEL/consolidated/)
-- [ANGELONE](https://www.screener.in/company/ANGELONE/consolidated/)
-- [JUBLPHARMA](https://www.screener.in/company/JUBLPHARMA/consolidated/)
 - [SOUTHBANK](https://www.screener.in/company/SOUTHBANK/consolidated/)
+- [JUBLPHARMA](https://www.screener.in/company/JUBLPHARMA/consolidated/)
+- [ANGELONE](https://www.screener.in/company/ANGELONE/consolidated/)
 - [SKYGOLD](https://www.screener.in/company/SKYGOLD/consolidated/)
-- [SJVN](https://www.screener.in/company/SJVN/consolidated/)
 - [CARTRADE](https://www.screener.in/company/CARTRADE/consolidated/)
-- [LTTS](https://www.screener.in/company/LTTS/consolidated/)
+- [SJVN](https://www.screener.in/company/SJVN/consolidated/)
 - [NEWGEN](https://www.screener.in/company/NEWGEN/consolidated/)
+- [LTTS](https://www.screener.in/company/LTTS/consolidated/)
 - [POLYCAB](https://www.screener.in/company/POLYCAB/consolidated/)
 - [PCJEWELLER](https://www.screener.in/company/PCJEWELLER/consolidated/)
+- [JKPAPER](https://www.screener.in/company/JKPAPER/consolidated/)
+- [IXIGO](https://www.screener.in/company/IXIGO/consolidated/)
 - [JSWENERGY](https://www.screener.in/company/JSWENERGY/consolidated/)
 - [AARTIIND](https://www.screener.in/company/AARTIIND/consolidated/)
-- [IXIGO](https://www.screener.in/company/IXIGO/consolidated/)
-- [JKPAPER](https://www.screener.in/company/JKPAPER/consolidated/)
 - [UNIONBANK](https://www.screener.in/company/UNIONBANK/consolidated/)
 - [HAPPSTMNDS](https://www.screener.in/company/HAPPSTMNDS/consolidated/)
 - [MRPL](https://www.screener.in/company/MRPL/consolidated/)
@@ -183,13 +183,13 @@ Scanned **2532** NSE EQ symbols over **25** trading days; **93** are ≥ Rs 5000
 - [RAIN](https://www.screener.in/company/RAIN/consolidated/)
 - [INFY](https://www.screener.in/company/INFY/consolidated/)
 - [NEOGEN](https://www.screener.in/company/NEOGEN/consolidated/)
-- [PFOCUS](https://www.screener.in/company/PFOCUS/consolidated/)
 - [CPPLUS](https://www.screener.in/company/CPPLUS/consolidated/)
+- [PFOCUS](https://www.screener.in/company/PFOCUS/consolidated/)
 - [EMMVEE](https://www.screener.in/company/EMMVEE/consolidated/)
 - [TORNTPOWER](https://www.screener.in/company/TORNTPOWER/consolidated/)
-- [ICICIPRULI](https://www.screener.in/company/ICICIPRULI/consolidated/)
 - [DMART](https://www.screener.in/company/DMART/consolidated/)
 - [BHARTIARTL](https://www.screener.in/company/BHARTIARTL/consolidated/)
+- [ICICIPRULI](https://www.screener.in/company/ICICIPRULI/consolidated/)
 - [ADANIPORTS](https://www.screener.in/company/ADANIPORTS/consolidated/)
 - [PARADEEP](https://www.screener.in/company/PARADEEP/consolidated/)
 - [JINDALSAW](https://www.screener.in/company/JINDALSAW/consolidated/)
@@ -197,7 +197,7 @@ Scanned **2532** NSE EQ symbols over **25** trading days; **93** are ≥ Rs 5000
 - [CGPOWER](https://www.screener.in/company/CGPOWER/consolidated/)
 - [AEGISLOG](https://www.screener.in/company/AEGISLOG/consolidated/)
 - [BRIGADE](https://www.screener.in/company/BRIGADE/consolidated/)
-- [HINDUNILVR](https://www.screener.in/company/HINDUNILVR/consolidated/)
 - [WAAREEENER](https://www.screener.in/company/WAAREEENER/consolidated/)
+- [HINDUNILVR](https://www.screener.in/company/HINDUNILVR/consolidated/)
 
 *Volume surge = mean(last 5d volume) ÷ mean(prior 20d volume), NSE EQ series. Liquidity floor: avg turnover ≥ Rs 20 cr/day. Not investment advice.*
