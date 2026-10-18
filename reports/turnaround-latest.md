@@ -1,6 +1,6 @@
 # Turnaround Hunter — 52-Week-Low Recovery Scan
 
-**Date:** 2026-10-17 · **Universe:** small/mid-caps Rs 500–75000 cr · **Near-low cut:** ≤15% above 52w low · **Source:** screener.in
+**Date:** 2026-10-18 · **Universe:** small/mid-caps Rs 500–75000 cr · **Near-low cut:** ≤15% above 52w low · **Source:** screener.in
 
 > Analytical research, **NOT investment advice**. EBITDA ≈ screener's "Operating Profit"; "improving" and "sector turnaround" are heuristics from numbers + an editable overlay. Verify concalls/filings before acting.
 
@@ -11,7 +11,7 @@ Screened **500** names from `universe.txt`; **84** cleared the turnaround filter
 | # | Company | Ticker | Mcap (cr) | % above 52w low | EBITDA YoY | Recovery×trough | Score | Verdict |
 |---|---|---|---|---|---|---|---|---|
 | 1 | Sobha Ltd | SOBHA | 12708 | 5.1% | 225% | 2× | **85.0** | Strong turnaround setup |
-| 2 | India Cements Ltd | INDIACEM | 9368 | 4.9% | 88% | 1.97× | **84.3** | Strong turnaround setup |
+| 2 | India Cements Ltd | INDIACEM | 9368 | 4.9% | 77.8% | 1.82× | **84.3** | Strong turnaround setup |
 | 3 | NHPC Ltd | NHPC | 71762 | 3.9% | 30.5% | 11.09× | **83.8** | Strong turnaround setup |
 | 4 | Voltas Ltd | VOLTAS | 34051 | 1.7% | 49% | 6.71× | **82.9** | Strong turnaround setup |
 | 5 | NBCC (India) Ltd | NBCC | 20388 | 2.2% | 40.9% | 1.49× | **79.3** | Strong turnaround setup |
@@ -106,9 +106,9 @@ Screened **500** names from `universe.txt`; **84** cleared the turnaround filter
 
 ### India Cements Ltd (INDIACEM) — score 84.3
 - Price 302 · 52w low 288 / high 490 · **4.9% above low**
-- Operating profit (last quarters): -2 → 83 → 81 → 79 → 153 → 156
-- OPM % (last quarters): -0.2 → 8 → 7 → 7 → 12 → 15 · YoY Δ 7pp
-- EBITDA YoY 88% · QoQ 2% · recovery from 4q trough 1.97×
+- Operating profit (last quarters): 83 → 81 → 79 → 153 → 156 → 144
+- OPM % (last quarters): 8 → 7 → 7 → 12 → 15 → 13 · YoY Δ 6pp
+- EBITDA YoY 77.8% · QoQ -7.7% · recovery from 4q trough 1.82×
 - [screener.in](https://www.screener.in/company/INDIACEM/consolidated/)
 
 ### NHPC Ltd (NHPC) — score 83.8
