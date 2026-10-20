@@ -1,6 +1,6 @@
 # Turnaround Hunter — 52-Week-Low Recovery Scan
 
-**Date:** 2026-10-19 · **Universe:** small/mid-caps Rs 500–75000 cr · **Near-low cut:** ≤15% above 52w low · **Source:** screener.in
+**Date:** 2026-10-20 · **Universe:** small/mid-caps Rs 500–75000 cr · **Near-low cut:** ≤15% above 52w low · **Source:** screener.in
 
 > Analytical research, **NOT investment advice**. EBITDA ≈ screener's "Operating Profit"; "improving" and "sector turnaround" are heuristics from numbers + an editable overlay. Verify concalls/filings before acting.
 
@@ -10,139 +10,132 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 
 | # | Company | Ticker | Mcap (cr) | % above 52w low | EBITDA YoY | Recovery×trough | Score | Verdict |
 |---|---|---|---|---|---|---|---|---|
-| 1 | NHPC Ltd | NHPC | 70476 | 2.9% | 30.5% | 11.09× | **88.3** | Strong turnaround setup |
-| 2 | Sobha Ltd | SOBHA | 12575 | 4.1% | 225% | 2× | **85.0** | Strong turnaround setup |
-| 3 | India Cements Ltd | INDIACEM | 9148 | 3.1% | 77.8% | 1.82× | **84.3** | Strong turnaround setup |
-| 4 | Voltas Ltd | VOLTAS | 33625 | 0.5% | 49% | 6.71× | **82.9** | Strong turnaround setup |
-| 5 | Atul Ltd | ATUL | 17904 | 9.2% | 66.9% | 1.6× | **79.8** | Strong turnaround setup |
-| 6 | NBCC (India) Ltd | NBCC | 19918 | 0.4% | 40.9% | 1.49× | **79.3** | Strong turnaround setup |
-| 7 | NTPC Green Energy Ltd | NTPCGREEN | 73966 | 4.5% | 63.7% | 1.87× | **78.9** | Strong turnaround setup |
-| 8 | Oil India Ltd | OIL | 72757 | 13.4% | 146.4% | 2.53× | **78.7** | Strong turnaround setup |
-| 9 | NLC India Ltd | NLCINDIA | 33910 | 6.5% | 57.3% | 1.09× | **78.6** | Strong turnaround setup |
-| 10 | Chambal Fertilisers & Chemicals Ltd | CHAMBLFERT | 15323 | 3% | 8.5% | 3.24× | **77.7** | Strong turnaround setup |
-| 11 | SRF Ltd | SRF | 71978 | 4.7% | 49% | 1.6× | **77.7** | Strong turnaround setup |
-| 12 | Blue Dart Express Ltd | BLUEDART | 10417 | 1.1% | 33.2% | 1.18× | **76.4** | Strong turnaround setup |
-| 13 | AWL Agri Business Ltd | AWL | 23485 | 5.8% | 89.3% | 1.32× | **76.0** | Strong turnaround setup |
-| 14 | Rail Vikas Nigam Ltd | RVNL | 40554 | 3.7% | 249.1% | 1× | **75.9** | Strong turnaround setup |
-| 15 | Gujarat Mineral Development Corporation Ltd | GMDCLTD | 14591 | 0.7% | 13% | 2.77× | **75.3** | Strong turnaround setup |
-| 16 | Dabur India Ltd | DABUR | 66855 | 2.7% | 11.1% | 1.61× | **75.0** | Strong turnaround setup |
-| 17 | Timken India Ltd | TIMKEN | 21521 | 2.8% | 21.1% | 1.76× | **75.0** | Strong turnaround setup |
-| 18 | Trident Ltd | TRIDENT | 11165 | 1.4% | 2.7% | 2.21× | **75.0** | Strong turnaround setup |
-| 19 | Balkrishna Industries Ltd | BALKRISIND | 40101 | 5.6% | 47% | 1.46× | **74.8** | Strong turnaround setup |
-| 20 | Jaiprakash Power Ventures Ltd | JPPOWER | 10225 | 13.7% | 26.3% | 6.27× | **74.8** | Strong turnaround setup |
-| 21 | PB Fintech Ltd | POLICYBZR | 47805 | 9.3% | 302.9% | 1.4× | **74.2** | Strong turnaround setup |
-| 22 | Sarda Energy & Minerals Ltd | SARDAEN | 16997 | 6.4% | 5.8% | 2.1× | **73.2** | Strong turnaround setup |
-| 23 | IRB Infrastructure Developers Ltd | IRB | 21016 | 3.6% | 21.1% | 1.25× | **73.0** | Strong turnaround setup |
-| 24 | Vishal Mega Mart Ltd | VMM | 44154 | 0.1% | 18.7% | 1.38× | **72.1** | Strong turnaround setup |
-| 25 | Indian Energy Exchange Ltd | IEX | 9363 | 1.9% | 13.9% | 1.07× | **72.0** | Strong turnaround setup |
-| 26 | Railtel Corporation of India Ltd | RAILTEL | 8049 | 2.4% | 15% | 1.55× | **72.0** | Strong turnaround setup |
-| 27 | Aditya Birla Lifestyle Brands Ltd | ABLBL | 8800 | 1.4% | 17.1% | 1× | **69.3** | Watch |
-| 28 | Biocon Ltd | BIOCON | 55364 | 0.6% | 10.6% | 1.02× | **69.3** | Watch |
-| 29 | The Bombay Burmah Trading Corporation Ltd | BBTC | 8572 | 2.1% | 12.4% | 1× | **69.3** | Watch |
-| 30 | CIE Automotive India Ltd | CIEINDIA | 14071 | 1.1% | 15.7% | 1.16× | **69.3** | Watch |
-| 31 | Indiamart Intermesh Ltd | INDIAMART | 9603 | 2% | 10.9% | 1.14× | **69.3** | Watch |
-| 32 | Jubilant Foodworks Ltd | JUBLFOOD | 27269 | 1.5% | 15.1% | 1.06× | **69.3** | Watch |
-| 33 | Schaeffler India Ltd | SCHAEFFLER | 56255 | 2.4% | 16% | 1.09× | **69.3** | Watch |
-| 34 | Crompton Greaves Consumer Electricals Ltd | CROMPTON | 13451 | 4% | 29.7% | 1.05× | **69.2** | Watch |
-| 35 | Anupam Rasayan India Ltd | ANURAS | 12523 | 5% | 30.6% | 1.28× | **69.1** | Watch |
-| 36 | Brainbees Solutions Ltd | FIRSTCRY | 9084 | 7.4% | 81.8% | 1× | **68.7** | Watch |
-| 37 | RHI Magnesita India Ltd | RHIM | 7513 | 12.4% | 35.3% | 1.59× | **68.7** | Watch |
-| 38 | Aditya Birla Fashion & Retail Ltd | ABFRL | 5275 | 0.5% | 4.7% | 1.79× | **68.6** | Watch |
-| 39 | Godawari Power & Ispat Ltd | GPIL | 13969 | 1.5% | 3.1% | 1.53× | **68.6** | Watch |
-| 40 | 3M India Ltd | 3MINDIA | 33870 | 4.6% | 18.5% | 1.15× | **67.5** | Watch |
-| 41 | Patanjali Foods Ltd | PATANJALI | 39694 | 11.3% | 69.2% | 1.25× | **67.0** | Watch |
-| 42 | Jupiter Wagons Ltd | JWL | 8410 | 0.5% | 10.2% | 1× | **66.2** | Watch |
-| 43 | SJVN Ltd | SJVN | 20008 | 0.2% | 20.2% | 1.1× | **66.2** | Watch |
-| 44 | Sumitomo Chemical India Ltd | SUMICHEM | 19567 | 8% | 6.4% | 2.35× | **66.0** | Watch |
-| 45 | International Gemological Institute Limited | IGIL | 13935 | 12.2% | 28.7% | 1.27× | **65.8** | Watch |
-| 46 | Alkem Laboratories Ltd | ALKEM | 59723 | 0.4% | 3.7% | 1.48× | **65.7** | Watch |
-| 47 | BLS International Services Ltd | BLS | 9079 | 3.8% | 23.5% | 1.27× | **64.6** | Watch |
-| 48 | Kaynes Technology India Ltd | KAYNES | 22031 | 9.4% | 31% | 1.24× | **64.6** | Watch |
-| 49 | Bata India Ltd | BATAINDIA | 8183 | 6.2% | 2.5% | 1.41× | **64.3** | Watch |
-| 50 | Torrent Power Ltd | TORNTPOWER | 60870 | 3.9% | 3.7% | 1.34× | **64.3** | Watch |
-| 51 | NCC Ltd | NCC | 8018 | 7.6% | 19.5% | 1.39× | **63.1** | Watch |
-| 52 | Tata Teleservices (Maharashtra) Ltd | TTML | 6424 | 9.3% | 23.8% | 1.41× | **63.1** | Watch |
-| 53 | Bikaji Foods International Ltd | BIKAJI | 11718 | 1.5% | 3.1% | 1.12× | **62.8** | Watch |
-| 54 | ERIS Lifesciences Ltd | ERIS | 15615 | 1% | 6.9% | 1.09× | **62.8** | Watch |
-| 55 | Fortis Healthcare Ltd | FORTIS | 55497 | 0.5% | 9.4% | 1.06× | **62.8** | Watch |
-| 56 | Tenneco Clean Air India Ltd | TENNIND | 18168 | 2.7% | 7.9% | 1.14× | **62.8** | Watch |
-| 57 | Tube Investments of India Ltd | TIINDIA | 41954 | 1.6% | 0.4% | 1.01× | **62.8** | Watch |
-| 58 | Escorts Kubota Ltd | ESCORTS | 30257 | 6.1% | 10.3% | 1× | **61.7** | Watch |
-| 59 | Jain Resource Recycling Ltd | JAINREC | 9835 | 5.2% | 20% | 1× | **61.7** | Watch |
-| 60 | Latent View Analytics Ltd | LATENTVIEW | 4970 | 5.3% | 14% | 1.02× | **61.7** | Watch |
-| 61 | Intellect Design Arena Ltd | INTELLECT | 8908 | 12.4% | 16.9% | 1.66× | **61.5** | Watch |
-| 62 | Tata Investment Corporation Ltd | TATAINVEST | 30640 | 12.2% | 4.5% | 4.67× | **61.5** | Watch |
-| 63 | Container Corporation Of India Ltd | CONCOR | 33600 | 5% | 2.5% | 1.04× | **61.4** | Watch |
-| 64 | ZF Commercial Vehicle Control System India Ltd | ZFCVINDIA | 24408 | 4.7% | 4.5% | 1.03× | **61.4** | Watch |
-| 65 | CESC Ltd | CESC | 17716 | 4.7% | 3.6% | 1.2× | **61.2** | Watch |
-| 66 | Emami Ltd | EMAMILTD | 16338 | 3.9% | 6.1% | 1.27× | **61.2** | Watch |
-| 67 | Astral Ltd | ASTRAL | 38064 | 8.5% | 24.9% | 1× | **60.3** | Watch |
-| 68 | JBM Auto Ltd | JBMA | 12542 | 11.1% | 29.2% | 1.03× | **60.2** | Watch |
-| 69 | Narayana Hrudayalaya Ltd | NH | 35579 | 11.3% | 38.9% | 1.28× | **60.1** | Watch |
-| 70 | C.E. Info Systems Ltd | MAPMYINDIA | 4810 | 10.4% | 1.9% | 2.2× | **58.5** | Watch |
-| 71 | Computer Age Management Services Ltd | CAMS | 17055 | 12.3% | 18.2% | 1.08× | **58.5** | Watch |
-| 72 | Linde India Ltd | LINDEINDIA | 51088 | 6.2% | 2% | 1.16× | **58.3** | Watch |
-| 73 | Amara Raja Energy & Mobility Ltd | ARE&M | 13439 | 9.6% | 11.5% | 1.09× | **57.2** | Watch |
-| 74 | Waaree Energies Ltd | WAAREEENER | 72290 | 10.1% | 44.4% | 1.02× | **57.2** | Watch |
-| 75 | DCM Shriram Ltd | DCMSHRIRAM | 15589 | 12.8% | 10.9% | 1.09× | **55.8** | Watch |
-| 76 | Force Motors Ltd | FORCEMOT | 23321 | 9.8% | 1.5% | 1× | **53.8** | Early / unproven |
-| 77 | Techno Electric & Engineering Company Ltd | TECHNOE | 10944 | 8.2% | 8.7% | 1× | **53.8** | Early / unproven |
-| 78 | Uno Minda Ltd | UNOMINDA | 62675 | 9.5% | 5.3% | 1.04× | **53.8** | Early / unproven |
-| 79 | Endurance Technologies Ltd | ENDURANCE | 33267 | 10.4% | 20.7% | 1.12× | **52.7** | Early / unproven |
-| 80 | AIA Engineering Ltd | AIAENG | 34219 | 13.9% | 0.7% | 1.06× | **49.3** | Early / unproven |
+| 1 | India Cements Ltd | INDIACEM | 9122 | 2.8% | 77.8% | 1.82× | **88.8** | Strong turnaround setup |
+| 2 | NHPC Ltd | NHPC | 71018 | 2.9% | 30.5% | 11.09× | **88.3** | Strong turnaround setup |
+| 3 | Voltas Ltd | VOLTAS | 33737 | 0.8% | 49% | 6.71× | **82.9** | Strong turnaround setup |
+| 4 | Atul Ltd | ATUL | 17906 | 9.4% | 66.9% | 1.6× | **79.8** | Strong turnaround setup |
+| 5 | NBCC (India) Ltd | NBCC | 19899 | 0.3% | 40.9% | 1.49× | **79.3** | Strong turnaround setup |
+| 6 | NTPC Green Energy Ltd | NTPCGREEN | 73882 | 4.4% | 63.7% | 1.87× | **78.9** | Strong turnaround setup |
+| 7 | Oil India Ltd | OIL | 73035 | 13.4% | 146.4% | 2.53× | **78.7** | Strong turnaround setup |
+| 8 | NLC India Ltd | NLCINDIA | 33882 | 6.1% | 57.3% | 1.09× | **78.6** | Strong turnaround setup |
+| 9 | SRF Ltd | SRF | 72091 | 5.1% | 49% | 1.6× | **77.7** | Strong turnaround setup |
+| 10 | Blue Dart Express Ltd | BLUEDART | 10394 | 0.8% | 33.2% | 1.18× | **76.4** | Strong turnaround setup |
+| 11 | AWL Agri Business Ltd | AWL | 23475 | 5.8% | 89.3% | 1.32× | **76.0** | Strong turnaround setup |
+| 12 | Rail Vikas Nigam Ltd | RVNL | 40554 | 3.7% | 249.1% | 1× | **75.9** | Strong turnaround setup |
+| 13 | Gujarat Mineral Development Corporation Ltd | GMDCLTD | 14588 | 0.7% | 13% | 2.77× | **75.3** | Strong turnaround setup |
+| 14 | Dabur India Ltd | DABUR | 67144 | 2.7% | 11.1% | 1.61× | **75.0** | Strong turnaround setup |
+| 15 | Timken India Ltd | TIMKEN | 21519 | 2.8% | 21.1% | 1.76× | **75.0** | Strong turnaround setup |
+| 16 | Trident Ltd | TRIDENT | 11170 | 1.4% | 2.7% | 2.21× | **75.0** | Strong turnaround setup |
+| 17 | Balkrishna Industries Ltd | BALKRISIND | 40040 | 5.4% | 47% | 1.46× | **74.8** | Strong turnaround setup |
+| 18 | Jaiprakash Power Ventures Ltd | JPPOWER | 10219 | 13.7% | 39.5% | 5.43× | **74.8** | Strong turnaround setup |
+| 19 | PB Fintech Ltd | POLICYBZR | 47895 | 9.5% | 302.9% | 1.4× | **74.2** | Strong turnaround setup |
+| 20 | Chambal Fertilisers & Chemicals Ltd | CHAMBLFERT | 15343 | 3.2% | 8.5% | 3.24× | **73.2** | Strong turnaround setup |
+| 21 | Sarda Energy & Minerals Ltd | SARDAEN | 16950 | 6.2% | 5.8% | 2.1× | **73.2** | Strong turnaround setup |
+| 22 | IRB Infrastructure Developers Ltd | IRB | 20979 | 3.6% | 21.1% | 1.25× | **73.0** | Strong turnaround setup |
+| 23 | Vishal Mega Mart Ltd | VMM | 44243 | 0.4% | 18.7% | 1.38× | **72.1** | Strong turnaround setup |
+| 24 | Indian Energy Exchange Ltd | IEX | 9345 | 1.9% | 13.9% | 1.07× | **72.0** | Strong turnaround setup |
+| 25 | Railtel Corporation of India Ltd | RAILTEL | 8040 | 2% | 15% | 1.55× | **72.0** | Strong turnaround setup |
+| 26 | Aditya Birla Lifestyle Brands Ltd | ABLBL | 8812 | 1.5% | 17.1% | 1× | **69.3** | Watch |
+| 27 | Biocon Ltd | BIOCON | 55410 | 0.6% | 10.6% | 1.02× | **69.3** | Watch |
+| 28 | The Bombay Burmah Trading Corporation Ltd | BBTC | 8599 | 2.2% | 12.4% | 1× | **69.3** | Watch |
+| 29 | CIE Automotive India Ltd | CIEINDIA | 14090 | 1.1% | 15.7% | 1.16× | **69.3** | Watch |
+| 30 | Indiamart Intermesh Ltd | INDIAMART | 9598 | 2% | 10.9% | 1.14× | **69.3** | Watch |
+| 31 | Jubilant Foodworks Ltd | JUBLFOOD | 27285 | 1.5% | 15.1% | 1.06× | **69.3** | Watch |
+| 32 | Schaeffler India Ltd | SCHAEFFLER | 56635 | 3% | 16% | 1.09× | **69.3** | Watch |
+| 33 | Crompton Greaves Consumer Electricals Ltd | CROMPTON | 13422 | 3.5% | 29.7% | 1.05× | **69.2** | Watch |
+| 34 | Anupam Rasayan India Ltd | ANURAS | 12634 | 5.4% | 30.6% | 1.28× | **69.1** | Watch |
+| 35 | Brainbees Solutions Ltd | FIRSTCRY | 9094 | 7.4% | 81.8% | 1× | **68.7** | Watch |
+| 36 | RHI Magnesita India Ltd | RHIM | 7463 | 11.8% | 35.3% | 1.59× | **68.7** | Watch |
+| 37 | Aditya Birla Fashion & Retail Ltd | ABFRL | 5266 | 0.7% | 4.7% | 1.79× | **68.6** | Watch |
+| 38 | Godawari Power & Ispat Ltd | GPIL | 13956 | 1.5% | 3.1% | 1.53× | **68.6** | Watch |
+| 39 | 3M India Ltd | 3MINDIA | 33940 | 4.8% | 18.5% | 1.15× | **67.5** | Watch |
+| 40 | Patanjali Foods Ltd | PATANJALI | 39694 | 11.3% | 69.2% | 1.25× | **67.0** | Watch |
+| 41 | Jupiter Wagons Ltd | JWL | 8408 | 0.5% | 10.2% | 1× | **66.2** | Watch |
+| 42 | SJVN Ltd | SJVN | 20085 | 0.2% | 20.2% | 1.1× | **66.2** | Watch |
+| 43 | Sumitomo Chemical India Ltd | SUMICHEM | 19584 | 8% | 6.4% | 2.35× | **66.0** | Watch |
+| 44 | International Gemological Institute Limited | IGIL | 13913 | 12.2% | 28.7% | 1.27× | **65.8** | Watch |
+| 45 | Alkem Laboratories Ltd | ALKEM | 59830 | 0.6% | 3.7% | 1.48× | **65.7** | Watch |
+| 46 | BLS International Services Ltd | BLS | 9101 | 4.2% | 23.5% | 1.27× | **64.6** | Watch |
+| 47 | Kaynes Technology India Ltd | KAYNES | 21847 | 8.5% | 31% | 1.24× | **64.6** | Watch |
+| 48 | Bata India Ltd | BATAINDIA | 8169 | 6% | 2.5% | 1.41× | **64.3** | Watch |
+| 49 | Torrent Power Ltd | TORNTPOWER | 60972 | 3.9% | 3.7% | 1.34× | **64.3** | Watch |
+| 50 | NCC Ltd | NCC | 8024 | 7.6% | 19.5% | 1.39× | **63.1** | Watch |
+| 51 | Tata Teleservices (Maharashtra) Ltd | TTML | 6426 | 9.3% | 23.8% | 1.41× | **63.1** | Watch |
+| 52 | C.E. Info Systems Ltd | MAPMYINDIA | 4790 | 9.9% | 1.9% | 2.2× | **63.0** | Watch |
+| 53 | Bikaji Foods International Ltd | BIKAJI | 11694 | 1.3% | 3.1% | 1.12× | **62.8** | Watch |
+| 54 | ERIS Lifesciences Ltd | ERIS | 15544 | 0.8% | 6.9% | 1.09× | **62.8** | Watch |
+| 55 | Fortis Healthcare Ltd | FORTIS | 55701 | 0.8% | 9.4% | 1.06× | **62.8** | Watch |
+| 56 | Tenneco Clean Air India Ltd | TENNIND | 18160 | 2.7% | 7.9% | 1.14× | **62.8** | Watch |
+| 57 | Tube Investments of India Ltd | TIINDIA | 42005 | 1.6% | 0.4% | 1.01× | **62.8** | Watch |
+| 58 | Escorts Kubota Ltd | ESCORTS | 30283 | 6.2% | 10.3% | 1× | **61.7** | Watch |
+| 59 | Jain Resource Recycling Ltd | JAINREC | 9857 | 5.5% | 20% | 1× | **61.7** | Watch |
+| 60 | Latent View Analytics Ltd | LATENTVIEW | 4964 | 5.3% | 14% | 1.02× | **61.7** | Watch |
+| 61 | Intellect Design Arena Ltd | INTELLECT | 8997 | 13.5% | 16.9% | 1.66× | **61.5** | Watch |
+| 62 | Tata Investment Corporation Ltd | TATAINVEST | 30585 | 12.1% | 4.5% | 4.67× | **61.5** | Watch |
+| 63 | Container Corporation Of India Ltd | CONCOR | 33637 | 5% | 2.5% | 1.04× | **61.4** | Watch |
+| 64 | ZF Commercial Vehicle Control System India Ltd | ZFCVINDIA | 24363 | 4.4% | 4.5% | 1.03× | **61.4** | Watch |
+| 65 | CESC Ltd | CESC | 17676 | 3.9% | 3.6% | 1.2× | **61.2** | Watch |
+| 66 | Emami Ltd | EMAMILTD | 16371 | 3.9% | 6.1% | 1.27× | **61.2** | Watch |
+| 67 | Astral Ltd | ASTRAL | 38363 | 8.8% | 24.9% | 1× | **60.3** | Watch |
+| 68 | JBM Auto Ltd | JBMA | 12515 | 10.9% | 29.2% | 1.03× | **60.2** | Watch |
+| 69 | Narayana Hrudayalaya Ltd | NH | 35577 | 11.3% | 38.9% | 1.28× | **60.1** | Watch |
+| 70 | Computer Age Management Services Ltd | CAMS | 17085 | 12.6% | 18.2% | 1.08× | **58.5** | Watch |
+| 71 | Linde India Ltd | LINDEINDIA | 51198 | 6.2% | 2% | 1.16× | **58.3** | Watch |
+| 72 | Amara Raja Energy & Mobility Ltd | ARE&M | 13414 | 9.4% | 11.5% | 1.09× | **57.2** | Watch |
+| 73 | Waaree Energies Ltd | WAAREEENER | 72344 | 10.2% | 44.4% | 1.02× | **57.2** | Watch |
+| 74 | DCM Shriram Ltd | DCMSHRIRAM | 15626 | 13.1% | 10.9% | 1.09× | **55.8** | Watch |
+| 75 | Travel Food Services Ltd | TRAVELFOOD | 15658 | 14.9% | 11% | 1.2× | **55.6** | Watch |
+| 76 | Force Motors Ltd | FORCEMOT | 23141 | 9% | 1.5% | 1× | **53.8** | Early / unproven |
+| 77 | Techno Electric & Engineering Company Ltd | TECHNOE | 10932 | 8% | 8.7% | 1× | **53.8** | Early / unproven |
+| 78 | Uno Minda Ltd | UNOMINDA | 62794 | 9.4% | 5.3% | 1.04× | **53.8** | Early / unproven |
+| 79 | Endurance Technologies Ltd | ENDURANCE | 33320 | 10.5% | 20.7% | 1.12× | **52.7** | Early / unproven |
+| 80 | AIA Engineering Ltd | AIAENG | 34204 | 13.8% | 0.7% | 1.06× | **49.3** | Early / unproven |
 | 81 | Central Depository Services (India) Ltd | CDSL | 26543 | 13.8% | 6.2% | 1.19× | **49.3** | Early / unproven |
-| 82 | EIH Ltd | EIHOTEL | 18955 | 11.8% | 4.4% | 1.08× | **49.3** | Early / unproven |
-| 83 | Gravita India Ltd | GRAVITA | 10742 | 14.8% | 8.9% | 1.08× | **49.3** | Early / unproven |
-| 84 | Jindal Stainless Ltd | JSL | 60368 | 12.3% | 2.5% | 1× | **49.3** | Early / unproven |
-| 85 | KFin Technologies Ltd | KFINTECH | 15062 | 11% | 7% | 1× | **49.3** | Early / unproven |
-| 86 | Lemon Tree Hotels Ltd | LEMONTREE | 8849 | 12.4% | 6.4% | 1.14× | **49.3** | Early / unproven |
+| 82 | EIH Ltd | EIHOTEL | 19064 | 12.5% | 4.4% | 1.08× | **49.3** | Early / unproven |
+| 83 | Gravita India Ltd | GRAVITA | 10684 | 14.3% | 8.9% | 1.08× | **49.3** | Early / unproven |
+| 84 | Jindal Stainless Ltd | JSL | 60587 | 12.7% | 2.5% | 1× | **49.3** | Early / unproven |
+| 85 | KFin Technologies Ltd | KFINTECH | 15084 | 11.2% | 7% | 1× | **49.3** | Early / unproven |
+| 86 | Lemon Tree Hotels Ltd | LEMONTREE | 8847 | 12.4% | 6.4% | 1.14× | **49.3** | Early / unproven |
 
 ## Detail — EBITDA / OPM trend & sector
 
-### NHPC Ltd (NHPC) — score 88.3
-- Price 70.7 · 52w low 68.7 / high 87.5 · **2.9% above low**
-- Operating profit (last quarters): 1205 → 1802 → 2027 → 212 → 637 → 2352
-- OPM % (last quarters): 51 → 56 → 60 → 10 → 23 → 62 · YoY Δ 6pp
-- EBITDA YoY 30.5% · QoQ 269.2% · recovery from 4q trough 11.09×
-- [screener.in](https://www.screener.in/company/NHPC/consolidated/)
-
-### Sobha Ltd (SOBHA) — score 85.0
-- Price 1176 · 52w low 1130 / high 1732 · **4.1% above low**
-- Operating profit (last quarters): 94 → 24 → 96 → 39 → 152 → 78
-- OPM % (last quarters): 8 → 2.8 → 7 → 4.1 → 8 → 6 · YoY Δ 3.2pp
-- EBITDA YoY 225% · QoQ -48.7% · recovery from 4q trough 2×
-- [screener.in](https://www.screener.in/company/SOBHA/consolidated/)
-
-### India Cements Ltd (INDIACEM) — score 84.3
-- Price 295 · 52w low 286 / high 490 · **3.1% above low**
+### India Cements Ltd (INDIACEM) — score 88.8
+- Price 294 · 52w low 286 / high 490 · **2.8% above low**
 - Operating profit (last quarters): 83 → 81 → 79 → 153 → 156 → 144
 - OPM % (last quarters): 8 → 7 → 7 → 12 → 15 → 13 · YoY Δ 6pp
 - EBITDA YoY 77.8% · QoQ -7.7% · recovery from 4q trough 1.82×
 - [screener.in](https://www.screener.in/company/INDIACEM/consolidated/)
 
+### NHPC Ltd (NHPC) — score 88.3
+- Price 70.7 · 52w low 68.7 / high 87.3 · **2.9% above low**
+- Operating profit (last quarters): 1205 → 1802 → 2027 → 212 → 637 → 2352
+- OPM % (last quarters): 51 → 56 → 60 → 10 → 23 → 62 · YoY Δ 6pp
+- EBITDA YoY 30.5% · QoQ 269.2% · recovery from 4q trough 11.09×
+- [screener.in](https://www.screener.in/company/NHPC/consolidated/)
+
 ### Voltas Ltd (VOLTAS) — score 82.9
-- Price 1017 · 52w low 1012 / high 1582 · **0.5% above low**
+- Price 1020 · 52w low 1012 / high 1582 · **0.8% above low**
 - Operating profit (last quarters): 301 → 153 → 34 → 145 → 185 → 228
 - OPM % (last quarters): 6 → 3.9 → 1.4 → 4.7 → 3.8 → 4.9 · YoY Δ 1pp
 - EBITDA YoY 49% · QoQ 23.2% · recovery from 4q trough 6.71×
 - [screener.in](https://www.screener.in/company/VOLTAS/consolidated/)
 
 ### Atul Ltd (ATUL) — score 79.8
-- Price 6072 · 52w low 5560 / high 7198 · **9.2% above low**
+- Price 6082 · 52w low 5560 / high 7198 · **9.4% above low**
 - Operating profit (last quarters): 223 → 236 → 267 → 247 → 281 → 394
 - OPM % (last quarters): 15 → 16 → 17 → 16 → 17 → 21 · YoY Δ 5pp
 - EBITDA YoY 66.9% · QoQ 40.2% · recovery from 4q trough 1.6×
 - [screener.in](https://www.screener.in/company/ATUL/consolidated/)
 
 ### NBCC (India) Ltd (NBCC) — score 79.3
-- Price 73.8 · 52w low 73.5 / high 126 · **0.4% above low**
+- Price 73.7 · 52w low 73.5 / high 126 · **0.3% above low**
 - Operating profit (last quarters): 291 → 110 → 104 → 114 → 287 → 155
 - OPM % (last quarters): 6 → 4.6 → 3.6 → 3.8 → 6 → 7 · YoY Δ 2.4pp
 - EBITDA YoY 40.9% · QoQ -46% · recovery from 4q trough 1.49×
 - [screener.in](https://www.screener.in/company/NBCC/consolidated/)
 
 ### NTPC Green Energy Ltd (NTPCGREEN) — score 78.9
-- Price 87.8 · 52w low 84 / high 120 · **4.5% above low**
+- Price 87.7 · 52w low 84 / high 120 · **4.4% above low**
 - Operating profit (last quarters): 560 → 604 → 530 → 535 → 774 → 989
 - OPM % (last quarters): 90 → 89 → 86 → 82 → 85 → 89 · YoY Δ 0pp
 - EBITDA YoY 63.7% · QoQ 27.8% · recovery from 4q trough 1.87×
@@ -156,28 +149,21 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/OIL/consolidated/)
 
 ### NLC India Ltd (NLCINDIA) — score 78.6
-- Price 245 · 52w low 230 / high 388 · **6.5% above low**
+- Price 244 · 52w low 230 / high 388 · **6.1% above low**
 - Operating profit (last quarters): 861 → 935 → 1400 → 1344 → 1774 → 1471
 - OPM % (last quarters): 22 → 24 → 34 → 30 → 35 → 31 · YoY Δ 7pp
 - EBITDA YoY 57.3% · QoQ -17.1% · recovery from 4q trough 1.09×
 - [screener.in](https://www.screener.in/company/NLCINDIA/consolidated/)
 
-### Chambal Fertilisers & Chemicals Ltd (CHAMBLFERT) — score 77.7
-- Price 382 · 52w low 371 / high 500 · **3% above low**
-- Operating profit (last quarters): 163 → 761 → 842 → 821 → 255 → 826
-- OPM % (last quarters): 7 → 13 → 13 → 14 → 9 → 16 · YoY Δ 3pp
-- EBITDA YoY 8.5% · QoQ 223.9% · recovery from 4q trough 3.24×
-- [screener.in](https://www.screener.in/company/CHAMBLFERT/consolidated/)
-
 ### SRF Ltd (SRF) — score 77.7
-- Price 2422 · 52w low 2314 / high 3239 · **4.7% above low**
+- Price 2432 · 52w low 2314 / high 3239 · **5.1% above low**
 - Operating profit (last quarters): 957 → 830 → 774 → 780 → 1026 → 1237
 - OPM % (last quarters): 22 → 22 → 21 → 21 → 22 → 25 · YoY Δ 3pp
 - EBITDA YoY 49% · QoQ 20.6% · recovery from 4q trough 1.6×
 - [screener.in](https://www.screener.in/company/SRF/consolidated/)
 
 ### Blue Dart Express Ltd (BLUEDART) — score 76.4
-- Price 4392 · 52w low 4346 / high 7036 · **1.1% above low**
+- Price 4380 · 52w low 4346 / high 7036 · **0.8% above low**
 - Operating profit (last quarters): 213 → 196 → 252 → 281 → 222 → 261
 - OPM % (last quarters): 15 → 14 → 16 → 17 → 14 → 16 · YoY Δ 2pp
 - EBITDA YoY 33.2% · QoQ 17.6% · recovery from 4q trough 1.18×
@@ -212,7 +198,7 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/DABUR/consolidated/)
 
 ### Timken India Ltd (TIMKEN) — score 75.0
-- Price 2862 · 52w low 2783 / high 3925 · **2.8% above low**
+- Price 2861 · 52w low 2783 / high 3925 · **2.8% above low**
 - Operating profit (last quarters): 214 → 147 → 143 → 101 → 242 → 178
 - OPM % (last quarters): 23 → 18 → 18 → 13 → 22 → 19 · YoY Δ 1pp
 - EBITDA YoY 21.1% · QoQ -26.4% · recovery from 4q trough 1.76×
@@ -226,7 +212,7 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/TRIDENT/consolidated/)
 
 ### Balkrishna Industries Ltd (BALKRISIND) — score 74.8
-- Price 2075 · 52w low 1965 / high 2775 · **5.6% above low**
+- Price 2071 · 52w low 1965 / high 2775 · **5.4% above low**
 - Operating profit (last quarters): 614 → 506 → 511 → 643 → 640 → 744
 - OPM % (last quarters): 22 → 18 → 21 → 24 → 22 → 22 · YoY Δ 4pp
 - EBITDA YoY 47% · QoQ 16.3% · recovery from 4q trough 1.46×
@@ -234,20 +220,27 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 
 ### Jaiprakash Power Ventures Ltd (JPPOWER) — score 74.8
 - Price 14.9 · 52w low 13.1 / high 24.5 · **13.7% above low**
-- Operating profit (last quarters): 388 → 601 → 471 → 174 → 121 → 759
-- OPM % (last quarters): 29 → 38 → 33 → 15 → 9 → 43 · YoY Δ 5pp
-- EBITDA YoY 26.3% · QoQ 527.3% · recovery from 4q trough 6.27×
+- Operating profit (last quarters): 601 → 471 → 174 → 121 → 759 → 657
+- OPM % (last quarters): 38 → 33 → 15 → 9 → 44 → 43 · YoY Δ 10pp
+- EBITDA YoY 39.5% · QoQ -13.4% · recovery from 4q trough 5.43×
 - [screener.in](https://www.screener.in/company/JPPOWER/consolidated/)
 
 ### PB Fintech Ltd (POLICYBZR) — score 74.2
-- Price 1033 · 52w low 945 / high 1964 · **9.3% above low**
+- Price 1035 · 52w low 945 / high 1964 · **9.5% above low**
 - Operating profit (last quarters): 112 → 34 → 98 → 159 → 212 → 137
 - OPM % (last quarters): 7 → 2.5 → 6 → 9 → 10 → 7 · YoY Δ 4.5pp
 - EBITDA YoY 302.9% · QoQ -35.4% · recovery from 4q trough 1.4×
 - [screener.in](https://www.screener.in/company/POLICYBZR/consolidated/)
 
+### Chambal Fertilisers & Chemicals Ltd (CHAMBLFERT) — score 73.2
+- Price 383 · 52w low 371 / high 500 · **3.2% above low**
+- Operating profit (last quarters): 163 → 761 → 842 → 821 → 255 → 826
+- OPM % (last quarters): 7 → 13 → 13 → 14 → 9 → 16 · YoY Δ 3pp
+- EBITDA YoY 8.5% · QoQ 223.9% · recovery from 4q trough 3.24×
+- [screener.in](https://www.screener.in/company/CHAMBLFERT/consolidated/)
+
 ### Sarda Energy & Minerals Ltd (SARDAEN) — score 73.2
-- Price 482 · 52w low 453 / high 624 · **6.4% above low**
+- Price 481 · 52w low 453 / high 624 · **6.2% above low**
 - Operating profit (last quarters): 271 → 617 → 512 → 311 → 348 → 653
 - OPM % (last quarters): 22 → 38 → 34 → 24 → 28 → 41 · YoY Δ 3pp
 - EBITDA YoY 5.8% · QoQ 87.6% · recovery from 4q trough 2.1×
@@ -261,7 +254,7 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/IRB/consolidated/)
 
 ### Vishal Mega Mart Ltd (VMM) — score 72.1
-- Price 94.2 · 52w low 94.1 / high 150 · **0.1% above low**
+- Price 94.4 · 52w low 94 / high 150 · **0.4% above low**
 - Operating profit (last quarters): 357 → 459 → 395 → 605 → 425 → 545
 - OPM % (last quarters): 14 → 15 → 13 → 16 → 14 → 15 · YoY Δ 0pp
 - EBITDA YoY 18.7% · QoQ 28.2% · recovery from 4q trough 1.38×
@@ -275,14 +268,14 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/IEX/consolidated/)
 
 ### Railtel Corporation of India Ltd (RAILTEL) — score 72.0
-- Price 251 · 52w low 245 / high 391 · **2.4% above low**
+- Price 250 · 52w low 245 / high 391 · **2% above low**
 - Operating profit (last quarters): 67 → 100 → 74 → 98 → 74 → 115
 - OPM % (last quarters): 18 → 23 → 16 → 14 → 16 → 19 · YoY Δ -4pp
 - EBITDA YoY 15% · QoQ 55.4% · recovery from 4q trough 1.55×
 - [screener.in](https://www.screener.in/company/RAILTEL/consolidated/)
 
 ### Aditya Birla Lifestyle Brands Ltd (ABLBL) — score 69.3
-- Price 72.1 · 52w low 71.1 / high 142 · **1.4% above low**
+- Price 72.2 · 52w low 71.1 / high 142 · **1.5% above low**
 - Operating profit (last quarters): 309 → 263 → 317 → 412 → 352 → 308
 - OPM % (last quarters): 16 → 14 → 16 → 18 → 16 → 15 · YoY Δ 1pp
 - EBITDA YoY 17.1% · QoQ -12.5% · recovery from 4q trough 1×
@@ -296,7 +289,7 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/BIOCON/consolidated/)
 
 ### The Bombay Burmah Trading Corporation Ltd (BBTC) — score 69.3
-- Price 1230 · 52w low 1205 / high 2135 · **2.1% above low**
+- Price 1232 · 52w low 1205 / high 2135 · **2.2% above low**
 - Operating profit (last quarters): 802 → 724 → 936 → 943 → 827 → 814
 - OPM % (last quarters): 18 → 15 → 19 → 19 → 17 → 16 · YoY Δ 1pp
 - EBITDA YoY 12.4% · QoQ -1.6% · recovery from 4q trough 1×
@@ -310,7 +303,7 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/CIEINDIA/consolidated/)
 
 ### Indiamart Intermesh Ltd (INDIAMART) — score 69.3
-- Price 1597 · 52w low 1565 / high 2526 · **2% above low**
+- Price 1596 · 52w low 1565 / high 2526 · **2% above low**
 - Operating profit (last quarters): 119 → 119 → 116 → 120 → 120 → 132
 - OPM % (last quarters): 34 → 32 → 30 → 30 → 30 → 32 · YoY Δ 0pp
 - EBITDA YoY 10.9% · QoQ 10% · recovery from 4q trough 1.14×
@@ -324,21 +317,21 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/JUBLFOOD/consolidated/)
 
 ### Schaeffler India Ltd (SCHAEFFLER) — score 69.3
-- Price 3602 · 52w low 3518 / high 4468 · **2.4% above low**
+- Price 3623 · 52w low 3518 / high 4468 · **3% above low**
 - Operating profit (last quarters): 393 → 430 → 456 → 484 → 478 → 499
 - OPM % (last quarters): 18 → 18 → 19 → 18 → 18 → 18 · YoY Δ 0pp
 - EBITDA YoY 16% · QoQ 4.4% · recovery from 4q trough 1.09×
 - [screener.in](https://www.screener.in/company/SCHAEFFLER/consolidated/)
 
 ### Crompton Greaves Consumer Electricals Ltd (CROMPTON) — score 69.2
-- Price 209 · 52w low 201 / high 311 · **4% above low**
+- Price 208 · 52w low 201 / high 311 · **3.5% above low**
 - Operating profit (last quarters): 192 → 158 → 195 → 271 → 224 → 205
 - OPM % (last quarters): 10 → 8 → 10 → 12 → 10 → 9 · YoY Δ 1pp
 - EBITDA YoY 29.7% · QoQ -8.5% · recovery from 4q trough 1.05×
 - [screener.in](https://www.screener.in/company/CROMPTON/consolidated/)
 
 ### Anupam Rasayan India Ltd (ANURAS) — score 69.1
-- Price 1100 · 52w low 1048 / high 1415 · **5% above low**
+- Price 1110 · 52w low 1053 / high 1415 · **5.4% above low**
 - Operating profit (last quarters): 144 → 124 → 136 → 127 → 137 → 162
 - OPM % (last quarters): 29 → 26 → 19 → 25 → 22 → 25 · YoY Δ -1pp
 - EBITDA YoY 30.6% · QoQ 18.2% · recovery from 4q trough 1.28×
@@ -352,14 +345,14 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/FIRSTCRY/consolidated/)
 
 ### RHI Magnesita India Ltd (RHIM) — score 68.7
-- Price 363 · 52w low 323 / high 502 · **12.4% above low**
+- Price 361 · 52w low 323 / high 502 · **11.8% above low**
 - Operating profit (last quarters): 93 → 102 → 109 → 143 → 87 → 138
 - OPM % (last quarters): 10 → 11 → 11 → 13 → 9 → 14 · YoY Δ 3pp
 - EBITDA YoY 35.3% · QoQ 58.6% · recovery from 4q trough 1.59×
 - [screener.in](https://www.screener.in/company/RHIM/consolidated/)
 
 ### Aditya Birla Fashion & Retail Ltd (ABFRL) — score 68.6
-- Price 43.2 · 52w low 43 / high 86.2 · **0.5% above low**
+- Price 43.2 · 52w low 42.9 / high 86.2 · **0.7% above low**
 - Operating profit (last quarters): 199 → 106 → 62 → 302 → 188 → 111
 - OPM % (last quarters): 12 → 6 → 3.1 → 13 → 9 → 5 · YoY Δ -1pp
 - EBITDA YoY 4.7% · QoQ -41% · recovery from 4q trough 1.79×
@@ -373,7 +366,7 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/GPIL/consolidated/)
 
 ### 3M India Ltd (3MINDIA) — score 67.5
-- Price 30052 · 52w low 28730 / high 38300 · **4.6% above low**
+- Price 30115 · 52w low 28730 / high 38300 · **4.8% above low**
 - Operating profit (last quarters): 194 → 173 → 192 → 179 → 214 → 205
 - OPM % (last quarters): 19 → 16 → 18 → 18 → 20 → 20 · YoY Δ 4pp
 - EBITDA YoY 18.5% · QoQ -4.2% · recovery from 4q trough 1.15×
@@ -394,7 +387,7 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/JWL/consolidated/)
 
 ### SJVN Ltd (SJVN) — score 66.2
-- Price 51.1 · 52w low 51 / high 90.6 · **0.2% above low**
+- Price 51.1 · 52w low 51 / high 90.4 · **0.2% above low**
 - Operating profit (last quarters): 241 → 707 → 860 → 773 → 910 → 850
 - OPM % (last quarters): 48 → 77 → 83 → 71 → 61 → 61 · YoY Δ -16pp
 - EBITDA YoY 20.2% · QoQ -6.6% · recovery from 4q trough 1.1×
@@ -415,28 +408,28 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/IGIL/consolidated/)
 
 ### Alkem Laboratories Ltd (ALKEM) — score 65.7
-- Price 4995 · 52w low 4975 / high 5934 · **0.4% above low**
+- Price 5004 · 52w low 4975 / high 5934 · **0.6% above low**
 - Operating profit (last quarters): 391 → 739 → 921 → 828 → 517 → 766
 - OPM % (last quarters): 12 → 22 → 23 → 22 → 14 → 20 · YoY Δ -2pp
 - EBITDA YoY 3.7% · QoQ 48.2% · recovery from 4q trough 1.48×
 - [screener.in](https://www.screener.in/company/ALKEM/consolidated/)
 
 ### BLS International Services Ltd (BLS) — score 64.6
-- Price 220 · 52w low 212 / high 343 · **3.8% above low**
+- Price 221 · 52w low 212 / high 343 · **4.2% above low**
 - Operating profit (last quarters): 174 → 204 → 213 → 198 → 204 → 252
 - OPM % (last quarters): 25 → 29 → 29 → 27 → 25 → 28 · YoY Δ -1pp
 - EBITDA YoY 23.5% · QoQ 23.5% · recovery from 4q trough 1.27×
 - [screener.in](https://www.screener.in/company/BLS/consolidated/)
 
 ### Kaynes Technology India Ltd (KAYNES) — score 64.6
-- Price 3277 · 52w low 2995 / high 7080 · **9.4% above low**
+- Price 3250 · 52w low 2995 / high 6998 · **8.5% above low**
 - Operating profit (last quarters): 168 → 113 → 148 → 119 → 194 → 148
 - OPM % (last quarters): 17 → 17 → 16 → 15 → 16 → 16 · YoY Δ -1pp
 - EBITDA YoY 31% · QoQ -23.7% · recovery from 4q trough 1.24×
 - [screener.in](https://www.screener.in/company/KAYNES/consolidated/)
 
 ### Bata India Ltd (BATAINDIA) — score 64.3
-- Price 637 · 52w low 600 / high 1195 · **6.2% above low**
+- Price 636 · 52w low 600 / high 1195 · **6% above low**
 - Operating profit (last quarters): 178 → 199 → 145 → 212 → 151 → 204
 - OPM % (last quarters): 23 → 21 → 18 → 22 → 18 → 21 · YoY Δ 0pp
 - EBITDA YoY 2.5% · QoQ 35.1% · recovery from 4q trough 1.41×
@@ -463,22 +456,29 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - EBITDA YoY 23.8% · QoQ 21.1% · recovery from 4q trough 1.41×
 - [screener.in](https://www.screener.in/company/TTML/consolidated/)
 
+### C.E. Info Systems Ltd (MAPMYINDIA) — score 63.0
+- Price 874 · 52w low 795 / high 1894 · **9.9% above low**
+- Operating profit (last quarters): 55 → 54 → 26 → 25 → 64 → 55
+- OPM % (last quarters): 38 → 45 → 23 → 26 → 44 → 40 · YoY Δ -5pp
+- EBITDA YoY 1.9% · QoQ -14.1% · recovery from 4q trough 2.2×
+- [screener.in](https://www.screener.in/company/MAPMYINDIA/consolidated/)
+
 ### Bikaji Foods International Ltd (BIKAJI) — score 62.8
-- Price 467 · 52w low 460 / high 768 · **1.5% above low**
+- Price 466 · 52w low 460 / high 768 · **1.3% above low**
 - Operating profit (last quarters): 74 → 96 → 128 → 98 → 88 → 99
 - OPM % (last quarters): 12 → 15 → 15 → 12 → 12 → 13 · YoY Δ -2pp
 - EBITDA YoY 3.1% · QoQ 12.5% · recovery from 4q trough 1.12×
 - [screener.in](https://www.screener.in/company/BIKAJI/consolidated/)
 
 ### ERIS Lifesciences Ltd (ERIS) — score 62.8
-- Price 1126 · 52w low 1115 / high 1740 · **1% above low**
+- Price 1120 · 52w low 1111 / high 1740 · **0.8% above low**
 - Operating profit (last quarters): 252 → 277 → 288 → 282 → 272 → 296
 - OPM % (last quarters): 36 → 36 → 36 → 35 → 36 → 34 · YoY Δ -2pp
 - EBITDA YoY 6.9% · QoQ 8.8% · recovery from 4q trough 1.09×
 - [screener.in](https://www.screener.in/company/ERIS/consolidated/)
 
 ### Fortis Healthcare Ltd (FORTIS) — score 62.8
-- Price 736 · 52w low 732 / high 1104 · **0.5% above low**
+- Price 738 · 52w low 732 / high 1104 · **0.8% above low**
 - Operating profit (last quarters): 435 → 491 → 556 → 506 → 532 → 537
 - OPM % (last quarters): 22 → 23 → 24 → 22 → 23 → 21 · YoY Δ -2pp
 - EBITDA YoY 9.4% · QoQ 0.9% · recovery from 4q trough 1.06×
@@ -499,14 +499,14 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/TIINDIA/consolidated/)
 
 ### Escorts Kubota Ltd (ESCORTS) — score 61.7
-- Price 2705 · 52w low 2550 / high 3999 · **6.1% above low**
+- Price 2707 · 52w low 2550 / high 3999 · **6.2% above low**
 - Operating profit (last quarters): 287 → 321 → 360 → 435 → 381 → 354
 - OPM % (last quarters): 12 → 13 → 13 → 13 → 13 → 11 · YoY Δ -2pp
 - EBITDA YoY 10.3% · QoQ -7.1% · recovery from 4q trough 1×
 - [screener.in](https://www.screener.in/company/ESCORTS/consolidated/)
 
 ### Jain Resource Recycling Ltd (JAINREC) — score 61.7
-- Price 285 · 52w low 271 / high 594 · **5.2% above low**
+- Price 286 · 52w low 271 / high 594 · **5.5% above low**
 - Operating profit (last quarters): 93 → 90 → 160 → 199 → 110 → 108
 - OPM % (last quarters): 5 → 6 → 8 → 7 → 3.5 → 4 · YoY Δ -2pp
 - EBITDA YoY 20% · QoQ -1.8% · recovery from 4q trough 1×
@@ -520,14 +520,14 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/LATENTVIEW/consolidated/)
 
 ### Intellect Design Arena Ltd (INTELLECT) — score 61.5
-- Price 634 · 52w low 564 / high 1245 · **12.4% above low**
+- Price 640 · 52w low 564 / high 1245 · **13.5% above low**
 - Operating profit (last quarters): 202 → 142 → 153 → 100 → 183 → 166
 - OPM % (last quarters): 28 → 20 → 20 → 14 → 22 → 20 · YoY Δ 0pp
 - EBITDA YoY 16.9% · QoQ -9.3% · recovery from 4q trough 1.66×
 - [screener.in](https://www.screener.in/company/INTELLECT/consolidated/)
 
 ### Tata Investment Corporation Ltd (TATAINVEST) — score 61.5
-- Price 605 · 52w low 539 / high 898 · **12.2% above low**
+- Price 604 · 52w low 539 / high 898 · **12.1% above low**
 - Operating profit (last quarters): 7 → 134 → 144 → 48 → 30 → 140
 - OPM % (last quarters): 45 → 92 → 93 → 82 → 74 → 92 · YoY Δ 0pp
 - EBITDA YoY 4.5% · QoQ 366.7% · recovery from 4q trough 4.67×
@@ -541,14 +541,14 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/CONCOR/consolidated/)
 
 ### ZF Commercial Vehicle Control System India Ltd (ZFCVINDIA) — score 61.4
-- Price 2146 · 52w low 2050 / high 3044 · **4.7% above low**
+- Price 2141 · 52w low 2050 / high 3044 · **4.4% above low**
 - Operating profit (last quarters): 175 → 132 → 134 → 199 → 190 → 138
 - OPM % (last quarters): 17 → 13 → 15 → 19 → 16 → 13 · YoY Δ 0pp
 - EBITDA YoY 4.5% · QoQ -27.4% · recovery from 4q trough 1.03×
 - [screener.in](https://www.screener.in/company/ZFCVINDIA/consolidated/)
 
 ### CESC Ltd (CESC) — score 61.2
-- Price 134 · 52w low 128 / high 204 · **4.7% above low**
+- Price 133 · 52w low 128 / high 204 · **3.9% above low**
 - Operating profit (last quarters): 812 → 864 → 1061 → 779 → 743 → 895
 - OPM % (last quarters): 21 → 17 → 20 → 19 → 18 → 16 · YoY Δ -1pp
 - EBITDA YoY 3.6% · QoQ 20.5% · recovery from 4q trough 1.2×
@@ -562,14 +562,14 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/EMAMILTD/consolidated/)
 
 ### Astral Ltd (ASTRAL) — score 60.3
-- Price 1424 · 52w low 1312 / high 1769 · **8.5% above low**
+- Price 1428 · 52w low 1312 / high 1769 · **8.8% above low**
 - Operating profit (last quarters): 302 → 185 → 257 → 237 → 383 → 231
 - OPM % (last quarters): 18 → 14 → 16 → 15 → 18 → 15 · YoY Δ 1pp
 - EBITDA YoY 24.9% · QoQ -39.7% · recovery from 4q trough 1×
 - [screener.in](https://www.screener.in/company/ASTRAL/consolidated/)
 
 ### JBM Auto Ltd (JBMA) — score 60.2
-- Price 530 · 52w low 477 / high 738 · **11.1% above low**
+- Price 529 · 52w low 477 / high 738 · **10.9% above low**
 - Operating profit (last quarters): 185 → 120 → 150 → 173 → 229 → 155
 - OPM % (last quarters): 11 → 10 → 11 → 11 → 12 → 11 · YoY Δ 1pp
 - EBITDA YoY 29.2% · QoQ -32.3% · recovery from 4q trough 1.03×
@@ -582,78 +582,78 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - EBITDA YoY 38.9% · QoQ -7.9% · recovery from 4q trough 1.28×
 - [screener.in](https://www.screener.in/company/NH/consolidated/)
 
-### C.E. Info Systems Ltd (MAPMYINDIA) — score 58.5
-- Price 878 · 52w low 795 / high 1894 · **10.4% above low**
-- Operating profit (last quarters): 55 → 54 → 26 → 25 → 64 → 55
-- OPM % (last quarters): 38 → 45 → 23 → 26 → 44 → 40 · YoY Δ -5pp
-- EBITDA YoY 1.9% · QoQ -14.1% · recovery from 4q trough 2.2×
-- [screener.in](https://www.screener.in/company/MAPMYINDIA/consolidated/)
-
 ### Computer Age Management Services Ltd (CAMS) — score 58.5
-- Price 686 · 52w low 611 / high 845 · **12.3% above low**
+- Price 688 · 52w low 611 / high 845 · **12.6% above low**
 - Operating profit (last quarters): 159 → 154 → 168 → 179 → 183 → 182
 - OPM % (last quarters): 45 → 43 → 44 → 46 → 46 → 46 · YoY Δ 3pp
 - EBITDA YoY 18.2% · QoQ -0.5% · recovery from 4q trough 1.08×
 - [screener.in](https://www.screener.in/company/CAMS/consolidated/)
 
 ### Linde India Ltd (LINDEINDIA) — score 58.3
-- Price 6003 · 52w low 5653 / high 8049 · **6.2% above low**
+- Price 6004 · 52w low 5653 / high 8049 · **6.2% above low**
 - Operating profit (last quarters): 210 → 197 → 282 → 257 → 173 → 201
 - OPM % (last quarters): 35 → 34 → 44 → 37 → 28 → 29 · YoY Δ -5pp
 - EBITDA YoY 2% · QoQ 16.2% · recovery from 4q trough 1.16×
 - [screener.in](https://www.screener.in/company/LINDEINDIA/consolidated/)
 
 ### Amara Raja Energy & Mobility Ltd (ARE&M) — score 57.2
-- Price 734 · 52w low 670 / high 1023 · **9.6% above low**
+- Price 733 · 52w low 670 / high 1023 · **9.4% above low**
 - Operating profit (last quarters): 341 → 364 → 374 → 374 → 386 → 406
 - OPM % (last quarters): 11 → 11 → 11 → 11 → 11 → 10 · YoY Δ -1pp
 - EBITDA YoY 11.5% · QoQ 5.2% · recovery from 4q trough 1.09×
 - [screener.in](https://www.screener.in/company/ARE&M/consolidated/)
 
 ### Waaree Energies Ltd (WAAREEENER) — score 57.2
-- Price 2513 · 52w low 2282 / high 3643 · **10.1% above low**
+- Price 2515 · 52w low 2282 / high 3643 · **10.2% above low**
 - Operating profit (last quarters): 923 → 997 → 1406 → 1928 → 1577 → 1440
 - OPM % (last quarters): 23 → 23 → 23 → 25 → 19 → 18 · YoY Δ -5pp
 - EBITDA YoY 44.4% · QoQ -8.7% · recovery from 4q trough 1.02×
 - [screener.in](https://www.screener.in/company/WAAREEENER/consolidated/)
 
 ### DCM Shriram Ltd (DCMSHRIRAM) — score 55.8
-- Price 999 · 52w low 886 / high 1409 · **12.8% above low**
+- Price 1002 · 52w low 886 / high 1409 · **13.1% above low**
 - Operating profit (last quarters): 405 → 304 → 309 → 532 → 353 → 337
 - OPM % (last quarters): 14 → 9 → 9 → 14 → 11 → 9 · YoY Δ 0pp
 - EBITDA YoY 10.9% · QoQ -4.5% · recovery from 4q trough 1.09×
 - [screener.in](https://www.screener.in/company/DCMSHRIRAM/consolidated/)
 
+### Travel Food Services Ltd (TRAVELFOOD) — score 55.6
+- Price 1189 · 52w low 1035 / high 1471 · **14.9% above low**
+- Operating profit (last quarters): 135 → 146 → 135 → 181 → 186 → 162
+- OPM % (last quarters): 37 → 39 → 38 → 40 → 40 → 36 · YoY Δ -3pp
+- EBITDA YoY 11% · QoQ -12.9% · recovery from 4q trough 1.2×
+- [screener.in](https://www.screener.in/company/TRAVELFOOD/consolidated/)
+
 ### Force Motors Ltd (FORCEMOT) — score 53.8
-- Price 17680 · 52w low 16109 / high 26486 · **9.8% above low**
+- Price 17563 · 52w low 16109 / high 26486 · **9% above low**
 - Operating profit (last quarters): 329 → 323 → 363 → 374 → 414 → 328
 - OPM % (last quarters): 14 → 14 → 17 → 18 → 16 → 13 · YoY Δ -1pp
 - EBITDA YoY 1.5% · QoQ -20.8% · recovery from 4q trough 1×
 - [screener.in](https://www.screener.in/company/FORCEMOT/consolidated/)
 
 ### Techno Electric & Engineering Company Ltd (TECHNOE) — score 53.8
-- Price 941 · 52w low 870 / high 1392 · **8.2% above low**
+- Price 940 · 52w low 870 / high 1392 · **8% above low**
 - Operating profit (last quarters): 127 → 92 → 111 → 126 → 132 → 100
 - OPM % (last quarters): 16 → 18 → 13 → 14 → 13 → 16 · YoY Δ -2pp
 - EBITDA YoY 8.7% · QoQ -24.2% · recovery from 4q trough 1×
 - [screener.in](https://www.screener.in/company/TECHNOE/consolidated/)
 
 ### Uno Minda Ltd (UNOMINDA) — score 53.8
-- Price 1088 · 52w low 994 / high 1355 · **9.5% above low**
+- Price 1087 · 52w low 994 / high 1355 · **9.4% above low**
 - Operating profit (last quarters): 527 → 543 → 552 → 554 → 603 → 572
 - OPM % (last quarters): 12 → 12 → 11 → 11 → 11 → 10 · YoY Δ -2pp
 - EBITDA YoY 5.3% · QoQ -5.1% · recovery from 4q trough 1.04×
 - [screener.in](https://www.screener.in/company/UNOMINDA/consolidated/)
 
 ### Endurance Technologies Ltd (ENDURANCE) — score 52.7
-- Price 2365 · 52w low 2143 / high 3075 · **10.4% above low**
+- Price 2369 · 52w low 2143 / high 3075 · **10.5% above low**
 - Operating profit (last quarters): 422 → 444 → 477 → 477 → 568 → 536
 - OPM % (last quarters): 14 → 13 → 13 → 13 → 14 → 12 · YoY Δ -1pp
 - EBITDA YoY 20.7% · QoQ -5.6% · recovery from 4q trough 1.12×
 - [screener.in](https://www.screener.in/company/ENDURANCE/consolidated/)
 
 ### AIA Engineering Ltd (AIAENG) — score 49.3
-- Price 3666 · 52w low 3220 / high 5180 · **13.9% above low**
+- Price 3665 · 52w low 3220 / high 5180 · **13.8% above low**
 - Operating profit (last quarters): 302 → 306 → 297 → 290 → 363 → 308
 - OPM % (last quarters): 26 → 29 → 28 → 27 → 29 → 26 · YoY Δ -3pp
 - EBITDA YoY 0.7% · QoQ -15.2% · recovery from 4q trough 1.06×
@@ -667,28 +667,28 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/CDSL/consolidated/)
 
 ### EIH Ltd (EIHOTEL) — score 49.3
-- Price 303 · 52w low 271 / high 405 · **11.8% above low**
+- Price 305 · 52w low 271 / high 405 · **12.5% above low**
 - Operating profit (last quarters): 351 → 160 → 154 → 376 → 334 → 167
 - OPM % (last quarters): 42 → 28 → 26 → 43 → 37 → 25 · YoY Δ -3pp
 - EBITDA YoY 4.4% · QoQ -50% · recovery from 4q trough 1.08×
 - [screener.in](https://www.screener.in/company/EIHOTEL/consolidated/)
 
 ### Gravita India Ltd (GRAVITA) — score 49.3
-- Price 1454 · 52w low 1267 / high 1914 · **14.8% above low**
+- Price 1448 · 52w low 1267 / high 1914 · **14.3% above low**
 - Operating profit (last quarters): 92 → 101 → 102 → 120 → 113 → 110
 - OPM % (last quarters): 9 → 10 → 10 → 12 → 10 → 7 · YoY Δ -3pp
 - EBITDA YoY 8.9% · QoQ -2.7% · recovery from 4q trough 1.08×
 - [screener.in](https://www.screener.in/company/GRAVITA/consolidated/)
 
 ### Jindal Stainless Ltd (JSL) — score 49.3
-- Price 732 · 52w low 652 / high 884 · **12.3% above low**
+- Price 735 · 52w low 652 / high 884 · **12.7% above low**
 - Operating profit (last quarters): 1033 → 1296 → 1374 → 1408 → 1455 → 1329
 - OPM % (last quarters): 10 → 13 → 13 → 13 → 13 → 12 · YoY Δ -1pp
 - EBITDA YoY 2.5% · QoQ -8.7% · recovery from 4q trough 1×
 - [screener.in](https://www.screener.in/company/JSL/consolidated/)
 
 ### KFin Technologies Ltd (KFINTECH) — score 49.3
-- Price 871 · 52w low 785 / high 1217 · **11% above low**
+- Price 873 · 52w low 785 / high 1217 · **11.2% above low**
 - Operating profit (last quarters): 122 → 114 → 136 → 152 → 128 → 122
 - OPM % (last quarters): 43 → 41 → 44 → 41 → 37 → 34 · YoY Δ -7pp
 - EBITDA YoY 7% · QoQ -4.7% · recovery from 4q trough 1×
@@ -704,16 +704,14 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 
 ## Sources
 
-- [NHPC](https://www.screener.in/company/NHPC/consolidated/)
-- [SOBHA](https://www.screener.in/company/SOBHA/consolidated/)
 - [INDIACEM](https://www.screener.in/company/INDIACEM/consolidated/)
+- [NHPC](https://www.screener.in/company/NHPC/consolidated/)
 - [VOLTAS](https://www.screener.in/company/VOLTAS/consolidated/)
 - [ATUL](https://www.screener.in/company/ATUL/consolidated/)
 - [NBCC](https://www.screener.in/company/NBCC/consolidated/)
 - [NTPCGREEN](https://www.screener.in/company/NTPCGREEN/consolidated/)
 - [OIL](https://www.screener.in/company/OIL/consolidated/)
 - [NLCINDIA](https://www.screener.in/company/NLCINDIA/consolidated/)
-- [CHAMBLFERT](https://www.screener.in/company/CHAMBLFERT/consolidated/)
 - [SRF](https://www.screener.in/company/SRF/consolidated/)
 - [BLUEDART](https://www.screener.in/company/BLUEDART/consolidated/)
 - [AWL](https://www.screener.in/company/AWL/consolidated/)
@@ -725,6 +723,7 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [BALKRISIND](https://www.screener.in/company/BALKRISIND/consolidated/)
 - [JPPOWER](https://www.screener.in/company/JPPOWER/consolidated/)
 - [POLICYBZR](https://www.screener.in/company/POLICYBZR/consolidated/)
+- [CHAMBLFERT](https://www.screener.in/company/CHAMBLFERT/consolidated/)
 - [SARDAEN](https://www.screener.in/company/SARDAEN/consolidated/)
 - [IRB](https://www.screener.in/company/IRB/consolidated/)
 - [VMM](https://www.screener.in/company/VMM/consolidated/)
@@ -756,6 +755,7 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [TORNTPOWER](https://www.screener.in/company/TORNTPOWER/consolidated/)
 - [NCC](https://www.screener.in/company/NCC/consolidated/)
 - [TTML](https://www.screener.in/company/TTML/consolidated/)
+- [MAPMYINDIA](https://www.screener.in/company/MAPMYINDIA/consolidated/)
 - [BIKAJI](https://www.screener.in/company/BIKAJI/consolidated/)
 - [ERIS](https://www.screener.in/company/ERIS/consolidated/)
 - [FORTIS](https://www.screener.in/company/FORTIS/consolidated/)
@@ -773,12 +773,12 @@ Screened **500** names from `universe.txt`; **86** cleared the turnaround filter
 - [ASTRAL](https://www.screener.in/company/ASTRAL/consolidated/)
 - [JBMA](https://www.screener.in/company/JBMA/consolidated/)
 - [NH](https://www.screener.in/company/NH/consolidated/)
-- [MAPMYINDIA](https://www.screener.in/company/MAPMYINDIA/consolidated/)
 - [CAMS](https://www.screener.in/company/CAMS/consolidated/)
 - [LINDEINDIA](https://www.screener.in/company/LINDEINDIA/consolidated/)
 - [ARE&M](https://www.screener.in/company/ARE&M/consolidated/)
 - [WAAREEENER](https://www.screener.in/company/WAAREEENER/consolidated/)
 - [DCMSHRIRAM](https://www.screener.in/company/DCMSHRIRAM/consolidated/)
+- [TRAVELFOOD](https://www.screener.in/company/TRAVELFOOD/consolidated/)
 - [FORCEMOT](https://www.screener.in/company/FORCEMOT/consolidated/)
 - [TECHNOE](https://www.screener.in/company/TECHNOE/consolidated/)
 - [UNOMINDA](https://www.screener.in/company/UNOMINDA/consolidated/)
