@@ -1,6 +1,6 @@
 # Volume Surge Scanner — NSE large-caps
 
-**Date:** 2026-10-24 · **Universe:** NSE EQ, market cap ≥ Rs 5000 cr · **Signal:** last 5-day avg volume ≥ 1.5× the prior 20-day avg · **Source:** NSE bhavcopy + screener.in
+**Date:** 2026-10-25 · **Universe:** NSE EQ, market cap ≥ Rs 5000 cr · **Signal:** last 5-day avg volume ≥ 1.5× the prior 20-day avg · **Source:** NSE bhavcopy + screener.in
 
 > Analytical research, **NOT investment advice**. A volume build-up is direction-agnostic — it can precede a breakdown as easily as a breakout. Check the chart, news and delivery quality before acting.
 
@@ -49,8 +49,8 @@ Scanned **2566** NSE EQ symbols over **25** trading days; **72** are ≥ Rs 5000
 | 37 | Deepak Fertilisers & Petrochemicals Corp Ltd | DEEPAKFERT | 14347 | **2.44×** | 661,930 | 270,966 | -15.4% | 44.04% | 82.0836 |
 | 38 | Finolex Cables Ltd | FINCABLES | 16675 | **2.33×** | 1,281,798 | 551,247 | -20.3% | 39.16% | 153.396 |
 | 39 | Federal Bank Ltd | FEDERALBNK | 84301 | **2.23×** | 17,346,968 | 7,776,459 | 0.9% | 60.55% | 598.006 |
-| 40 | Sobha Ltd | SOBHA | 12548 | **2.22×** | 336,481 | 151,718 | -1.3% | 34.22% | 39.4473 |
-| 41 | Indian Hotels Co Ltd | INDHOTEL | 111277 | **2.22×** | 9,030,686 | 4,076,565 | 1.2% | 58.89% | 698.524 |
+| 40 | Indian Hotels Co Ltd | INDHOTEL | 111277 | **2.22×** | 9,030,686 | 4,076,565 | 1.2% | 58.89% | 698.524 |
+| 41 | Sobha Ltd | SOBHA | 12548 | **2.22×** | 336,481 | 151,718 | -1.3% | 34.22% | 39.4473 |
 | 42 | Jindal Saw Ltd | JINDALSAW | 14846 | **2.18×** | 3,261,771 | 1,499,213 | -23% | 46.26% | 88.5925 |
 | 43 | Shilpa Medicare Ltd | SHILPAMED | 16904 | **2.11×** | 1,705,316 | 807,547 | -7.8% | 41.84% | 149.469 |
 | 44 | South Indian Bank Ltd | SOUTHBANK | 13771 | **2.07×** | 41,420,971 | 19,966,014 | 2.2% | 40.34% | 223.553 |
@@ -75,13 +75,13 @@ Scanned **2566** NSE EQ symbols over **25** trading days; **72** are ≥ Rs 5000
 | 63 | CRISIL Ltd | CRISIL | 34745 | **1.62×** | 55,877 | 34,442 | 4.5% | 30.06% | 26.0464 |
 | 64 | Crompton Greaves Consumer Electricals Ltd | CROMPTON | 12568 | **1.59×** | 6,665,786 | 4,184,625 | -9.4% | 49.34% | 137.231 |
 | 65 | United Breweries Ltd | UBL | 30211 | **1.58×** | 308,235 | 195,416 | -4.9% | 50.99% | 36.8435 |
-| 66 | Piramal Finance Ltd | PIRAMALFIN | 44354 | **1.57×** | 546,987 | 349,282 | -3.9% | 46.83% | 108.029 |
-| 67 | Apar Industries Ltd | APARINDS | 60208 | **1.57×** | 191,064 | 121,863 | -10.3% | 38.7% | 289.465 |
+| 66 | Apar Industries Ltd | APARINDS | 60208 | **1.57×** | 191,064 | 121,863 | -10.3% | 38.7% | 289.465 |
+| 67 | Piramal Finance Ltd | PIRAMALFIN | 44354 | **1.57×** | 546,987 | 349,282 | -3.9% | 46.83% | 108.029 |
 | 68 | Nippon Life India Asset Management Ltd | NAM-INDIA | 59050 | **1.55×** | 1,085,341 | 698,209 | -13.4% | 37.25% | 103.315 |
 | 69 | GNG Electronics Ltd | EBGNG | 7781 | **1.55×** | 1,093,235 | 704,506 | -3.6% | 35.93% | 75.7265 |
 | 70 | Yes Bank Ltd | YESBANK | 49596 | **1.54×** | 179,730,241 | 116,742,194 | -9.7% | 39.54% | 299.62 |
-| 71 | Infosys Ltd | INFY | 468244 | **1.5×** | 19,033,323 | 12,688,853 | -0.6% | 52.81% | 2199.1 |
-| 72 | Viyash Scientific Ltd | VIYASH | 9020 | **1.5×** | 3,233,115 | 2,161,838 | -9.7% | 50.28% | 68.7244 |
+| 71 | Viyash Scientific Ltd | VIYASH | 9020 | **1.5×** | 3,233,115 | 2,161,838 | -9.7% | 50.28% | 68.7244 |
+| 72 | Infosys Ltd | INFY | 468244 | **1.5×** | 19,033,323 | 12,688,853 | -0.6% | 52.81% | 2199.1 |
 
 ## Sources
 
@@ -124,8 +124,8 @@ Scanned **2566** NSE EQ symbols over **25** trading days; **72** are ≥ Rs 5000
 - [DEEPAKFERT](https://www.screener.in/company/DEEPAKFERT/consolidated/)
 - [FINCABLES](https://www.screener.in/company/FINCABLES/consolidated/)
 - [FEDERALBNK](https://www.screener.in/company/FEDERALBNK/consolidated/)
-- [SOBHA](https://www.screener.in/company/SOBHA/consolidated/)
 - [INDHOTEL](https://www.screener.in/company/INDHOTEL/consolidated/)
+- [SOBHA](https://www.screener.in/company/SOBHA/consolidated/)
 - [JINDALSAW](https://www.screener.in/company/JINDALSAW/consolidated/)
 - [SHILPAMED](https://www.screener.in/company/SHILPAMED/consolidated/)
 - [SOUTHBANK](https://www.screener.in/company/SOUTHBANK/consolidated/)
@@ -150,12 +150,12 @@ Scanned **2566** NSE EQ symbols over **25** trading days; **72** are ≥ Rs 5000
 - [CRISIL](https://www.screener.in/company/CRISIL/consolidated/)
 - [CROMPTON](https://www.screener.in/company/CROMPTON/consolidated/)
 - [UBL](https://www.screener.in/company/UBL/consolidated/)
-- [PIRAMALFIN](https://www.screener.in/company/PIRAMALFIN/consolidated/)
 - [APARINDS](https://www.screener.in/company/APARINDS/consolidated/)
+- [PIRAMALFIN](https://www.screener.in/company/PIRAMALFIN/consolidated/)
 - [NAM-INDIA](https://www.screener.in/company/NAM-INDIA/consolidated/)
 - [EBGNG](https://www.screener.in/company/EBGNG/consolidated/)
 - [YESBANK](https://www.screener.in/company/YESBANK/consolidated/)
-- [INFY](https://www.screener.in/company/INFY/consolidated/)
 - [VIYASH](https://www.screener.in/company/VIYASH/consolidated/)
+- [INFY](https://www.screener.in/company/INFY/consolidated/)
 
 *Volume surge = mean(last 5d volume) ÷ mean(prior 20d volume), NSE EQ series. Liquidity floor: avg turnover ≥ Rs 20 cr/day. Not investment advice.*
