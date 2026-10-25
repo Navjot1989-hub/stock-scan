@@ -1,10 +1,10 @@
 # Turnaround Hunter — 52-Week-Low Recovery Scan
 
-**Date:** 2026-10-24 · **Universe:** small/mid-caps Rs 500–75000 cr · **Near-low cut:** ≤15% above 52w low · **Source:** screener.in
+**Date:** 2026-10-25 · **Universe:** small/mid-caps Rs 500–75000 cr · **Near-low cut:** ≤15% above 52w low · **Source:** screener.in
 
 > Analytical research, **NOT investment advice**. EBITDA ≈ screener's "Operating Profit"; "improving" and "sector turnaround" are heuristics from numbers + an editable overlay. Verify concalls/filings before acting.
 
-Screened **500** names from `universe.txt`; **101** cleared the turnaround filter (small/mid-cap · near 52w low · 4 quarters of positive EBITDA · latest quarter improving).
+Screened **500** names from `universe.txt`; **102** cleared the turnaround filter (small/mid-cap · near 52w low · 4 quarters of positive EBITDA · latest quarter improving).
 
 ## Ranked setups
 
@@ -89,28 +89,29 @@ Screened **500** names from `universe.txt`; **101** cleared the turnaround filte
 | 77 | Vishal Mega Mart Ltd | VMM | 40922 | 2.9% | 4.3% | 1× | **62.8** | Watch |
 | 78 | Affle 3i Ltd | AFFLE | 19083 | 6% | 20% | 1.15× | **61.7** | Watch |
 | 79 | Endurance Technologies Ltd | ENDURANCE | 31472 | 4.4% | 20.7% | 1.12× | **61.7** | Watch |
-| 80 | Jain Resource Recycling Ltd | JAINREC | 9980 | 6.6% | 20% | 1× | **61.7** | Watch |
-| 81 | ZF Commercial Vehicle Control System India Ltd | ZFCVINDIA | 24271 | 4% | 4.5% | 1.03× | **61.4** | Watch |
-| 82 | Emami Ltd | EMAMILTD | 16288 | 3.3% | 6.1% | 1.27× | **61.2** | Watch |
-| 83 | DCM Shriram Ltd | DCMSHRIRAM | 15041 | 8.8% | 10.9% | 1.09× | **60.3** | Watch |
-| 84 | Anant Raj Ltd | ANANTRAJ | 16569 | 14.1% | 21.2% | 1.1× | **58.5** | Watch |
-| 85 | Bikaji Foods International Ltd | BIKAJI | 11603 | 3.8% | 3.1% | 1.12× | **58.3** | Watch |
-| 86 | CIE Automotive India Ltd | CIEINDIA | 13336 | 3.2% | 5.1% | 1.12× | **58.3** | Watch |
-| 87 | Central Depository Services (India) Ltd | CDSL | 24840 | 6.5% | 6.2% | 1.19× | **58.3** | Watch |
-| 88 | EIH Ltd | EIHOTEL | 18017 | 6.3% | 4.4% | 1.08× | **58.3** | Watch |
-| 89 | Gravita India Ltd | GRAVITA | 9914 | 6% | 8.9% | 1.08× | **58.3** | Watch |
-| 90 | Jindal Stainless Ltd | JSL | 56671 | 5.4% | 3% | 1.06× | **58.3** | Watch |
-| 91 | Tube Investments of India Ltd | TIINDIA | 40263 | 3.7% | 0.4% | 1.01× | **58.3** | Watch |
-| 92 | Uno Minda Ltd | UNOMINDA | 61038 | 6.3% | 5.3% | 1.04× | **58.3** | Watch |
-| 93 | Newgen Software Technologies Ltd | NEWGEN | 6473 | 13.2% | 6.9% | 1.95× | **58.2** | Watch |
-| 94 | Olectra Greentech Ltd | OLECTRA | 7844 | 10.3% | 41.7% | 1× | **57.2** | Watch |
-| 95 | CCL Products (India) Ltd | CCL | 12118 | 8.6% | 7.6% | 1.15× | **56.9** | Watch |
-| 96 | ITC Hotels Ltd | ITCHOTELS | 32550 | 13.9% | 19.2% | 1.19× | **55.8** | Watch |
-| 97 | Travel Food Services Ltd | TRAVELFOOD | 15250 | 11.9% | 11% | 1.2× | **55.6** | Watch |
-| 98 | Lemon Tree Hotels Ltd | LEMONTREE | 8631 | 9.4% | 6.4% | 1.14× | **53.8** | Early / unproven |
-| 99 | Rites Ltd | RITES | 9103 | 8% | 0.9% | 1× | **53.8** | Early / unproven |
-| 100 | Sonata Software Ltd | SONATSOFTW | 6510 | 12.1% | 6.9% | 1× | **52.4** | Early / unproven |
-| 101 | AIA Engineering Ltd | AIAENG | 33401 | 11.1% | 0.7% | 1.06× | **49.3** | Early / unproven |
+| 80 | J K Cements Ltd | JKCEMENT | 37506 | 3.9% | 13.4% | 1× | **61.7** | Watch |
+| 81 | Jain Resource Recycling Ltd | JAINREC | 9980 | 6.6% | 20% | 1× | **61.7** | Watch |
+| 82 | ZF Commercial Vehicle Control System India Ltd | ZFCVINDIA | 24271 | 4% | 4.5% | 1.03× | **61.4** | Watch |
+| 83 | Emami Ltd | EMAMILTD | 16288 | 3.3% | 6.1% | 1.27× | **61.2** | Watch |
+| 84 | DCM Shriram Ltd | DCMSHRIRAM | 15041 | 8.8% | 10.9% | 1.09× | **60.3** | Watch |
+| 85 | Anant Raj Ltd | ANANTRAJ | 16569 | 14.1% | 21.2% | 1.1× | **58.5** | Watch |
+| 86 | Bikaji Foods International Ltd | BIKAJI | 11603 | 3.8% | 3.1% | 1.12× | **58.3** | Watch |
+| 87 | CIE Automotive India Ltd | CIEINDIA | 13336 | 3.2% | 5.1% | 1.12× | **58.3** | Watch |
+| 88 | Central Depository Services (India) Ltd | CDSL | 24840 | 6.5% | 6.2% | 1.19× | **58.3** | Watch |
+| 89 | EIH Ltd | EIHOTEL | 18017 | 6.3% | 4.4% | 1.08× | **58.3** | Watch |
+| 90 | Gravita India Ltd | GRAVITA | 9914 | 6% | 8.9% | 1.08× | **58.3** | Watch |
+| 91 | Jindal Stainless Ltd | JSL | 56671 | 5.4% | 3% | 1.06× | **58.3** | Watch |
+| 92 | Tube Investments of India Ltd | TIINDIA | 40263 | 3.7% | 0.4% | 1.01× | **58.3** | Watch |
+| 93 | Uno Minda Ltd | UNOMINDA | 61038 | 6.3% | 5.3% | 1.04× | **58.3** | Watch |
+| 94 | Newgen Software Technologies Ltd | NEWGEN | 6473 | 13.2% | 6.9% | 1.95× | **58.2** | Watch |
+| 95 | Olectra Greentech Ltd | OLECTRA | 7844 | 10.3% | 41.7% | 1× | **57.2** | Watch |
+| 96 | CCL Products (India) Ltd | CCL | 12118 | 8.6% | 7.6% | 1.15× | **56.9** | Watch |
+| 97 | ITC Hotels Ltd | ITCHOTELS | 32550 | 13.9% | 19.2% | 1.19× | **55.8** | Watch |
+| 98 | Travel Food Services Ltd | TRAVELFOOD | 15250 | 11.9% | 11% | 1.2× | **55.6** | Watch |
+| 99 | Lemon Tree Hotels Ltd | LEMONTREE | 8631 | 9.4% | 6.4% | 1.14× | **53.8** | Early / unproven |
+| 100 | Rites Ltd | RITES | 9103 | 8% | 0.9% | 1× | **53.8** | Early / unproven |
+| 101 | Sonata Software Ltd | SONATSOFTW | 6510 | 12.1% | 6.9% | 1× | **52.4** | Early / unproven |
+| 102 | AIA Engineering Ltd | AIAENG | 33401 | 11.1% | 0.7% | 1.06× | **49.3** | Early / unproven |
 
 ## Detail — EBITDA / OPM trend & sector
 
@@ -667,6 +668,13 @@ Screened **500** names from `universe.txt`; **101** cleared the turnaround filte
 - EBITDA YoY 20.7% · QoQ -5.6% · recovery from 4q trough 1.12×
 - [screener.in](https://www.screener.in/company/ENDURANCE/consolidated/)
 
+### J K Cements Ltd (JKCEMENT) — score 61.7
+- Price 4854 · 52w low 4670 / high 6473 · **3.9% above low**
+- Operating profit (last quarters): 688 → 447 → 557 → 682 → 648 → 507
+- OPM % (last quarters): 21 → 15 → 16 → 18 → 16 → 14 · YoY Δ -1pp
+- EBITDA YoY 13.4% · QoQ -21.8% · recovery from 4q trough 1×
+- [screener.in](https://www.screener.in/company/JKCEMENT/consolidated/)
+
 ### Jain Resource Recycling Ltd (JAINREC) — score 61.7
 - Price 289 · 52w low 271 / high 594 · **6.6% above low**
 - Operating profit (last quarters): 93 → 90 → 160 → 199 → 110 → 108
@@ -903,6 +911,7 @@ Screened **500** names from `universe.txt`; **101** cleared the turnaround filte
 - [VMM](https://www.screener.in/company/VMM/consolidated/)
 - [AFFLE](https://www.screener.in/company/AFFLE/consolidated/)
 - [ENDURANCE](https://www.screener.in/company/ENDURANCE/consolidated/)
+- [JKCEMENT](https://www.screener.in/company/JKCEMENT/consolidated/)
 - [JAINREC](https://www.screener.in/company/JAINREC/consolidated/)
 - [ZFCVINDIA](https://www.screener.in/company/ZFCVINDIA/consolidated/)
 - [EMAMILTD](https://www.screener.in/company/EMAMILTD/consolidated/)
