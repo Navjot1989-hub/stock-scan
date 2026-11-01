@@ -1,10 +1,10 @@
 # Turnaround Hunter — 52-Week-Low Recovery Scan
 
-**Date:** 2026-10-31 · **Universe:** small/mid-caps Rs 500–75000 cr · **Near-low cut:** ≤15% above 52w low · **Source:** screener.in
+**Date:** 2026-11-01 · **Universe:** small/mid-caps Rs 500–75000 cr · **Near-low cut:** ≤15% above 52w low · **Source:** screener.in
 
 > Analytical research, **NOT investment advice**. EBITDA ≈ screener's "Operating Profit"; "improving" and "sector turnaround" are heuristics from numbers + an editable overlay. Verify concalls/filings before acting.
 
-Screened **500** names from `universe.txt`; **100** cleared the turnaround filter (small/mid-cap · near 52w low · 4 quarters of positive EBITDA · latest quarter improving).
+Screened **500** names from `universe.txt`; **101** cleared the turnaround filter (small/mid-cap · near 52w low · 4 quarters of positive EBITDA · latest quarter improving).
 
 ## Ranked setups
 
@@ -46,7 +46,7 @@ Screened **500** names from `universe.txt`; **100** cleared the turnaround filte
 | 34 | Pine Labs Ltd | PINELABS | 17697 | 13.3% | 68% | 1.33× | **69.7** | Watch |
 | 35 | Amber Enterprises India Ltd | AMBER | 20685 | 8.6% | 24.7% | 3.72× | **69.4** | Watch |
 | 36 | Voltas Ltd | VOLTAS | 34015 | 10.5% | 49% | 6.71× | **69.4** | Watch |
-| 37 | Aditya Birla Lifestyle Brands Ltd | ABLBL | 8606 | 1.9% | 17.1% | 1× | **69.3** | Watch |
+| 37 | Aditya Birla Lifestyle Brands Ltd | ABLBL | 8606 | 1.9% | 13.6% | 1.17× | **69.3** | Watch |
 | 38 | Astral Ltd | ASTRAL | 36050 | 2.3% | 24.9% | 1× | **69.3** | Watch |
 | 39 | JBM Auto Ltd | JBMA | 11060 | 0.6% | 21.3% | 1.17× | **69.3** | Watch |
 | 40 | KEI Industries Ltd | KEI | 36058 | 3.2% | 40.1% | 1.18× | **69.2** | Watch |
@@ -63,19 +63,19 @@ Screened **500** names from `universe.txt`; **100** cleared the turnaround filte
 | 51 | Escorts Kubota Ltd | ESCORTS | 28824 | 1% | 10.3% | 1× | **66.2** | Watch |
 | 52 | J K Cements Ltd | JKCEMENT | 36977 | 2.5% | 13.4% | 1× | **66.2** | Watch |
 | 53 | Jain Resource Recycling Ltd | JAINREC | 9317 | 0.7% | 20% | 1× | **66.2** | Watch |
-| 54 | Latent View Analytics Ltd | LATENTVIEW | 4357 | 1% | 14% | 1.02× | **66.2** | Watch |
-| 55 | Container Corporation Of India Ltd | CONCOR | 31520 | 2.5% | 2.5% | 1.04× | **65.9** | Watch |
-| 56 | ZF Commercial Vehicle Control System India Ltd | ZFCVINDIA | 23916 | 2.5% | 4.5% | 1.03× | **65.9** | Watch |
-| 57 | Titagarh Rail Systems Ltd | TITAGARH | 8810 | 14.9% | 46.9% | 1.27× | **65.8** | Watch |
-| 58 | CESC Ltd | CESC | 16521 | 2.5% | 3.6% | 1.2× | **65.7** | Watch |
-| 59 | Emami Ltd | EMAMILTD | 15703 | 0.8% | 6.1% | 1.27× | **65.7** | Watch |
-| 60 | The Bombay Burmah Trading Corporation Ltd | BBTC | 8004 | 3.5% | 12.4% | 1× | **64.8** | Watch |
-| 61 | Jubilant Foodworks Ltd | JUBLFOOD | 27839 | 6% | 15.1% | 1.06× | **64.8** | Watch |
-| 62 | Anupam Rasayan India Ltd | ANURAS | 13019 | 8.6% | 30.6% | 1.28× | **64.6** | Watch |
-| 63 | Gravita India Ltd | GRAVITA | 10244 | 9.6% | 31.4% | 1.22× | **64.6** | Watch |
-| 64 | Bata India Ltd | BATAINDIA | 8076 | 4.7% | 2.5% | 1.41× | **64.3** | Watch |
-| 65 | Bikaji Foods International Ltd | BIKAJI | 11317 | 1.1% | 3.1% | 1.12× | **62.8** | Watch |
-| 66 | Indian Energy Exchange Ltd | IEX | 8997 | 1.5% | 6% | 1.16× | **62.8** | Watch |
+| 54 | Container Corporation Of India Ltd | CONCOR | 31520 | 2.5% | 2.5% | 1.04× | **65.9** | Watch |
+| 55 | ZF Commercial Vehicle Control System India Ltd | ZFCVINDIA | 23916 | 2.5% | 4.5% | 1.03× | **65.9** | Watch |
+| 56 | Titagarh Rail Systems Ltd | TITAGARH | 8810 | 14.9% | 46.9% | 1.27× | **65.8** | Watch |
+| 57 | CESC Ltd | CESC | 16521 | 2.5% | 3.6% | 1.2× | **65.7** | Watch |
+| 58 | Emami Ltd | EMAMILTD | 15703 | 0.8% | 6.1% | 1.27× | **65.7** | Watch |
+| 59 | The Bombay Burmah Trading Corporation Ltd | BBTC | 8004 | 3.5% | 12.4% | 1× | **64.8** | Watch |
+| 60 | Jubilant Foodworks Ltd | JUBLFOOD | 27839 | 6% | 15.1% | 1.06× | **64.8** | Watch |
+| 61 | Anupam Rasayan India Ltd | ANURAS | 13019 | 8.6% | 30.6% | 1.28× | **64.6** | Watch |
+| 62 | Gravita India Ltd | GRAVITA | 10244 | 9.6% | 31.4% | 1.22× | **64.6** | Watch |
+| 63 | Bata India Ltd | BATAINDIA | 8076 | 4.7% | 2.5% | 1.41× | **64.3** | Watch |
+| 64 | Bikaji Foods International Ltd | BIKAJI | 11317 | 1.1% | 3.1% | 1.12× | **62.8** | Watch |
+| 65 | Indian Energy Exchange Ltd | IEX | 8997 | 1.5% | 6% | 1.16× | **62.8** | Watch |
+| 66 | Latent View Analytics Ltd | LATENTVIEW | 4357 | 1% | 7.1% | 1.05× | **62.8** | Watch |
 | 67 | Linde India Ltd | LINDEINDIA | 48196 | 2% | 2% | 1.16× | **62.8** | Watch |
 | 68 | Vishal Mega Mart Ltd | VMM | 39540 | 0.2% | 4.3% | 1× | **62.8** | Watch |
 | 69 | Endurance Technologies Ltd | ENDURANCE | 31978 | 6.1% | 20.7% | 1.12× | **61.7** | Watch |
@@ -98,18 +98,19 @@ Screened **500** names from `universe.txt`; **100** cleared the turnaround filte
 | 86 | Jupiter Wagons Ltd | JWL | 7769 | 7.7% | 10.2% | 1× | **57.2** | Watch |
 | 87 | CCL Products (India) Ltd | CCL | 12445 | 8.6% | 7.6% | 1.15× | **56.9** | Watch |
 | 88 | Sonata Software Ltd | SONATSOFTW | 6273 | 8.2% | 6.9% | 1× | **56.9** | Watch |
-| 89 | Biocon Ltd | BIOCON | 57333 | 10.7% | 10.6% | 1.02× | **55.8** | Watch |
-| 90 | Travel Food Services Ltd | TRAVELFOOD | 15180 | 11.3% | 11% | 1.2× | **55.6** | Watch |
-| 91 | ERIS Lifesciences Ltd | ERIS | 16044 | 8.1% | 6.9% | 1.13× | **53.8** | Early / unproven |
-| 92 | Fortis Healthcare Ltd | FORTIS | 57992 | 8.9% | 9.4% | 1.06× | **53.8** | Early / unproven |
-| 93 | JSW Cement Ltd | JSWCEMENT | 15747 | 8.4% | 3.7% | 1× | **53.8** | Early / unproven |
-| 94 | Lemon Tree Hotels Ltd | LEMONTREE | 8657 | 9.4% | 6.4% | 1.14× | **53.8** | Early / unproven |
-| 95 | Rites Ltd | RITES | 9049 | 7.4% | 0.9% | 1× | **53.8** | Early / unproven |
-| 96 | Uno Minda Ltd | UNOMINDA | 62511 | 8.9% | 5.3% | 1.04× | **53.8** | Early / unproven |
-| 97 | Blue Star Ltd | BLUESTARCO | 33472 | 13.7% | 11.5% | 1.16× | **52.7** | Early / unproven |
-| 98 | Dixon Technologies (India) Ltd | DIXON | 67288 | 14.6% | 6.4% | 1.46× | **52.2** | Early / unproven |
-| 99 | L T Foods Ltd | LTFOODS | 13178 | 14.5% | 9.7% | 1.27× | **52.2** | Early / unproven |
-| 100 | AIA Engineering Ltd | AIAENG | 33557 | 11.7% | 0.7% | 1.06× | **49.3** | Early / unproven |
+| 89 | Clean Science & Technology Ltd | CLEAN | 7606 | 9.8% | 5.7% | 1.28× | **56.7** | Watch |
+| 90 | Biocon Ltd | BIOCON | 57333 | 10.7% | 10.6% | 1.02× | **55.8** | Watch |
+| 91 | Travel Food Services Ltd | TRAVELFOOD | 15180 | 11.3% | 11% | 1.2× | **55.6** | Watch |
+| 92 | ERIS Lifesciences Ltd | ERIS | 16044 | 8.1% | 6.9% | 1.13× | **53.8** | Early / unproven |
+| 93 | Fortis Healthcare Ltd | FORTIS | 57992 | 8.9% | 9.4% | 1.06× | **53.8** | Early / unproven |
+| 94 | JSW Cement Ltd | JSWCEMENT | 15747 | 8.4% | 3.7% | 1× | **53.8** | Early / unproven |
+| 95 | Lemon Tree Hotels Ltd | LEMONTREE | 8657 | 9.4% | 6.4% | 1.14× | **53.8** | Early / unproven |
+| 96 | Rites Ltd | RITES | 9049 | 7.4% | 0.9% | 1× | **53.8** | Early / unproven |
+| 97 | Uno Minda Ltd | UNOMINDA | 62511 | 8.9% | 5.3% | 1.04× | **53.8** | Early / unproven |
+| 98 | Blue Star Ltd | BLUESTARCO | 33472 | 13.7% | 11.5% | 1.16× | **52.7** | Early / unproven |
+| 99 | Dixon Technologies (India) Ltd | DIXON | 67288 | 14.6% | 6.4% | 1.46× | **52.2** | Early / unproven |
+| 100 | L T Foods Ltd | LTFOODS | 13178 | 14.5% | 9.7% | 1.27× | **52.2** | Early / unproven |
+| 101 | AIA Engineering Ltd | AIAENG | 33557 | 11.7% | 0.7% | 1.06× | **49.3** | Early / unproven |
 
 ## Detail — EBITDA / OPM trend & sector
 
@@ -367,9 +368,9 @@ Screened **500** names from `universe.txt`; **100** cleared the turnaround filte
 
 ### Aditya Birla Lifestyle Brands Ltd (ABLBL) — score 69.3
 - Price 70.5 · 52w low 69.2 / high 142 · **1.9% above low**
-- Operating profit (last quarters): 309 → 263 → 317 → 412 → 352 → 308
-- OPM % (last quarters): 16 → 14 → 16 → 18 → 16 → 15 · YoY Δ 1pp
-- EBITDA YoY 17.1% · QoQ -12.5% · recovery from 4q trough 1×
+- Operating profit (last quarters): 263 → 317 → 412 → 352 → 308 → 360
+- OPM % (last quarters): 14 → 16 → 18 → 16 → 15 → 16 · YoY Δ 0pp
+- EBITDA YoY 13.6% · QoQ 16.9% · recovery from 4q trough 1.17×
 - [screener.in](https://www.screener.in/company/ABLBL/consolidated/)
 
 ### Astral Ltd (ASTRAL) — score 69.3
@@ -484,13 +485,6 @@ Screened **500** names from `universe.txt`; **100** cleared the turnaround filte
 - EBITDA YoY 20% · QoQ -1.8% · recovery from 4q trough 1×
 - [screener.in](https://www.screener.in/company/JAINREC/consolidated/)
 
-### Latent View Analytics Ltd (LATENTVIEW) — score 66.2
-- Price 210 · 52w low 208 / high 518 · **1% above low**
-- Operating profit (last quarters): 55 → 50 → 56 → 62 → 68 → 57
-- OPM % (last quarters): 24 → 21 → 22 → 22 → 23 → 20 · YoY Δ -1pp
-- EBITDA YoY 14% · QoQ -16.2% · recovery from 4q trough 1.02×
-- [screener.in](https://www.screener.in/company/LATENTVIEW/consolidated/)
-
 ### Container Corporation Of India Ltd (CONCOR) — score 65.9
 - Price 414 · 52w low 404 / high 553 · **2.5% above low**
 - Operating profit (last quarters): 441 → 433 → 576 → 514 → 427 → 444
@@ -574,6 +568,13 @@ Screened **500** names from `universe.txt`; **100** cleared the turnaround filte
 - OPM % (last quarters): 81 → 87 → 84 → 86 → 83 → 85 · YoY Δ -2pp
 - EBITDA YoY 6% · QoQ 7.6% · recovery from 4q trough 1.16×
 - [screener.in](https://www.screener.in/company/IEX/consolidated/)
+
+### Latent View Analytics Ltd (LATENTVIEW) — score 62.8
+- Price 210 · 52w low 208 / high 518 · **1% above low**
+- Operating profit (last quarters): 50 → 56 → 62 → 68 → 57 → 60
+- OPM % (last quarters): 21 → 22 → 22 → 23 → 20 → 20 · YoY Δ -2pp
+- EBITDA YoY 7.1% · QoQ 5.3% · recovery from 4q trough 1.05×
+- [screener.in](https://www.screener.in/company/LATENTVIEW/consolidated/)
 
 ### Linde India Ltd (LINDEINDIA) — score 62.8
 - Price 5652 · 52w low 5539 / high 8049 · **2% above low**
@@ -729,6 +730,13 @@ Screened **500** names from `universe.txt`; **100** cleared the turnaround filte
 - EBITDA YoY 6.9% · QoQ -18.2% · recovery from 4q trough 1×
 - [screener.in](https://www.screener.in/company/SONATSOFTW/consolidated/)
 
+### Clean Science & Technology Ltd (CLEAN) — score 56.7
+- Price 716 · 52w low 652 / high 1027 · **9.8% above low**
+- Operating profit (last quarters): 100 → 87 → 72 → 96 → 96 → 92
+- OPM % (last quarters): 41 → 36 → 33 → 38 → 36 → 31 · YoY Δ -5pp
+- EBITDA YoY 5.7% · QoQ -4.2% · recovery from 4q trough 1.28×
+- [screener.in](https://www.screener.in/company/CLEAN/consolidated/)
+
 ### Biocon Ltd (BIOCON) — score 55.8
 - Price 352 · 52w low 318 / high 447 · **10.7% above low**
 - Operating profit (last quarters): 1078 → 766 → 835 → 834 → 1020 → 847
@@ -869,7 +877,6 @@ Screened **500** names from `universe.txt`; **100** cleared the turnaround filte
 - [ESCORTS](https://www.screener.in/company/ESCORTS/consolidated/)
 - [JKCEMENT](https://www.screener.in/company/JKCEMENT/consolidated/)
 - [JAINREC](https://www.screener.in/company/JAINREC/consolidated/)
-- [LATENTVIEW](https://www.screener.in/company/LATENTVIEW/consolidated/)
 - [CONCOR](https://www.screener.in/company/CONCOR/consolidated/)
 - [ZFCVINDIA](https://www.screener.in/company/ZFCVINDIA/consolidated/)
 - [TITAGARH](https://www.screener.in/company/TITAGARH/consolidated/)
@@ -882,6 +889,7 @@ Screened **500** names from `universe.txt`; **100** cleared the turnaround filte
 - [BATAINDIA](https://www.screener.in/company/BATAINDIA/consolidated/)
 - [BIKAJI](https://www.screener.in/company/BIKAJI/consolidated/)
 - [IEX](https://www.screener.in/company/IEX/consolidated/)
+- [LATENTVIEW](https://www.screener.in/company/LATENTVIEW/consolidated/)
 - [LINDEINDIA](https://www.screener.in/company/LINDEINDIA/consolidated/)
 - [VMM](https://www.screener.in/company/VMM/consolidated/)
 - [ENDURANCE](https://www.screener.in/company/ENDURANCE/consolidated/)
@@ -904,6 +912,7 @@ Screened **500** names from `universe.txt`; **100** cleared the turnaround filte
 - [JWL](https://www.screener.in/company/JWL/consolidated/)
 - [CCL](https://www.screener.in/company/CCL/consolidated/)
 - [SONATSOFTW](https://www.screener.in/company/SONATSOFTW/consolidated/)
+- [CLEAN](https://www.screener.in/company/CLEAN/consolidated/)
 - [BIOCON](https://www.screener.in/company/BIOCON/consolidated/)
 - [TRAVELFOOD](https://www.screener.in/company/TRAVELFOOD/consolidated/)
 - [ERIS](https://www.screener.in/company/ERIS/consolidated/)
