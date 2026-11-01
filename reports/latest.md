@@ -1,6 +1,6 @@
 # Multibagger Hunter (India — NSE/BSE) — Automated Daily Scan
 
-**Date:** 2026-10-31 · **Framework:** SQGLP / six-pillar (quantitative proxy) · **Source:** screener.in
+**Date:** 2026-11-01 · **Framework:** SQGLP / six-pillar (quantitative proxy) · **Source:** screener.in
 
 > Analytical research, **NOT investment advice**. This scores *numbers only* — it does not read annual reports or concalls, so Longevity (moat), Management candor, and red flags 5–8/10 are heuristic proxies flagged for manual review. Verify filings independently and size positions accordingly: multibagger hunting means accepting that many picks fail — portfolio construction matters as much as selection. Most small caps underperform.
 
