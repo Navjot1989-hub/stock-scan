@@ -1,275 +1,275 @@
 # Volume Surge Scanner — NSE large-caps
 
-**Date:** 2026-11-06 · **Universe:** NSE EQ, market cap ≥ Rs 5000 cr · **Signal:** last 5-day avg volume ≥ 1.5× the prior 20-day avg · **Source:** NSE bhavcopy + screener.in
+**Date:** 2026-11-07 · **Universe:** NSE EQ, market cap ≥ Rs 5000 cr · **Signal:** last 5-day avg volume ≥ 1.5× the prior 20-day avg · **Source:** NSE bhavcopy + screener.in
 
 > Analytical research, **NOT investment advice**. A volume build-up is direction-agnostic — it can precede a breakdown as easily as a breakout. Check the chart, news and delivery quality before acting.
 
-Scanned **2546** NSE EQ symbols over **25** trading days; **129** are ≥ Rs 5000 cr with a qualifying volume surge (avg turnover ≥ Rs 20 cr/day).
+Scanned **2568** NSE EQ symbols over **25** trading days; **129** are ≥ Rs 5000 cr with a qualifying volume surge (avg turnover ≥ Rs 20 cr/day).
 
 ## Ranked by volume surge
 
 | # | Company | Ticker | Mcap (cr) | Vol surge | 5d avg vol | 20d avg vol | 5d price | Deliv % | Turnover (cr/day) |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | ITI Ltd | ITI | 23953 | **54.48×** | 9,235,967 | 169,516 | 12.9% | 30.99% | 237.852 |
-| 2 | PDS Ltd | PDSL | 5697 | **37.53×** | 2,864,189 | 76,314 | 16.1% | 9.44% | 114.468 |
-| 3 | Saregama India Ltd | SAREGAMA | 11949 | **22.7×** | 7,089,637 | 312,288 | 17.9% | 8.69% | 444.72 |
-| 4 | Trident Ltd | TRIDENT | 12154 | **18.55×** | 63,461,438 | 3,421,285 | 11.4% | 28.27% | 152.827 |
-| 5 | Alembic Pharmaceuticals Ltd | APLLTD | 18924 | **9.54×** | 1,270,411 | 133,205 | 12.4% | 42.17% | 116.411 |
-| 6 | Affle 3i Ltd | AFFLE | 22705 | **9.28×** | 1,257,609 | 135,553 | 16.3% | 41.28% | 190.074 |
-| 7 | Gujarat Mineral Development Corporation Ltd | GMDCLTD | 14733 | **9.25×** | 6,852,058 | 740,967 | 7% | 26.62% | 314.02 |
-| 8 | Sagility Ltd | SAGILITY | 20257 | **8.94×** | 186,204,881 | 20,838,145 | -1.9% | 52.65% | 796.207 |
-| 9 | Welspun Living Ltd | WELSPUNLIV | 22768 | **8.8×** | 33,713,897 | 3,829,613 | 19.4% | 26.39% | 819.956 |
-| 10 | Zydus Wellness Ltd | ZYDUSWELL | 14853 | **8.46×** | 859,493 | 101,647 | -1% | 28.23% | 42.8928 |
-| 11 | P I Industries Ltd | PIIND | 26259 | **8.4×** | 2,448,683 | 291,354 | -16.1% | 30.63% | 462.931 |
-| 12 | Blue Jet Healthcare Ltd | BLUEJET | 10491 | **8.29×** | 2,368,463 | 285,682 | 14.5% | 12.1% | 134.998 |
-| 13 | Asahi India Glass Ltd | ASAHIINDIA | 26354 | **8.28×** | 515,346 | 62,227 | 12% | 54.26% | 50.971 |
-| 14 | Kirloskar Brothers Ltd | KIRLOSBROS | 12931 | **8.25×** | 379,640 | 46,029 | 3.5% | 44.19% | 67.7609 |
-| 15 | KRBL Ltd | KRBL | 9344 | **7.54×** | 2,914,962 | 386,590 | 14.4% | 36.91% | 116.89 |
-| 16 | Indo Count Industries Ltd | ICIL | 9679 | **7.43×** | 2,708,427 | 364,618 | 11.5% | 28.55% | 137.079 |
-| 17 | AIA Engineering Ltd | AIAENG | 29054 | **7.02×** | 262,726 | 37,447 | -12% | 65.86% | 87.468 |
-| 18 | DOMS Industries Ltd | DOMS | 12475 | **6.82×** | 132,615 | 19,433 | 11.9% | 50.5% | 26.0928 |
-| 19 | Fertilizers & Chemicals Travancore Ltd | FACT | 48518 | **6.7×** | 398,188 | 59,411 | 10.3% | 28.51% | 29.9426 |
-| 20 | HEG Advanced Materials Ltd | HEGAM | 9691 | **6.68×** | 8,351,946 | 1,249,481 | 21.4% | 14.88% | 235.386 |
-| 21 | Deepak Nitrite Ltd | DEEPAKNTR | 20909 | **6.39×** | 1,256,300 | 196,730 | 4.6% | 70.3% | 194.299 |
-| 22 | Smartworks Coworking Spaces Ltd | SMARTWORKS | 5892 | **6.05×** | 514,174 | 85,044 | 1.5% | 53.45% | 25.0865 |
-| 23 | Sandur Manganese & Iron Ores Ltd | SANDUMA | 8641 | **5.87×** | 2,575,126 | 438,380 | 6.2% | 39.73% | 46.0792 |
-| 24 | Jyothy Labs Ltd | JYOTHYLAB | 7305 | **5.8×** | 1,507,005 | 259,801 | 13.8% | 42.83% | 28.4064 |
-| 25 | Emcure Pharmaceuticals Ltd | EMCURE | 42070 | **5.76×** | 580,286 | 100,678 | 20.4% | 49.65% | 121.493 |
-| 26 | Alivus Life Sciences Ltd | ALIVUS | 18206 | **5.72×** | 590,835 | 103,227 | 7.1% | 49.82% | 86.8877 |
-| 27 | BASF India Ltd | BASF | 12805 | **5.48×** | 81,337 | 14,838 | -6.1% | 49.12% | 24.4312 |
-| 28 | Zen Technologies Ltd | ZENTEC | 15521 | **5.47×** | 1,364,552 | 249,356 | 6.3% | 39.39% | 235.634 |
-| 29 | AAVAS Financiers Ltd | AAVAS | 9032 | **5.36×** | 461,111 | 85,959 | 2% | 65.67% | 51.7058 |
-| 30 | Eureka Forbes Ltd | EUREKAFORB | 7086 | **5.23×** | 1,122,498 | 214,521 | 8.8% | 49.87% | 38.5538 |
-| 31 | Vedanta Power Ltd | VEDPOWER | 13812 | **5.21×** | 136,195,191 | 26,118,177 | 26.2% | 26.67% | 465.802 |
-| 32 | Safari Industries (India) Ltd | SAFARI | 6142 | **4.95×** | 173,684 | 35,076 | 4.3% | 36.98% | 21.1852 |
-| 33 | Intellect Design Arena Ltd | INTELLECT | 7242 | **4.88×** | 1,972,710 | 404,033 | -11.3% | 53.24% | 105.068 |
-| 34 | Ajanta Pharma Ltd | AJANTPHARM | 41334 | **4.81×** | 399,025 | 83,019 | -5.1% | 62.6% | 137.219 |
-| 35 | Uno Minda Ltd | UNOMINDA | 76630 | **4.52×** | 2,206,750 | 487,929 | 22.8% | 33.14% | 272.502 |
-| 36 | Sanofi India Ltd | SANOFI | 7553 | **4.34×** | 84,889 | 19,567 | 5.8% | 49.86% | 28.3084 |
-| 37 | Ramkrishna Forgings Ltd | RKFORGE | 12873 | **4.27×** | 2,579,919 | 603,879 | 7.8% | 56.6% | 178.951 |
-| 38 | Paradeep Phosphates Ltd | PARADEEP | 14778 | **4.16×** | 7,480,166 | 1,798,484 | -0.7% | 44.03% | 95.5486 |
-| 39 | Jyoti CNC Automation Ltd | JYOTICNC | 23206 | **4.12×** | 2,278,892 | 553,243 | 6.8% | 43.32% | 223.577 |
-| 40 | Thyrocare Technologies Ltd | THYROCARE | 7841 | **4.0×** | 1,552,231 | 388,322 | -5% | 53.57% | 72.7021 |
-| 41 | Vedanta Oil and Gas Ltd | VOGL | 12005 | **3.99×** | 67,914,921 | 17,011,492 | 12.9% | 37.72% | 211.557 |
-| 42 | Devyani International Ltd | DEVYANI | 15851 | **3.89×** | 3,683,793 | 947,313 | 6.3% | 20.34% | 45.848 |
-| 43 | Restaurant Brands Asia Ltd | RBA | 6355 | **3.87×** | 10,712,097 | 2,769,853 | 2.2% | 41.06% | 98.4304 |
-| 44 | Fractal Analytics Ltd | FRACTAL | 14066 | **3.8×** | 4,323,335 | 1,137,056 | 8% | 19.96% | 354.526 |
-| 45 | Linde India Ltd | LINDEINDIA | 58519 | **3.78×** | 63,864 | 16,880 | 10.3% | 40.94% | 39.1402 |
-| 46 | Entero Healthcare Solutions Ltd | ENTERO | 8276 | **3.63×** | 387,764 | 106,742 | 12.5% | 15.52% | 68.3972 |
-| 47 | Pfizer Ltd | PFIZER | 17644 | **3.61×** | 98,452 | 27,296 | 2.6% | 51.72% | 37.2118 |
-| 48 | Sheela Foam Ltd | SFL | 5786 | **3.47×** | 394,460 | 113,781 | -5% | 42.21% | 20.7366 |
-| 49 | Godrej Consumer Products Ltd | GODREJCP | 87097 | **3.41×** | 3,164,115 | 927,435 | 3.1% | 56.3% | 260.021 |
-| 50 | Aptus Value Housing Finance India Ltd | APTUS | 8745 | **3.36×** | 5,520,078 | 1,641,588 | -10.2% | 48.2% | 103.889 |
-| 51 | Cummins India Ltd | CUMMINSIND | 111953 | **3.36×** | 1,555,841 | 463,451 | -10.1% | 47.83% | 663.076 |
-| 52 | Delhivery Ltd | DELHIVERY | 32199 | **3.34×** | 7,232,275 | 2,165,458 | 8.2% | 54.65% | 299.419 |
-| 53 | Marico Ltd | MARICO | 116562 | **3.32×** | 5,671,817 | 1,709,784 | 10.6% | 65.23% | 485.821 |
-| 54 | Amara Raja Energy & Mobility Ltd | ARE&M | 13320 | **3.26×** | 1,120,829 | 344,089 | 4.6% | 47.1% | 80.9985 |
-| 55 | Global Health Ltd | MEDANTA | 37296 | **3.24×** | 680,682 | 209,953 | 6.9% | 47.82% | 93.4922 |
-| 56 | Strides Pharma Science Ltd | STAR | 9228 | **3.22×** | 841,051 | 261,432 | -8.2% | 51.01% | 86.1043 |
-| 57 | NLC India Ltd | NLCINDIA | 32944 | **3.18×** | 3,780,561 | 1,190,458 | 1.6% | 43.24% | 90.9967 |
-| 58 | Techno Electric & Engineering Company Ltd | TECHNOE | 10814 | **3.1×** | 470,054 | 151,498 | 10.9% | 21.84% | 43.0214 |
-| 59 | Aegis Logistics Ltd | AEGISLOG | 39980 | **3.06×** | 3,483,969 | 1,138,261 | 0.6% | 36.19% | 414.656 |
-| 60 | NBCC (India) Ltd | NBCC | 21042 | **3.0×** | 14,682,955 | 4,890,089 | 11.6% | 22.56% | 112.103 |
-| 61 | KEC International Ltd | KEC | 8871 | **2.99×** | 6,713,271 | 2,245,669 | -4.1% | 32.55% | 214.502 |
-| 62 | Amagi Media Labs Ltd | AMAGI | 12532 | **2.99×** | 630,691 | 210,926 | 3.8% | 17.34% | 36.8772 |
-| 63 | Mrs Bectors Food Specialities Ltd | BECTORFOOD | 6454 | **2.97×** | 2,340,138 | 787,756 | 12.8% | 43.49% | 48.0481 |
-| 64 | Godfrey Phillips India Ltd | GODFRYPHLP | 27828 | **2.95×** | 526,784 | 178,664 | 2.9% | 31.74% | 92.6803 |
-| 65 | Clean Science & Technology Ltd | CLEAN | 7099 | **2.91×** | 553,276 | 190,059 | -8.3% | 47.73% | 37.1925 |
-| 66 | Indegene Ltd | INDGN | 14687 | **2.9×** | 949,115 | 326,778 | 3.4% | 57.84% | 58.5389 |
-| 67 | The Ramco Cements Ltd | RAMCOCEM | 19323 | **2.89×** | 399,587 | 138,154 | 11.2% | 51.89% | 30.4256 |
-| 68 | Concord Biotech Ltd | CONCORDBIO | 13205 | **2.88×** | 315,482 | 109,719 | -45.3% | 28.31% | 29.9561 |
-| 69 | Minda Corporation Ltd | MINDACORP | 17059 | **2.88×** | 709,502 | 246,308 | 8.3% | 48.77% | 47.9281 |
-| 70 | JK Tyre & Industries Ltd | JKTYRE | 10355 | **2.84×** | 1,123,603 | 395,956 | 16.5% | 22.77% | 38.5534 |
-| 71 | Sun Pharmaceutical Industries Ltd | SUNPHARMA | 447169 | **2.83×** | 4,016,769 | 1,418,987 | 3.9% | 62.07% | 719.223 |
-| 72 | ASK Automotive Ltd | ASKAUTOLTD | 12108 | **2.81×** | 501,891 | 178,551 | 8% | 30.63% | 30.5158 |
-| 73 | ACC Ltd | ACC | 23212 | **2.8×** | 448,572 | 160,379 | 6.3% | 62.86% | 53.5102 |
-| 74 | GNG Electronics Ltd | EBGNG | 6662 | **2.79×** | 2,066,274 | 741,902 | 5.7% | 37.6% | 151.221 |
-| 75 | Engineers India Ltd | ENGINERSIN | 16443 | **2.79×** | 11,077,842 | 3,965,857 | 14.3% | 42.21% | 317.423 |
-| 76 | Senores Pharmaceuticals Ltd | SENORES | 5329 | **2.78×** | 730,632 | 262,401 | -2.6% | 44.05% | 82.1394 |
-| 77 | Muthoot Finance Ltd | MUTHOOTFIN | 115096 | **2.76×** | 1,434,144 | 520,298 | 13.7% | 33.77% | 373.328 |
-| 78 | SJVN Ltd | SJVN | 22431 | **2.74×** | 16,450,983 | 6,006,205 | 9.8% | 37.84% | 92.3649 |
-| 79 | Escorts Kubota Ltd | ESCORTS | 27328 | **2.67×** | 205,109 | 76,938 | -6.1% | 56.21% | 50.4616 |
-| 80 | Triveni Engineering and Industries Ltd | TRIVENI | 5289 | **2.63×** | 1,734,086 | 659,847 | 3.8% | 55.93% | 42.689 |
-| 81 | Balrampur Chini Mills Ltd | BALRAMCHIN | 14164 | **2.63×** | 2,707,872 | 1,029,849 | 6.8% | 31.31% | 176.138 |
-| 82 | Kirloskar Oil Engines Ltd | KIRLOSENG | 23026 | **2.56×** | 947,508 | 369,486 | -15.8% | 43.94% | 162.022 |
-| 83 | Computer Age Management Services Ltd | CAMS | 17678 | **2.55×** | 2,682,397 | 1,053,567 | 2.6% | 56.26% | 181.615 |
-| 84 | Dalmia Bharat Ltd | DALBHARAT | 27570 | **2.47×** | 398,359 | 161,098 | 4.1% | 57.01% | 55.0491 |
-| 85 | Dixon Technologies (India) Ltd | DIXON | 77578 | **2.47×** | 652,249 | 263,614 | 9.8% | 35.24% | 784.9 |
-| 86 | V2 Retail Ltd | V2RETAIL | 6346 | **2.47×** | 10,104,968 | 4,097,999 | 4.3% | 40.23% | 160.644 |
-| 87 | Authum Investment & Infrastructure Ltd | AIIL | 48359 | **2.46×** | 377,964 | 153,631 | 13.9% | 32.23% | 20.7244 |
-| 88 | Exide Industries Ltd | EXIDEIND | 30379 | **2.44×** | 4,540,981 | 1,859,509 | 5.2% | 40.09% | 163.733 |
-| 89 | Reliance Industries Ltd | RELIANCE | 1.78636e+06 | **2.43×** | 36,825,137 | 15,144,441 | 12.5% | 46.51% | 4660.89 |
-| 90 | Akums Drugs & Pharmaceuticals Ltd | AKUMS | 11564 | **2.42×** | 535,941 | 221,375 | 0.5% | 43.35% | 40.5752 |
-| 91 | Laurus Labs Ltd | LAURUSLABS | 126487 | **2.41×** | 3,930,951 | 1,632,982 | 4.5% | 46.72% | 916.636 |
-| 92 | Ashok Leyland Ltd | ASHOKLEY | 101089 | **2.41×** | 31,936,301 | 13,228,998 | 17.4% | 28.04% | 517.602 |
-| 93 | Multi Commodity Exchange of India Ltd | MCX | 90013 | **2.41×** | 3,684,695 | 1,527,557 | 4.2% | 35.24% | 1228.51 |
-| 94 | Narayana Hrudayalaya Ltd | NH | 38884 | **2.38×** | 319,985 | 134,648 | 11.7% | 57.15% | 59.3935 |
-| 95 | Zee Entertainment Enterprises Ltd | ZEEL | 6143 | **2.35×** | 31,869,947 | 13,578,794 | -4.4% | 35.05% | 206.471 |
-| 96 | Mahanagar Gas Ltd | MGL | 11156 | **2.34×** | 325,430 | 138,927 | 5% | 46.24% | 34.3287 |
-| 97 | Indiamart Intermesh Ltd | INDIAMART | 9304 | **2.33×** | 142,565 | 61,239 | 2.1% | 55.9% | 21.6186 |
-| 98 | Sundaram Finance Ltd | SUNDARMFIN | 46766 | **2.3×** | 92,635 | 40,276 | 6.9% | 49.69% | 37.4076 |
-| 99 | Indian Oil Corporation Ltd | IOC | 206595 | **2.27×** | 19,475,352 | 8,568,384 | 10.8% | 57.26% | 269.9 |
-| 100 | Navin Fluorine International Ltd | NAVINFLUOR | 46349 | **2.27×** | 272,355 | 120,161 | 7.1% | 57.01% | 233.558 |
-| 101 | Borosil Renewables Ltd | BORORENEW | 5937 | **2.26×** | 631,623 | 279,320 | 5.1% | 46.21% | 24.6527 |
-| 102 | Five-Star Business Finance Ltd | FIVESTAR | 12572 | **2.25×** | 1,350,533 | 599,888 | 2.6% | 19.25% | 56.4724 |
-| 103 | Dr Agarwals Health Care Ltd | AGARWALEYE | 16379 | **2.24×** | 395,716 | 176,695 | 4.7% | 54.32% | 20.3408 |
-| 104 | Brigade Enterprises Ltd | BRIGADE | 18230 | **2.24×** | 580,830 | 259,807 | 5.9% | 54.7% | 31.3039 |
-| 105 | Glaxosmithkline Pharmaceuticals Ltd | GLAXO | 42763 | **2.23×** | 100,224 | 44,968 | -0.6% | 58.5% | 25.3725 |
-| 106 | Container Corporation Of India Ltd | CONCOR | 33561 | **2.22×** | 1,897,364 | 853,593 | 4.7% | 38.72% | 80.7896 |
-| 107 | Zydus Lifesciences Ltd | ZYDUSLIFE | 119151 | **2.19×** | 2,780,428 | 1,266,873 | 0.7% | 52.11% | 339.412 |
-| 108 | Oil India Ltd | OIL | 72254 | **2.18×** | 2,685,942 | 1,233,112 | -3.2% | 28.17% | 119.653 |
-| 109 | Redington Ltd | REDINGTON | 25607 | **2.18×** | 8,263,664 | 3,793,589 | -0.2% | 39.7% | 290.059 |
-| 110 | Coal India Ltd | COALINDIA | 246135 | **2.16×** | 12,842,627 | 5,957,677 | 0.3% | 58.05% | 509.531 |
-| 111 | Apollo Tyres Ltd | APOLLOTYRE | 26423 | **2.15×** | 1,218,659 | 565,560 | 8.4% | 30.28% | 50.388 |
-| 112 | Central Depository Services (India) Ltd | CDSL | 27826 | **2.15×** | 1,869,947 | 868,432 | 4.1% | 33.55% | 243.089 |
-| 113 | Grasim Industries Ltd | GRASIM | 219899 | **2.13×** | 798,124 | 375,021 | 10.1% | 62.62% | 248.196 |
-| 114 | Motilal Oswal Financial Services Ltd | MOTILALOFS | 66460 | **2.12×** | 1,922,115 | 907,971 | 11% | 29.9% | 195.352 |
-| 115 | MRF Ltd | MRF | 53173 | **2.11×** | 5,242 | 2,482 | 6.7% | 38.3% | 63.4717 |
-| 116 | Endurance Technologies Ltd | ENDURANCE | 35182 | **2.1×** | 159,293 | 75,950 | 9% | 50.95% | 38.3194 |
-| 117 | eClerx Services Ltd | ECLERX | 15063 | **2.1×** | 465,490 | 221,635 | -4.3% | 53.19% | 72.2606 |
-| 118 | Welspun Enterprises Ltd | WELENT | 9389 | **2.09×** | 389,536 | 186,620 | 12.2% | 42.05% | 26.6228 |
-| 119 | GAIL (India) Ltd | GAIL | 122218 | **2.08×** | 14,539,016 | 7,003,798 | 12.6% | 65.67% | 260.229 |
-| 120 | NHPC Ltd | NHPC | 82286 | **2.08×** | 20,360,341 | 9,777,542 | 4.4% | 37.41% | 162.534 |
-| 121 | Asian Paints Ltd | ASIANPAINT | 243820 | **2.07×** | 1,570,402 | 758,137 | 9.6% | 56.26% | 381.144 |
-| 122 | Bharat Forge Ltd | BHARATFORG | 85160 | **2.07×** | 1,810,831 | 875,084 | -0.8% | 34.72% | 322.444 |
-| 123 | Berger Paints India Ltd | BERGEPAINT | 55578 | **2.06×** | 476,711 | 231,736 | 8.2% | 28.02% | 23.4647 |
-| 124 | Bosch Ltd | BOSCHLTD | 149616 | **2.04×** | 44,156 | 21,636 | 10.3% | 36.68% | 220.302 |
-| 125 | Samvardhana Motherson International Ltd | MOTHERSON | 169481 | **2.03×** | 21,704,823 | 10,712,095 | 5% | 48.94% | 352.886 |
-| 126 | Syrma SGS Technology Ltd | SYRMA | 27983 | **2.03×** | 2,449,487 | 1,209,587 | -9.2% | 36.36% | 377.799 |
-| 127 | Aurobindo Pharma Ltd | AUROPHARMA | 103377 | **2.03×** | 1,650,411 | 814,191 | 7.5% | 34.68% | 282.172 |
-| 128 | Indraprastha Gas Ltd | IGL | 19941 | **2.01×** | 2,999,762 | 1,493,363 | -0.6% | 41.47% | 40.1755 |
-| 129 | Aether Industries Ltd | AETHER | 20726 | **2.01×** | 767,085 | 381,138 | -1.8% | 44.87% | 120.805 |
+| 1 | ITI Ltd | ITI | 23968 | **56.25×** | 9,305,376 | 165,436 | 15.2% | 21.78% | 239.62 |
+| 2 | TTK Prestige Ltd | TTKPRESTIG | 8338 | **45.59×** | 1,452,320 | 31,855 | 19.1% | 7.09% | 87.9098 |
+| 3 | PDS Ltd | PDSL | 5715 | **40.11×** | 3,097,851 | 77,227 | 22.2% | 28.69% | 123.978 |
+| 4 | Saregama India Ltd | SAREGAMA | 11947 | **21.09×** | 7,172,376 | 340,028 | 12.9% | 15.63% | 451.215 |
+| 5 | Trident Ltd | TRIDENT | 12169 | **18.82×** | 64,149,200 | 3,409,220 | 12.8% | 30.42% | 154.589 |
+| 6 | Alembic Pharmaceuticals Ltd | APLLTD | 18971 | **14.35×** | 1,729,354 | 120,472 | 21% | 29.68% | 160.693 |
+| 7 | Affle 3i Ltd | AFFLE | 22736 | **9.59×** | 1,266,443 | 132,040 | 17.8% | 47.55% | 191.977 |
+| 8 | Blue Jet Healthcare Ltd | BLUEJET | 10482 | **9.34×** | 2,542,304 | 272,255 | 9.8% | 27.95% | 144.942 |
+| 9 | Asahi India Glass Ltd | ASAHIINDIA | 26371 | **9.29×** | 551,450 | 59,385 | 14.3% | 45.34% | 54.8558 |
+| 10 | P I Industries Ltd | PIIND | 26323 | **9.04×** | 2,689,845 | 297,390 | -17.4% | 21.81% | 503.056 |
+| 11 | Zydus Wellness Ltd | ZYDUSWELL | 14909 | **8.8×** | 868,272 | 98,692 | 1.3% | 40.39% | 43.3163 |
+| 12 | Kirloskar Brothers Ltd | KIRLOSBROS | 12944 | **8.41×** | 370,711 | 44,075 | 1.8% | 51.99% | 66.3874 |
+| 13 | Indo Count Industries Ltd | ICIL | 9702 | **7.96×** | 2,807,602 | 352,534 | 10.8% | 33.73% | 142.081 |
+| 14 | KRBL Ltd | KRBL | 9340 | **7.74×** | 2,920,164 | 377,436 | 18.3% | 38.9% | 117.435 |
+| 15 | AIA Engineering Ltd | AIAENG | 29056 | **7.53×** | 279,694 | 37,160 | -13.4% | 47.17% | 92.4819 |
+| 16 | Gujarat Mineral Development Corporation Ltd | GMDCLTD | 14746 | **7.22×** | 6,228,831 | 862,228 | 12.6% | 26.24% | 288.344 |
+| 17 | Fertilizers & Chemicals Travancore Ltd | FACT | 48547 | **7.11×** | 400,091 | 56,278 | 12% | 30.66% | 30.1337 |
+| 18 | Linde India Ltd | LINDEINDIA | 58494 | **7.11×** | 117,097 | 16,479 | 21.4% | 23.06% | 75.7599 |
+| 19 | Welspun Living Ltd | WELSPUNLIV | 22797 | **7.07×** | 29,018,488 | 4,102,193 | 10.1% | 32.26% | 718.844 |
+| 20 | HEG Advanced Materials Ltd | HEGAM | 9692 | **6.92×** | 8,762,716 | 1,266,244 | 23.7% | 26.06% | 248.294 |
+| 21 | DOMS Industries Ltd | DOMS | 12465 | **6.69×** | 131,840 | 19,713 | 12.6% | 43.06% | 26.0476 |
+| 22 | Sai Life Sciences Ltd | SAILIFE | 37929 | **6.53×** | 3,026,300 | 463,574 | 14.6% | 13.31% | 527.487 |
+| 23 | Jyothy Labs Ltd | JYOTHYLAB | 7297 | **6.29×** | 1,568,762 | 249,479 | 15.6% | 44.07% | 29.7232 |
+| 24 | Sandur Manganese & Iron Ores Ltd | SANDUMA | 8640 | **6.21×** | 2,610,867 | 420,206 | 9.9% | 29.99% | 46.7851 |
+| 25 | Entero Healthcare Solutions Ltd | ENTERO | 8279 | **6.21×** | 617,379 | 99,425 | 20.6% | 25.51% | 111.964 |
+| 26 | Aptus Value Housing Finance India Ltd | APTUS | 8759 | **6.17×** | 10,087,712 | 1,635,546 | -8.6% | 56.59% | 183.847 |
+| 27 | Emcure Pharmaceuticals Ltd | EMCURE | 41979 | **6.02×** | 610,109 | 101,318 | 18.2% | 62.33% | 128.727 |
+| 28 | Uno Minda Ltd | UNOMINDA | 76572 | **5.79×** | 2,672,002 | 461,857 | 22.5% | 48.21% | 335.295 |
+| 29 | V2 Retail Ltd | V2RETAIL | 6326 | **5.71×** | 23,337,463 | 4,087,688 | 17.7% | 20.74% | 389.862 |
+| 30 | Sheela Foam Ltd | SFL | 5794 | **5.67×** | 616,552 | 108,792 | -2.2% | 74.37% | 32.2953 |
+| 31 | Eureka Forbes Ltd | EUREKAFORB | 7096 | **5.5×** | 1,146,152 | 208,262 | 17% | 50.94% | 39.5344 |
+| 32 | Zen Technologies Ltd | ZENTEC | 15537 | **5.49×** | 1,366,936 | 249,034 | 8.3% | 34.12% | 236.542 |
+| 33 | JSW Cement Ltd | JSWCEMENT | 16825 | **5.38×** | 9,615,438 | 1,788,911 | 6.8% | 47.6% | 117.146 |
+| 34 | AAVAS Financiers Ltd | AAVAS | 9021 | **5.3×** | 438,000 | 82,647 | 7% | 50.46% | 49.3256 |
+| 35 | BASF India Ltd | BASF | 12785 | **5.3×** | 81,531 | 15,384 | -3.1% | 51.19% | 24.4339 |
+| 36 | Safari Industries (India) Ltd | SAFARI | 6146 | **5.16×** | 185,709 | 35,969 | 6.2% | 59.84% | 22.7276 |
+| 37 | 3M India Ltd | 3MINDIA | 31071 | **4.77×** | 14,040 | 2,946 | -4.9% | 23.96% | 39.3587 |
+| 38 | Thermax Ltd | THERMAX | 32724 | **4.44×** | 726,471 | 163,450 | -11.8% | 41.3% | 207.912 |
+| 39 | Alivus Life Sciences Ltd | ALIVUS | 18207 | **4.37×** | 677,838 | 154,962 | 4.6% | 55.69% | 99.1096 |
+| 40 | Corona Remedies Ltd | CORONA | 14930 | **4.31×** | 106,433 | 24,690 | 13.6% | 16.54% | 25.3095 |
+| 41 | Devyani International Ltd | DEVYANI | 15862 | **4.28×** | 3,963,545 | 926,715 | 6.9% | 28.95% | 49.5706 |
+| 42 | Welspun Enterprises Ltd | WELENT | 9375 | **4.23×** | 755,092 | 178,629 | 9.4% | 34.99% | 52.7703 |
+| 43 | Cummins India Ltd | CUMMINSIND | 112233 | **4.2×** | 2,012,247 | 478,685 | -9.1% | 56.52% | 837.464 |
+| 44 | Jyoti CNC Automation Ltd | JYOTICNC | 23195 | **4.09×** | 2,264,248 | 553,371 | 12.6% | 47.23% | 223.291 |
+| 45 | Amagi Media Labs Ltd | AMAGI | 12509 | **3.99×** | 674,815 | 168,982 | 5.1% | 42.09% | 39.4194 |
+| 46 | Ramkrishna Forgings Ltd | RKFORGE | 12876 | **3.96×** | 2,495,893 | 630,829 | 7.3% | 51.6% | 174.004 |
+| 47 | Fractal Analytics Ltd | FRACTAL | 14082 | **3.93×** | 4,438,709 | 1,130,602 | 7.8% | 23.92% | 364.1 |
+| 48 | Pfizer Ltd | PFIZER | 17640 | **3.9×** | 103,046 | 26,423 | 4.6% | 74.85% | 39.0251 |
+| 49 | Glenmark Pharmaceuticals Ltd | GLENMARK | 73096 | **3.55×** | 1,827,204 | 514,618 | 12.7% | 21.12% | 457.443 |
+| 50 | Global Health Ltd | MEDANTA | 37309 | **3.47×** | 682,477 | 196,570 | 9.2% | 48.72% | 93.9632 |
+| 51 | GNG Electronics Ltd | EBGNG | 6662 | **3.42×** | 2,540,990 | 743,431 | -11.4% | 43.04% | 179.287 |
+| 52 | NBCC (India) Ltd | NBCC | 21060 | **3.39×** | 17,017,525 | 5,020,414 | 12% | 25.16% | 131.409 |
+| 53 | Astral Ltd | ASTRAL | 33678 | **3.35×** | 1,270,232 | 378,868 | -6.6% | 35.82% | 162.237 |
+| 54 | NLC India Ltd | NLCINDIA | 32948 | **3.35×** | 3,898,407 | 1,164,857 | 4.2% | 40.99% | 93.9945 |
+| 55 | Marico Ltd | MARICO | 116726 | **3.32×** | 5,774,611 | 1,741,430 | 12.2% | 67.05% | 499.525 |
+| 56 | Vardhman Textiles Ltd | VTL | 14734 | **3.23×** | 581,435 | 179,753 | 4.7% | 16.24% | 30.0563 |
+| 57 | Escorts Kubota Ltd | ESCORTS | 27336 | **3.22×** | 204,193 | 63,346 | -5.2% | 49.52% | 50.0424 |
+| 58 | Concord Biotech Ltd | CONCORDBIO | 13236 | **3.22×** | 346,605 | 107,542 | -49.2% | 35.73% | 30.6531 |
+| 59 | Amara Raja Energy & Mobility Ltd | ARE&M | 13329 | **3.21×** | 1,095,226 | 340,852 | 6% | 47.24% | 79.4788 |
+| 60 | Elgi Equipments Ltd | ELGIEQUIP | 17649 | **3.2×** | 738,535 | 230,473 | 9.4% | 21.61% | 40.7029 |
+| 61 | Minda Corporation Ltd | MINDACORP | 17038 | **3.19×** | 739,067 | 231,363 | 12.7% | 51.44% | 50.2556 |
+| 62 | Aegis Logistics Ltd | AEGISLOG | 40053 | **3.12×** | 3,501,283 | 1,122,150 | 4% | 36.03% | 416.899 |
+| 63 | ASK Automotive Ltd | ASKAUTOLTD | 12122 | **3.11×** | 519,309 | 166,861 | 8.6% | 38.83% | 31.6707 |
+| 64 | Delhivery Ltd | DELHIVERY | 32080 | **3.06×** | 6,982,753 | 2,283,924 | 10.9% | 46.7% | 291.044 |
+| 65 | Kirloskar Oil Engines Ltd | KIRLOSENG | 23036 | **3.06×** | 1,127,645 | 369,035 | -11.9% | 35.92% | 185.743 |
+| 66 | Samvardhana Motherson International Ltd | MOTHERSON | 168977 | **3.06×** | 30,668,541 | 10,009,435 | 1.3% | 42.05% | 493.35 |
+| 67 | Mrs Bectors Food Specialities Ltd | BECTORFOOD | 6448 | **3.05×** | 2,279,659 | 748,075 | 15.7% | 41.93% | 47.268 |
+| 68 | Intellect Design Arena Ltd | INTELLECT | 7237 | **3.04×** | 1,642,051 | 540,683 | 2.1% | 60.22% | 86.7114 |
+| 69 | Billionbrains Garage Ventures Ltd | GROWW | 134933 | **3.03×** | 77,423,086 | 25,544,168 | 12.3% | 53.71% | 1640.83 |
+| 70 | The Ramco Cements Ltd | RAMCOCEM | 19313 | **3.01×** | 420,075 | 139,680 | 13.6% | 57.64% | 32.2943 |
+| 71 | JK Tyre & Industries Ltd | JKTYRE | 10357 | **2.99×** | 1,169,150 | 391,191 | 19% | 32.2% | 40.5675 |
+| 72 | ACC Ltd | ACC | 23214 | **2.97×** | 469,885 | 158,254 | 9.4% | 41.35% | 56.2814 |
+| 73 | KEC International Ltd | KEC | 8874 | **2.97×** | 6,774,520 | 2,277,370 | 1.1% | 39.29% | 216.383 |
+| 74 | Engineers India Ltd | ENGINERSIN | 16451 | **2.93×** | 10,938,209 | 3,732,960 | 16.2% | 35.59% | 315.739 |
+| 75 | Godfrey Phillips India Ltd | GODFRYPHLP | 27921 | **2.91×** | 535,900 | 183,864 | 5.9% | 17.68% | 94.8537 |
+| 76 | Authum Investment & Infrastructure Ltd | AIIL | 48410 | **2.84×** | 412,673 | 145,110 | 15.8% | 43.8% | 22.752 |
+| 77 | Techno Electric & Engineering Company Ltd | TECHNOE | 10798 | **2.82×** | 447,249 | 158,621 | 12% | 60.5% | 41.5417 |
+| 78 | Ashok Leyland Ltd | ASHOKLEY | 101083 | **2.79×** | 35,556,024 | 12,732,064 | 18.8% | 39.94% | 583.409 |
+| 79 | Clean Science & Technology Ltd | CLEAN | 7110 | **2.78×** | 527,075 | 189,335 | -6.5% | 49.35% | 35.07 |
+| 80 | Muthoot Finance Ltd | MUTHOOTFIN | 115181 | **2.78×** | 1,475,910 | 531,472 | 19.1% | 46.7% | 391.648 |
+| 81 | Multi Commodity Exchange of India Ltd | MCX | 89961 | **2.75×** | 4,167,439 | 1,513,542 | 10.6% | 31.35% | 1403.79 |
+| 82 | Mahanagar Gas Ltd | MGL | 11158 | **2.74×** | 372,598 | 135,914 | 7.7% | 59.26% | 39.8981 |
+| 83 | Gokaldas Exports Ltd | GOKEX | 5004 | **2.72×** | 757,345 | 277,934 | 8.5% | 37.25% | 52.3058 |
+| 84 | Triveni Engineering and Industries Ltd | TRIVENI | 5289 | **2.67×** | 1,736,296 | 650,523 | 6.5% | 47.83% | 42.8323 |
+| 85 | Symbiotec Pharmalab Ltd | SYMBIOTEC | 9726 | **2.65×** | 1,885,982 | 710,749 | 21.4% | 17.22% | 267.703 |
+| 86 | Grasim Industries Ltd | GRASIM | 219610 | **2.64×** | 877,877 | 331,965 | 8.2% | 61.15% | 276.243 |
+| 87 | Granules India Ltd | GRANULES | 21813 | **2.63×** | 1,816,599 | 689,459 | -4.8% | 43.07% | 144.41 |
+| 88 | Balrampur Chini Mills Ltd | BALRAMCHIN | 14186 | **2.6×** | 2,675,223 | 1,029,486 | 13.7% | 33.87% | 175.106 |
+| 89 | Oil India Ltd | OIL | 72205 | **2.58×** | 3,000,353 | 1,164,187 | -2.2% | 50.93% | 133.302 |
+| 90 | Indian Oil Corporation Ltd | IOC | 206523 | **2.57×** | 21,861,355 | 8,519,785 | 12.4% | 63.44% | 307.81 |
+| 91 | Zee Entertainment Enterprises Ltd | ZEEL | 6144 | **2.55×** | 34,038,824 | 13,360,031 | -3.7% | 45.93% | 219.982 |
+| 92 | Reliance Industries Ltd | RELIANCE | 1.7863e+06 | **2.55×** | 38,428,067 | 15,043,563 | 13.3% | 66.83% | 4915.81 |
+| 93 | Glaxosmithkline Pharmaceuticals Ltd | GLAXO | 42772 | **2.55×** | 112,433 | 44,115 | 1.2% | 67.59% | 28.4652 |
+| 94 | Exide Industries Ltd | EXIDEIND | 30375 | **2.53×** | 4,632,550 | 1,829,267 | 6.5% | 40.27% | 167.537 |
+| 95 | Indegene Ltd | INDGN | 14695 | **2.53×** | 854,171 | 337,530 | 3.9% | 56.06% | 53.071 |
+| 96 | J K Cements Ltd | JKCEMENT | 40487 | **2.5×** | 84,887 | 33,989 | 9.5% | 56.38% | 43.5706 |
+| 97 | Narayana Hrudayalaya Ltd | NH | 38890 | **2.5×** | 318,178 | 127,336 | 10.6% | 59.35% | 59.4724 |
+| 98 | Bosch Ltd | BOSCHLTD | 149545 | **2.49×** | 51,723 | 20,770 | 7.4% | 33.99% | 261.398 |
+| 99 | Restaurant Brands Asia Ltd | RBA | 6312 | **2.46×** | 8,352,975 | 3,395,803 | 1% | 51.46% | 76.3754 |
+| 100 | Cholamandalam Financial Holdings Ltd | CHOLAHLDNG | 27314 | **2.45×** | 325,863 | 132,844 | 7.6% | 26.19% | 47.1308 |
+| 101 | Berger Paints India Ltd | BERGEPAINT | 55776 | **2.44×** | 543,030 | 222,427 | 2.8% | 39.15% | 26.6898 |
+| 102 | Akums Drugs & Pharmaceuticals Ltd | AKUMS | 11568 | **2.43×** | 532,967 | 219,080 | 0.4% | 58.02% | 40.3765 |
+| 103 | Borosil Renewables Ltd | BORORENEW | 5934 | **2.37×** | 650,809 | 274,452 | 4.3% | 46.56% | 25.5386 |
+| 104 | Bharat Forge Ltd | BHARATFORG | 85029 | **2.37×** | 2,066,291 | 870,600 | 1.2% | 49.51% | 365.988 |
+| 105 | Syrma SGS Technology Ltd | SYRMA | 28140 | **2.34×** | 2,786,079 | 1,191,327 | -10.2% | 33.08% | 419.741 |
+| 106 | Apollo Tyres Ltd | APOLLOTYRE | 26417 | **2.31×** | 1,278,507 | 554,283 | 9.6% | 44.03% | 53.1623 |
+| 107 | Mahindra & Mahindra Ltd | M&M | 408773 | **2.29×** | 5,253,162 | 2,297,890 | 15.7% | 47.23% | 1615.26 |
+| 108 | Indian Metals & Ferro Alloys Ltd | IMFA | 5970 | **2.28×** | 179,712 | 78,865 | 1.4% | 66.94% | 20.2438 |
+| 109 | Time Technoplast Ltd | TIMETECHNO | 8424 | **2.25×** | 3,804,857 | 1,688,229 | 7.5% | 28.03% | 65.5198 |
+| 110 | Solar Industries India Ltd | SOLARINDS | 168384 | **2.24×** | 265,119 | 118,252 | -1% | 26.97% | 514.206 |
+| 111 | Redington Ltd | REDINGTON | 25603 | **2.23×** | 8,828,291 | 3,954,703 | 0.2% | 38.9% | 308.255 |
+| 112 | Sun Pharmaceutical Industries Ltd | SUNPHARMA | 446276 | **2.22×** | 3,460,376 | 1,559,763 | 4.6% | 58.95% | 620.931 |
+| 113 | MRF Ltd | MRF | 53139 | **2.21×** | 5,420 | 2,448 | 7.3% | 37% | 66.1099 |
+| 114 | Lenskart Solutions Ltd | LENSKART | 126090 | **2.21×** | 9,072,223 | 4,107,724 | 6.9% | 60.97% | 647.673 |
+| 115 | Sundaram Finance Ltd | SUNDARMFIN | 46827 | **2.2×** | 91,671 | 41,586 | 6.9% | 60.17% | 37.3585 |
+| 116 | NHPC Ltd | NHPC | 82450 | **2.19×** | 21,914,306 | 9,987,159 | 5.6% | 43.69% | 176.722 |
+| 117 | Central Depository Services (India) Ltd | CDSL | 27826 | **2.19×** | 1,850,150 | 846,582 | 5.4% | 32.1% | 241.529 |
+| 118 | Rategain Travel Technologies Ltd | RATEGAIN | 8611 | **2.18×** | 504,366 | 231,204 | -9.1% | 41.71% | 38.0913 |
+| 119 | GMM Pfaudler Ltd | GMMPFAUDLR | 5015 | **2.17×** | 369,456 | 170,608 | -8.2% | 45.8% | 44.9342 |
+| 120 | Dixon Technologies (India) Ltd | DIXON | 77276 | **2.14×** | 593,292 | 276,765 | 14.8% | 34.49% | 725.947 |
+| 121 | Dabur India Ltd | DABUR | 67472 | **2.13×** | 2,773,855 | 1,302,913 | 4% | 30.53% | 106.859 |
+| 122 | Aurobindo Pharma Ltd | AUROPHARMA | 103568 | **2.13×** | 1,719,044 | 808,121 | 7.1% | 45.92% | 296.7 |
+| 123 | Five-Star Business Finance Ltd | FIVESTAR | 12555 | **2.13×** | 1,299,537 | 610,264 | 7.2% | 44.8% | 54.6123 |
+| 124 | Indraprastha Gas Ltd | IGL | 19876 | **2.13×** | 3,018,466 | 1,419,945 | 2% | 43.1% | 40.4691 |
+| 125 | SJVN Ltd | SJVN | 22459 | **2.11×** | 13,903,173 | 6,574,128 | 7% | 32.67% | 79.146 |
+| 126 | Gujarat Narmada Valley Fertilizers & Chemicals Ltd | GNFC | 6639 | **2.11×** | 1,033,854 | 491,108 | -10.5% | 51.53% | 48.9193 |
+| 127 | Brigade Enterprises Ltd | BRIGADE | 18212 | **2.11×** | 565,431 | 268,520 | 5.9% | 56.57% | 30.6971 |
+| 128 | Knowledge Marine & Engineering Works Ltd | KMEW | 8279 | **2.03×** | 266,665 | 131,676 | -78.9% | 24.83% | 35.7995 |
+| 129 | Vedanta Power Ltd | VEDPOWER | 13815 | **2.02×** | 81,059,171 | 40,132,399 | 6.6% | 31.63% | 286.408 |
 
 ## Sources
 
 - [ITI](https://www.screener.in/company/ITI/consolidated/)
+- [TTKPRESTIG](https://www.screener.in/company/TTKPRESTIG/consolidated/)
 - [PDSL](https://www.screener.in/company/PDSL/consolidated/)
 - [SAREGAMA](https://www.screener.in/company/SAREGAMA/consolidated/)
 - [TRIDENT](https://www.screener.in/company/TRIDENT/consolidated/)
 - [APLLTD](https://www.screener.in/company/APLLTD/consolidated/)
 - [AFFLE](https://www.screener.in/company/AFFLE/consolidated/)
-- [GMDCLTD](https://www.screener.in/company/GMDCLTD/consolidated/)
-- [SAGILITY](https://www.screener.in/company/SAGILITY/consolidated/)
-- [WELSPUNLIV](https://www.screener.in/company/WELSPUNLIV/consolidated/)
-- [ZYDUSWELL](https://www.screener.in/company/ZYDUSWELL/consolidated/)
-- [PIIND](https://www.screener.in/company/PIIND/consolidated/)
 - [BLUEJET](https://www.screener.in/company/BLUEJET/consolidated/)
 - [ASAHIINDIA](https://www.screener.in/company/ASAHIINDIA/consolidated/)
+- [PIIND](https://www.screener.in/company/PIIND/consolidated/)
+- [ZYDUSWELL](https://www.screener.in/company/ZYDUSWELL/consolidated/)
 - [KIRLOSBROS](https://www.screener.in/company/KIRLOSBROS/consolidated/)
-- [KRBL](https://www.screener.in/company/KRBL/consolidated/)
 - [ICIL](https://www.screener.in/company/ICIL/consolidated/)
+- [KRBL](https://www.screener.in/company/KRBL/consolidated/)
 - [AIAENG](https://www.screener.in/company/AIAENG/consolidated/)
-- [DOMS](https://www.screener.in/company/DOMS/consolidated/)
+- [GMDCLTD](https://www.screener.in/company/GMDCLTD/consolidated/)
 - [FACT](https://www.screener.in/company/FACT/consolidated/)
-- [HEGAM](https://www.screener.in/company/HEGAM/consolidated/)
-- [DEEPAKNTR](https://www.screener.in/company/DEEPAKNTR/consolidated/)
-- [SMARTWORKS](https://www.screener.in/company/SMARTWORKS/consolidated/)
-- [SANDUMA](https://www.screener.in/company/SANDUMA/consolidated/)
-- [JYOTHYLAB](https://www.screener.in/company/JYOTHYLAB/consolidated/)
-- [EMCURE](https://www.screener.in/company/EMCURE/consolidated/)
-- [ALIVUS](https://www.screener.in/company/ALIVUS/consolidated/)
-- [BASF](https://www.screener.in/company/BASF/consolidated/)
-- [ZENTEC](https://www.screener.in/company/ZENTEC/consolidated/)
-- [AAVAS](https://www.screener.in/company/AAVAS/consolidated/)
-- [EUREKAFORB](https://www.screener.in/company/EUREKAFORB/consolidated/)
-- [VEDPOWER](https://www.screener.in/company/VEDPOWER/consolidated/)
-- [SAFARI](https://www.screener.in/company/SAFARI/consolidated/)
-- [INTELLECT](https://www.screener.in/company/INTELLECT/consolidated/)
-- [AJANTPHARM](https://www.screener.in/company/AJANTPHARM/consolidated/)
-- [UNOMINDA](https://www.screener.in/company/UNOMINDA/consolidated/)
-- [SANOFI](https://www.screener.in/company/SANOFI/consolidated/)
-- [RKFORGE](https://www.screener.in/company/RKFORGE/consolidated/)
-- [PARADEEP](https://www.screener.in/company/PARADEEP/consolidated/)
-- [JYOTICNC](https://www.screener.in/company/JYOTICNC/consolidated/)
-- [THYROCARE](https://www.screener.in/company/THYROCARE/consolidated/)
-- [VOGL](https://www.screener.in/company/VOGL/consolidated/)
-- [DEVYANI](https://www.screener.in/company/DEVYANI/consolidated/)
-- [RBA](https://www.screener.in/company/RBA/consolidated/)
-- [FRACTAL](https://www.screener.in/company/FRACTAL/consolidated/)
 - [LINDEINDIA](https://www.screener.in/company/LINDEINDIA/consolidated/)
+- [WELSPUNLIV](https://www.screener.in/company/WELSPUNLIV/consolidated/)
+- [HEGAM](https://www.screener.in/company/HEGAM/consolidated/)
+- [DOMS](https://www.screener.in/company/DOMS/consolidated/)
+- [SAILIFE](https://www.screener.in/company/SAILIFE/consolidated/)
+- [JYOTHYLAB](https://www.screener.in/company/JYOTHYLAB/consolidated/)
+- [SANDUMA](https://www.screener.in/company/SANDUMA/consolidated/)
 - [ENTERO](https://www.screener.in/company/ENTERO/consolidated/)
-- [PFIZER](https://www.screener.in/company/PFIZER/consolidated/)
-- [SFL](https://www.screener.in/company/SFL/consolidated/)
-- [GODREJCP](https://www.screener.in/company/GODREJCP/consolidated/)
 - [APTUS](https://www.screener.in/company/APTUS/consolidated/)
-- [CUMMINSIND](https://www.screener.in/company/CUMMINSIND/consolidated/)
-- [DELHIVERY](https://www.screener.in/company/DELHIVERY/consolidated/)
-- [MARICO](https://www.screener.in/company/MARICO/consolidated/)
-- [ARE&M](https://www.screener.in/company/ARE&M/consolidated/)
-- [MEDANTA](https://www.screener.in/company/MEDANTA/consolidated/)
-- [STAR](https://www.screener.in/company/STAR/consolidated/)
-- [NLCINDIA](https://www.screener.in/company/NLCINDIA/consolidated/)
-- [TECHNOE](https://www.screener.in/company/TECHNOE/consolidated/)
-- [AEGISLOG](https://www.screener.in/company/AEGISLOG/consolidated/)
-- [NBCC](https://www.screener.in/company/NBCC/consolidated/)
-- [KEC](https://www.screener.in/company/KEC/consolidated/)
-- [AMAGI](https://www.screener.in/company/AMAGI/consolidated/)
-- [BECTORFOOD](https://www.screener.in/company/BECTORFOOD/consolidated/)
-- [GODFRYPHLP](https://www.screener.in/company/GODFRYPHLP/consolidated/)
-- [CLEAN](https://www.screener.in/company/CLEAN/consolidated/)
-- [INDGN](https://www.screener.in/company/INDGN/consolidated/)
-- [RAMCOCEM](https://www.screener.in/company/RAMCOCEM/consolidated/)
-- [CONCORDBIO](https://www.screener.in/company/CONCORDBIO/consolidated/)
-- [MINDACORP](https://www.screener.in/company/MINDACORP/consolidated/)
-- [JKTYRE](https://www.screener.in/company/JKTYRE/consolidated/)
-- [SUNPHARMA](https://www.screener.in/company/SUNPHARMA/consolidated/)
-- [ASKAUTOLTD](https://www.screener.in/company/ASKAUTOLTD/consolidated/)
-- [ACC](https://www.screener.in/company/ACC/consolidated/)
-- [EBGNG](https://www.screener.in/company/EBGNG/consolidated/)
-- [ENGINERSIN](https://www.screener.in/company/ENGINERSIN/consolidated/)
-- [SENORES](https://www.screener.in/company/SENORES/consolidated/)
-- [MUTHOOTFIN](https://www.screener.in/company/MUTHOOTFIN/consolidated/)
-- [SJVN](https://www.screener.in/company/SJVN/consolidated/)
-- [ESCORTS](https://www.screener.in/company/ESCORTS/consolidated/)
-- [TRIVENI](https://www.screener.in/company/TRIVENI/consolidated/)
-- [BALRAMCHIN](https://www.screener.in/company/BALRAMCHIN/consolidated/)
-- [KIRLOSENG](https://www.screener.in/company/KIRLOSENG/consolidated/)
-- [CAMS](https://www.screener.in/company/CAMS/consolidated/)
-- [DALBHARAT](https://www.screener.in/company/DALBHARAT/consolidated/)
-- [DIXON](https://www.screener.in/company/DIXON/consolidated/)
+- [EMCURE](https://www.screener.in/company/EMCURE/consolidated/)
+- [UNOMINDA](https://www.screener.in/company/UNOMINDA/consolidated/)
 - [V2RETAIL](https://www.screener.in/company/V2RETAIL/consolidated/)
-- [AIIL](https://www.screener.in/company/AIIL/consolidated/)
-- [EXIDEIND](https://www.screener.in/company/EXIDEIND/consolidated/)
-- [RELIANCE](https://www.screener.in/company/RELIANCE/consolidated/)
-- [AKUMS](https://www.screener.in/company/AKUMS/consolidated/)
-- [LAURUSLABS](https://www.screener.in/company/LAURUSLABS/consolidated/)
-- [ASHOKLEY](https://www.screener.in/company/ASHOKLEY/consolidated/)
-- [MCX](https://www.screener.in/company/MCX/consolidated/)
-- [NH](https://www.screener.in/company/NH/consolidated/)
-- [ZEEL](https://www.screener.in/company/ZEEL/consolidated/)
-- [MGL](https://www.screener.in/company/MGL/consolidated/)
-- [INDIAMART](https://www.screener.in/company/INDIAMART/consolidated/)
-- [SUNDARMFIN](https://www.screener.in/company/SUNDARMFIN/consolidated/)
-- [IOC](https://www.screener.in/company/IOC/consolidated/)
-- [NAVINFLUOR](https://www.screener.in/company/NAVINFLUOR/consolidated/)
-- [BORORENEW](https://www.screener.in/company/BORORENEW/consolidated/)
-- [FIVESTAR](https://www.screener.in/company/FIVESTAR/consolidated/)
-- [AGARWALEYE](https://www.screener.in/company/AGARWALEYE/consolidated/)
-- [BRIGADE](https://www.screener.in/company/BRIGADE/consolidated/)
-- [GLAXO](https://www.screener.in/company/GLAXO/consolidated/)
-- [CONCOR](https://www.screener.in/company/CONCOR/consolidated/)
-- [ZYDUSLIFE](https://www.screener.in/company/ZYDUSLIFE/consolidated/)
-- [OIL](https://www.screener.in/company/OIL/consolidated/)
-- [REDINGTON](https://www.screener.in/company/REDINGTON/consolidated/)
-- [COALINDIA](https://www.screener.in/company/COALINDIA/consolidated/)
-- [APOLLOTYRE](https://www.screener.in/company/APOLLOTYRE/consolidated/)
-- [CDSL](https://www.screener.in/company/CDSL/consolidated/)
-- [GRASIM](https://www.screener.in/company/GRASIM/consolidated/)
-- [MOTILALOFS](https://www.screener.in/company/MOTILALOFS/consolidated/)
-- [MRF](https://www.screener.in/company/MRF/consolidated/)
-- [ENDURANCE](https://www.screener.in/company/ENDURANCE/consolidated/)
-- [ECLERX](https://www.screener.in/company/ECLERX/consolidated/)
+- [SFL](https://www.screener.in/company/SFL/consolidated/)
+- [EUREKAFORB](https://www.screener.in/company/EUREKAFORB/consolidated/)
+- [ZENTEC](https://www.screener.in/company/ZENTEC/consolidated/)
+- [JSWCEMENT](https://www.screener.in/company/JSWCEMENT/consolidated/)
+- [AAVAS](https://www.screener.in/company/AAVAS/consolidated/)
+- [BASF](https://www.screener.in/company/BASF/consolidated/)
+- [SAFARI](https://www.screener.in/company/SAFARI/consolidated/)
+- [3MINDIA](https://www.screener.in/company/3MINDIA/consolidated/)
+- [THERMAX](https://www.screener.in/company/THERMAX/consolidated/)
+- [ALIVUS](https://www.screener.in/company/ALIVUS/consolidated/)
+- [CORONA](https://www.screener.in/company/CORONA/consolidated/)
+- [DEVYANI](https://www.screener.in/company/DEVYANI/consolidated/)
 - [WELENT](https://www.screener.in/company/WELENT/consolidated/)
-- [GAIL](https://www.screener.in/company/GAIL/consolidated/)
-- [NHPC](https://www.screener.in/company/NHPC/consolidated/)
-- [ASIANPAINT](https://www.screener.in/company/ASIANPAINT/consolidated/)
-- [BHARATFORG](https://www.screener.in/company/BHARATFORG/consolidated/)
-- [BERGEPAINT](https://www.screener.in/company/BERGEPAINT/consolidated/)
-- [BOSCHLTD](https://www.screener.in/company/BOSCHLTD/consolidated/)
+- [CUMMINSIND](https://www.screener.in/company/CUMMINSIND/consolidated/)
+- [JYOTICNC](https://www.screener.in/company/JYOTICNC/consolidated/)
+- [AMAGI](https://www.screener.in/company/AMAGI/consolidated/)
+- [RKFORGE](https://www.screener.in/company/RKFORGE/consolidated/)
+- [FRACTAL](https://www.screener.in/company/FRACTAL/consolidated/)
+- [PFIZER](https://www.screener.in/company/PFIZER/consolidated/)
+- [GLENMARK](https://www.screener.in/company/GLENMARK/consolidated/)
+- [MEDANTA](https://www.screener.in/company/MEDANTA/consolidated/)
+- [EBGNG](https://www.screener.in/company/EBGNG/consolidated/)
+- [NBCC](https://www.screener.in/company/NBCC/consolidated/)
+- [ASTRAL](https://www.screener.in/company/ASTRAL/consolidated/)
+- [NLCINDIA](https://www.screener.in/company/NLCINDIA/consolidated/)
+- [MARICO](https://www.screener.in/company/MARICO/consolidated/)
+- [VTL](https://www.screener.in/company/VTL/consolidated/)
+- [ESCORTS](https://www.screener.in/company/ESCORTS/consolidated/)
+- [CONCORDBIO](https://www.screener.in/company/CONCORDBIO/consolidated/)
+- [ARE&M](https://www.screener.in/company/ARE&M/consolidated/)
+- [ELGIEQUIP](https://www.screener.in/company/ELGIEQUIP/consolidated/)
+- [MINDACORP](https://www.screener.in/company/MINDACORP/consolidated/)
+- [AEGISLOG](https://www.screener.in/company/AEGISLOG/consolidated/)
+- [ASKAUTOLTD](https://www.screener.in/company/ASKAUTOLTD/consolidated/)
+- [DELHIVERY](https://www.screener.in/company/DELHIVERY/consolidated/)
+- [KIRLOSENG](https://www.screener.in/company/KIRLOSENG/consolidated/)
 - [MOTHERSON](https://www.screener.in/company/MOTHERSON/consolidated/)
+- [BECTORFOOD](https://www.screener.in/company/BECTORFOOD/consolidated/)
+- [INTELLECT](https://www.screener.in/company/INTELLECT/consolidated/)
+- [GROWW](https://www.screener.in/company/GROWW/consolidated/)
+- [RAMCOCEM](https://www.screener.in/company/RAMCOCEM/consolidated/)
+- [JKTYRE](https://www.screener.in/company/JKTYRE/consolidated/)
+- [ACC](https://www.screener.in/company/ACC/consolidated/)
+- [KEC](https://www.screener.in/company/KEC/consolidated/)
+- [ENGINERSIN](https://www.screener.in/company/ENGINERSIN/consolidated/)
+- [GODFRYPHLP](https://www.screener.in/company/GODFRYPHLP/consolidated/)
+- [AIIL](https://www.screener.in/company/AIIL/consolidated/)
+- [TECHNOE](https://www.screener.in/company/TECHNOE/consolidated/)
+- [ASHOKLEY](https://www.screener.in/company/ASHOKLEY/consolidated/)
+- [CLEAN](https://www.screener.in/company/CLEAN/consolidated/)
+- [MUTHOOTFIN](https://www.screener.in/company/MUTHOOTFIN/consolidated/)
+- [MCX](https://www.screener.in/company/MCX/consolidated/)
+- [MGL](https://www.screener.in/company/MGL/consolidated/)
+- [GOKEX](https://www.screener.in/company/GOKEX/consolidated/)
+- [TRIVENI](https://www.screener.in/company/TRIVENI/consolidated/)
+- [SYMBIOTEC](https://www.screener.in/company/SYMBIOTEC/consolidated/)
+- [GRASIM](https://www.screener.in/company/GRASIM/consolidated/)
+- [GRANULES](https://www.screener.in/company/GRANULES/consolidated/)
+- [BALRAMCHIN](https://www.screener.in/company/BALRAMCHIN/consolidated/)
+- [OIL](https://www.screener.in/company/OIL/consolidated/)
+- [IOC](https://www.screener.in/company/IOC/consolidated/)
+- [ZEEL](https://www.screener.in/company/ZEEL/consolidated/)
+- [RELIANCE](https://www.screener.in/company/RELIANCE/consolidated/)
+- [GLAXO](https://www.screener.in/company/GLAXO/consolidated/)
+- [EXIDEIND](https://www.screener.in/company/EXIDEIND/consolidated/)
+- [INDGN](https://www.screener.in/company/INDGN/consolidated/)
+- [JKCEMENT](https://www.screener.in/company/JKCEMENT/consolidated/)
+- [NH](https://www.screener.in/company/NH/consolidated/)
+- [BOSCHLTD](https://www.screener.in/company/BOSCHLTD/consolidated/)
+- [RBA](https://www.screener.in/company/RBA/consolidated/)
+- [CHOLAHLDNG](https://www.screener.in/company/CHOLAHLDNG/consolidated/)
+- [BERGEPAINT](https://www.screener.in/company/BERGEPAINT/consolidated/)
+- [AKUMS](https://www.screener.in/company/AKUMS/consolidated/)
+- [BORORENEW](https://www.screener.in/company/BORORENEW/consolidated/)
+- [BHARATFORG](https://www.screener.in/company/BHARATFORG/consolidated/)
 - [SYRMA](https://www.screener.in/company/SYRMA/consolidated/)
+- [APOLLOTYRE](https://www.screener.in/company/APOLLOTYRE/consolidated/)
+- [M&M](https://www.screener.in/company/M&M/consolidated/)
+- [IMFA](https://www.screener.in/company/IMFA/consolidated/)
+- [TIMETECHNO](https://www.screener.in/company/TIMETECHNO/consolidated/)
+- [SOLARINDS](https://www.screener.in/company/SOLARINDS/consolidated/)
+- [REDINGTON](https://www.screener.in/company/REDINGTON/consolidated/)
+- [SUNPHARMA](https://www.screener.in/company/SUNPHARMA/consolidated/)
+- [MRF](https://www.screener.in/company/MRF/consolidated/)
+- [LENSKART](https://www.screener.in/company/LENSKART/consolidated/)
+- [SUNDARMFIN](https://www.screener.in/company/SUNDARMFIN/consolidated/)
+- [NHPC](https://www.screener.in/company/NHPC/consolidated/)
+- [CDSL](https://www.screener.in/company/CDSL/consolidated/)
+- [RATEGAIN](https://www.screener.in/company/RATEGAIN/consolidated/)
+- [GMMPFAUDLR](https://www.screener.in/company/GMMPFAUDLR/consolidated/)
+- [DIXON](https://www.screener.in/company/DIXON/consolidated/)
+- [DABUR](https://www.screener.in/company/DABUR/consolidated/)
 - [AUROPHARMA](https://www.screener.in/company/AUROPHARMA/consolidated/)
+- [FIVESTAR](https://www.screener.in/company/FIVESTAR/consolidated/)
 - [IGL](https://www.screener.in/company/IGL/consolidated/)
-- [AETHER](https://www.screener.in/company/AETHER/consolidated/)
+- [SJVN](https://www.screener.in/company/SJVN/consolidated/)
+- [GNFC](https://www.screener.in/company/GNFC/consolidated/)
+- [BRIGADE](https://www.screener.in/company/BRIGADE/consolidated/)
+- [KMEW](https://www.screener.in/company/KMEW/consolidated/)
+- [VEDPOWER](https://www.screener.in/company/VEDPOWER/consolidated/)
 
 *Volume surge = mean(last 5d volume) ÷ mean(prior 20d volume), NSE EQ series. Liquidity floor: avg turnover ≥ Rs 20 cr/day. Not investment advice.*
