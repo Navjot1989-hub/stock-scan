@@ -1,6 +1,6 @@
 # Turnaround Hunter — 52-Week-Low Recovery Scan
 
-**Date:** 2026-11-09 · **Universe:** small/mid-caps Rs 500–75000 cr · **Near-low cut:** ≤15% above 52w low · **Source:** screener.in
+**Date:** 2026-11-10 · **Universe:** small/mid-caps Rs 500–75000 cr · **Near-low cut:** ≤15% above 52w low · **Source:** screener.in
 
 > Analytical research, **NOT investment advice**. EBITDA ≈ screener's "Operating Profit"; "improving" and "sector turnaround" are heuristics from numbers + an editable overlay. Verify concalls/filings before acting.
 
@@ -10,63 +10,63 @@ Screened **500** names from `universe.txt`; **57** cleared the turnaround filter
 
 | # | Company | Ticker | Mcap (cr) | % above 52w low | EBITDA YoY | Recovery×trough | Score | Verdict |
 |---|---|---|---|---|---|---|---|---|
-| 1 | NTPC Green Energy Ltd | NTPCGREEN | 69476 | 4.4% | 56.6% | 1.55× | **81.6** | Strong turnaround setup |
-| 2 | C.E. Info Systems Ltd | MAPMYINDIA | 4645 | 7.6% | 65.4% | 1.72× | **79.8** | Strong turnaround setup |
-| 3 | Oil India Ltd | OIL | 71232 | 10.9% | 146.4% | 2.53× | **78.7** | Strong turnaround setup |
-| 4 | Jubilant Ingrevia Ltd | JUBLINGREA | 9361 | 9.9% | 57% | 1.68× | **77.1** | Strong turnaround setup |
-| 5 | United Breweries Ltd | UBL | 32388 | 8.7% | 99.2% | 1.86× | **77.1** | Strong turnaround setup |
+| 1 | NTPC Green Energy Ltd | NTPCGREEN | 69509 | 4.4% | 56.6% | 1.55× | **81.6** | Strong turnaround setup |
+| 2 | C.E. Info Systems Ltd | MAPMYINDIA | 4657 | 7.6% | 65.4% | 1.72× | **79.8** | Strong turnaround setup |
+| 3 | Oil India Ltd | OIL | 71408 | 10.9% | 146.4% | 2.53× | **78.7** | Strong turnaround setup |
+| 4 | Jubilant Ingrevia Ltd | JUBLINGREA | 9360 | 9.9% | 57% | 1.68× | **77.1** | Strong turnaround setup |
+| 5 | United Breweries Ltd | UBL | 32403 | 8.7% | 99.2% | 1.86× | **77.1** | Strong turnaround setup |
 | 6 | Jaiprakash Power Ventures Ltd | JPPOWER | 9588 | 12.9% | 39.5% | 5.43× | **74.8** | Strong turnaround setup |
-| 7 | Thermax Ltd | THERMAX | 33205 | 4.5% | 12.8% | 2.81× | **73.9** | Strong turnaround setup |
-| 8 | Brainbees Solutions Ltd | FIRSTCRY | 8470 | 3.8% | 81.8% | 1× | **73.2** | Strong turnaround setup |
-| 9 | PB Fintech Ltd | POLICYBZR | 44137 | 4.1% | 64.3% | 1.18× | **73.2** | Strong turnaround setup |
-| 10 | General Insurance Corporation of India | GICRE | 58599 | 8.8% | 25.2% | 1.71× | **70.5** | Strong turnaround setup |
-| 11 | Indiamart Intermesh Ltd | INDIAMART | 9274 | 5.3% | 24.1% | 1.2× | **70.3** | Strong turnaround setup |
-| 12 | Tega Industries Ltd | TEGA | 12756 | 14.3% | 608.7% | 10.63× | **70.2** | Strong turnaround setup |
-| 13 | RHI Magnesita India Ltd | RHIM | 7422 | 11.1% | 35.3% | 1.59× | **68.7** | Watch |
+| 7 | Thermax Ltd | THERMAX | 33196 | 4.5% | 12.8% | 2.81× | **73.9** | Strong turnaround setup |
+| 8 | Brainbees Solutions Ltd | FIRSTCRY | 8469 | 3.8% | 81.8% | 1× | **73.2** | Strong turnaround setup |
+| 9 | PB Fintech Ltd | POLICYBZR | 44367 | 4.1% | 64.3% | 1.18× | **73.2** | Strong turnaround setup |
+| 10 | General Insurance Corporation of India | GICRE | 58711 | 8.8% | 25.2% | 1.71× | **70.5** | Strong turnaround setup |
+| 11 | Indiamart Intermesh Ltd | INDIAMART | 9279 | 5.3% | 24.1% | 1.2× | **70.3** | Strong turnaround setup |
+| 12 | Tega Industries Ltd | TEGA | 12725 | 14.3% | 608.7% | 10.63× | **70.2** | Strong turnaround setup |
+| 13 | RHI Magnesita India Ltd | RHIM | 7419 | 11.1% | 35.3% | 1.59× | **68.7** | Watch |
 | 14 | Supreme Industries Ltd | SUPREMEIND | 41876 | 7.1% | 45.1% | 1.37× | **67.6** | Watch |
-| 15 | 3M India Ltd | 3MINDIA | 31610 | 6.3% | 18.5% | 1.15× | **67.5** | Watch |
-| 16 | Intellect Design Arena Ltd | INTELLECT | 7173 | 6.7% | 8.5% | 1.66× | **67.2** | Watch |
-| 17 | Sarda Energy & Minerals Ltd | SARDAEN | 15496 | 4% | 0.2% | 1.65× | **67.2** | Watch |
-| 18 | Rail Vikas Nigam Ltd | RVNL | 42053 | 13.5% | 249.1% | 1× | **66.9** | Watch |
-| 19 | Tenneco Clean Air India Ltd | TENNIND | 17088 | 1.4% | 20.7% | 1.17× | **66.2** | Watch |
-| 20 | Timken India Ltd | TIMKEN | 22546 | 12.2% | 28.7% | 1.82× | **66.0** | Watch |
-| 21 | Anupam Rasayan India Ltd | ANURAS | 13655 | 13.1% | 37.5% | 1.47× | **65.8** | Watch |
-| 22 | KEI Industries Ltd | KEI | 38208 | 9.6% | 40.1% | 1.18× | **64.7** | Watch |
-| 23 | Dabur India Ltd | DABUR | 66563 | 5.9% | 7.5% | 1.37× | **64.3** | Watch |
-| 24 | Blue Dart Express Ltd | BLUEDART | 10626 | 8.2% | 13.9% | 1.29× | **63.1** | Watch |
-| 25 | NCC Ltd | NCC | 8230 | 14.9% | 34.4% | 1.21× | **63.1** | Watch |
-| 26 | Tube Investments of India Ltd | TIINDIA | 42738 | 10.2% | 34.9% | 1.34× | **63.1** | Watch |
-| 27 | Torrent Power Ltd | TORNTPOWER | 62341 | 7.8% | 15.4% | 1.51× | **63.0** | Watch |
-| 28 | Newgen Software Technologies Ltd | NEWGEN | 6237 | 9.2% | 6.9% | 1.95× | **62.7** | Watch |
-| 29 | Schaeffler India Ltd | SCHAEFFLER | 55280 | 3.6% | 17.8% | 1.12× | **61.7** | Watch |
-| 30 | Chambal Fertilisers & Chemicals Ltd | CHAMBLFERT | 15601 | 11.1% | 6.7% | 3.52× | **61.5** | Watch |
-| 31 | Aditya Birla Lifestyle Brands Ltd | ABLBL | 9271 | 9.7% | 13.6% | 1.17× | **60.3** | Watch |
-| 32 | JBM Auto Ltd | JBMA | 11860 | 8% | 21.3% | 1.17× | **60.3** | Watch |
-| 33 | Crompton Greaves Consumer Electricals Ltd | CROMPTON | 14082 | 14.1% | 29.7% | 1.05× | **60.2** | Watch |
-| 34 | BLS International Services Ltd | BLS | 9134 | 9.4% | 16.4% | 1.25× | **60.1** | Watch |
-| 35 | Fortis Healthcare Ltd | FORTIS | 58509 | 9.9% | 12.1% | 1.23× | **60.1** | Watch |
-| 36 | Kaynes Technology India Ltd | KAYNES | 22095 | 10.2% | 31% | 1.24× | **60.1** | Watch |
-| 37 | Anant Raj Ltd | ANANTRAJ | 16175 | 11.7% | 17.9% | 1.19× | **58.5** | Watch |
-| 38 | Railtel Corporation of India Ltd | RAILTEL | 7994 | 13.2% | 15% | 1.55× | **58.5** | Watch |
+| 15 | 3M India Ltd | 3MINDIA | 31635 | 6.3% | 18.5% | 1.15× | **67.5** | Watch |
+| 16 | Intellect Design Arena Ltd | INTELLECT | 7172 | 6.7% | 8.5% | 1.66× | **67.2** | Watch |
+| 17 | Sarda Energy & Minerals Ltd | SARDAEN | 15503 | 4% | 0.2% | 1.65× | **67.2** | Watch |
+| 18 | Rail Vikas Nigam Ltd | RVNL | 42055 | 13.5% | 249.1% | 1× | **66.9** | Watch |
+| 19 | Tenneco Clean Air India Ltd | TENNIND | 17135 | 1.4% | 20.7% | 1.17× | **66.2** | Watch |
+| 20 | Timken India Ltd | TIMKEN | 22672 | 12.2% | 28.7% | 1.82× | **66.0** | Watch |
+| 21 | Anupam Rasayan India Ltd | ANURAS | 13643 | 13.1% | 37.5% | 1.47× | **65.8** | Watch |
+| 22 | KEI Industries Ltd | KEI | 38284 | 9.6% | 40.1% | 1.18× | **64.7** | Watch |
+| 23 | Dabur India Ltd | DABUR | 66572 | 5.9% | 7.5% | 1.37× | **64.3** | Watch |
+| 24 | Blue Dart Express Ltd | BLUEDART | 10635 | 8.2% | 13.9% | 1.29× | **63.1** | Watch |
+| 25 | NCC Ltd | NCC | 8220 | 14.9% | 34.4% | 1.21× | **63.1** | Watch |
+| 26 | Tube Investments of India Ltd | TIINDIA | 42770 | 10.2% | 34.9% | 1.34× | **63.1** | Watch |
+| 27 | Torrent Power Ltd | TORNTPOWER | 62282 | 7.8% | 15.4% | 1.51× | **63.0** | Watch |
+| 28 | Newgen Software Technologies Ltd | NEWGEN | 6238 | 9.2% | 6.9% | 1.95× | **62.7** | Watch |
+| 29 | Schaeffler India Ltd | SCHAEFFLER | 55357 | 3.6% | 17.8% | 1.12× | **61.7** | Watch |
+| 30 | Chambal Fertilisers & Chemicals Ltd | CHAMBLFERT | 15599 | 11.1% | 6.7% | 3.52× | **61.5** | Watch |
+| 31 | Aditya Birla Lifestyle Brands Ltd | ABLBL | 9265 | 9.7% | 13.6% | 1.17× | **60.3** | Watch |
+| 32 | JBM Auto Ltd | JBMA | 11870 | 8% | 21.3% | 1.17× | **60.3** | Watch |
+| 33 | Crompton Greaves Consumer Electricals Ltd | CROMPTON | 14095 | 14.1% | 29.7% | 1.05× | **60.2** | Watch |
+| 34 | BLS International Services Ltd | BLS | 9141 | 9.4% | 16.4% | 1.25× | **60.1** | Watch |
+| 35 | Fortis Healthcare Ltd | FORTIS | 58475 | 9.9% | 12.1% | 1.23× | **60.1** | Watch |
+| 36 | Kaynes Technology India Ltd | KAYNES | 22183 | 10.2% | 31% | 1.24× | **60.1** | Watch |
+| 37 | Anant Raj Ltd | ANANTRAJ | 16178 | 11.7% | 17.9% | 1.19× | **58.5** | Watch |
+| 38 | Railtel Corporation of India Ltd | RAILTEL | 7984 | 13.2% | 15% | 1.55× | **58.5** | Watch |
 | 39 | Astral Ltd | ASTRAL | 34194 | 4.7% | 1.2% | 1.13× | **58.3** | Watch |
 | 40 | CIE Automotive India Ltd | CIEINDIA | 13668 | 5.6% | 5.1% | 1.12× | **58.3** | Watch |
-| 41 | Jindal Stainless Ltd | JSL | 57000 | 6% | 3% | 1.06× | **58.3** | Watch |
-| 42 | UPL Ltd | UPL | 45595 | 13.9% | 6.2% | 1.51× | **58.2** | Watch |
-| 43 | Emami Ltd | EMAMILTD | 17905 | 14.8% | 25.4% | 1.19× | **57.2** | Watch |
-| 44 | J K Cements Ltd | JKCEMENT | 39032 | 8.2% | 13.4% | 1× | **57.2** | Watch |
-| 45 | Jubilant Foodworks Ltd | JUBLFOOD | 28256 | 7.5% | 7.8% | 1.06× | **56.9** | Watch |
-| 46 | Clean Science & Technology Ltd | CLEAN | 7395 | 7.9% | 5.7% | 1.28× | **56.7** | Watch |
-| 47 | SRF Ltd | SRF | 72835 | 13% | 22.2% | 1.21× | **55.6** | Watch |
-| 48 | Godawari Power & Ispat Ltd | GPIL | 14077 | 10.6% | 3.1% | 1.53× | **55.1** | Watch |
-| 49 | Vishal Mega Mart Ltd | VMM | 43474 | 10% | 4.3% | 1× | **53.8** | Early / unproven |
-| 50 | Blue Star Ltd | BLUESTARCO | 32517 | 10.2% | 11.5% | 1.16× | **52.7** | Early / unproven |
-| 51 | CCL Products (India) Ltd | CCL | 13096 | 10.6% | 7.6% | 1.15× | **52.4** | Early / unproven |
-| 52 | ZF Commercial Vehicle Control System India Ltd | ZFCVINDIA | 26411 | 13.1% | 4.5% | 1.03× | **52.4** | Early / unproven |
-| 53 | Alkem Laboratories Ltd | ALKEM | 64572 | 12.2% | 3.7% | 1.48× | **52.2** | Early / unproven |
+| 41 | Jindal Stainless Ltd | JSL | 56972 | 6% | 3% | 1.06× | **58.3** | Watch |
+| 42 | UPL Ltd | UPL | 45697 | 13.9% | 6.2% | 1.51× | **58.2** | Watch |
+| 43 | Emami Ltd | EMAMILTD | 17914 | 14.8% | 25.4% | 1.19× | **57.2** | Watch |
+| 44 | J K Cements Ltd | JKCEMENT | 39039 | 8.2% | 13.4% | 1× | **57.2** | Watch |
+| 45 | Jubilant Foodworks Ltd | JUBLFOOD | 28274 | 7.5% | 7.8% | 1.06× | **56.9** | Watch |
+| 46 | Clean Science & Technology Ltd | CLEAN | 7397 | 7.9% | 5.7% | 1.28× | **56.7** | Watch |
+| 47 | SRF Ltd | SRF | 72912 | 13% | 22.2% | 1.21× | **55.6** | Watch |
+| 48 | Godawari Power & Ispat Ltd | GPIL | 14056 | 10.6% | 3.1% | 1.53× | **55.1** | Watch |
+| 49 | Vishal Mega Mart Ltd | VMM | 43391 | 10% | 4.3% | 1× | **53.8** | Early / unproven |
+| 50 | Blue Star Ltd | BLUESTARCO | 32436 | 10.2% | 11.5% | 1.16× | **52.7** | Early / unproven |
+| 51 | CCL Products (India) Ltd | CCL | 13088 | 10.6% | 7.6% | 1.15× | **52.4** | Early / unproven |
+| 52 | ZF Commercial Vehicle Control System India Ltd | ZFCVINDIA | 26417 | 13.1% | 4.5% | 1.03× | **52.4** | Early / unproven |
+| 53 | Alkem Laboratories Ltd | ALKEM | 64547 | 12.2% | 3.7% | 1.48× | **52.2** | Early / unproven |
 | 54 | EIH Ltd | EIHOTEL | 19296 | 14% | 4.4% | 1.08× | **49.3** | Early / unproven |
-| 55 | Indian Energy Exchange Ltd | IEX | 10068 | 13.6% | 6% | 1.16× | **49.3** | Early / unproven |
-| 56 | JSW Cement Ltd | JSWCEMENT | 16527 | 13.1% | 3.7% | 1× | **49.3** | Early / unproven |
-| 57 | Latent View Analytics Ltd | LATENTVIEW | 4201 | 10.9% | 7.1% | 1.05× | **49.3** | Early / unproven |
+| 55 | Indian Energy Exchange Ltd | IEX | 10053 | 13.6% | 6% | 1.16× | **49.3** | Early / unproven |
+| 56 | JSW Cement Ltd | JSWCEMENT | 16544 | 13.1% | 3.7% | 1× | **49.3** | Early / unproven |
+| 57 | Latent View Analytics Ltd | LATENTVIEW | 4198 | 10.9% | 7.1% | 1.05× | **49.3** | Early / unproven |
 
 ## Detail — EBITDA / OPM trend & sector
 
@@ -78,7 +78,7 @@ Screened **500** names from `universe.txt`; **57** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/NTPCGREEN/consolidated/)
 
 ### C.E. Info Systems Ltd (MAPMYINDIA) — score 79.8
-- Price 850 · 52w low 790 / high 1839 · **7.6% above low**
+- Price 850 · 52w low 790 / high 1810 · **7.6% above low**
 - Operating profit (last quarters): 54 → 26 → 25 → 64 → 55 → 43
 - OPM % (last quarters): 45 → 23 → 26 → 44 → 40 → 32 · YoY Δ 9pp
 - EBITDA YoY 65.4% · QoQ -21.8% · recovery from 4q trough 1.72×
@@ -239,7 +239,7 @@ Screened **500** names from `universe.txt`; **57** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/BLUEDART/consolidated/)
 
 ### NCC Ltd (NCC) — score 63.1
-- Price 131 · 52w low 114 / high 196 · **14.9% above low**
+- Price 131 · 52w low 114 / high 190 · **14.9% above low**
 - Operating profit (last quarters): 456 → 393 → 436 → 550 → 545 → 528
 - OPM % (last quarters): 9 → 9 → 9 → 9 → 9 → 9 · YoY Δ 0pp
 - EBITDA YoY 34.4% · QoQ -3.1% · recovery from 4q trough 1.21×
@@ -309,7 +309,7 @@ Screened **500** names from `universe.txt`; **57** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/BLS/consolidated/)
 
 ### Fortis Healthcare Ltd (FORTIS) — score 60.1
-- Price 775 · 52w low 705 / high 1020 · **9.9% above low**
+- Price 775 · 52w low 705 / high 1010 · **9.9% above low**
 - Operating profit (last quarters): 491 → 556 → 506 → 532 → 537 → 623
 - OPM % (last quarters): 23 → 24 → 22 → 23 → 21 → 23 · YoY Δ -1pp
 - EBITDA YoY 12.1% · QoQ 16% · recovery from 4q trough 1.23×
@@ -407,7 +407,7 @@ Screened **500** names from `universe.txt`; **57** cleared the turnaround filter
 - [screener.in](https://www.screener.in/company/GPIL/consolidated/)
 
 ### Vishal Mega Mart Ltd (VMM) — score 53.8
-- Price 92.6 · 52w low 84.2 / high 144 · **10% above low**
+- Price 92.6 · 52w low 84.2 / high 143 · **10% above low**
 - Operating profit (last quarters): 459 → 395 → 605 → 425 → 545 → 412
 - OPM % (last quarters): 15 → 13 → 16 → 14 → 15 → 12 · YoY Δ -1pp
 - EBITDA YoY 4.3% · QoQ -24.4% · recovery from 4q trough 1×
