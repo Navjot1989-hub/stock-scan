@@ -1,6 +1,6 @@
 # Volume Surge Scanner — NSE large-caps
 
-**Date:** 2026-11-14 · **Universe:** NSE EQ, market cap ≥ Rs 5000 cr · **Signal:** last 5-day avg volume ≥ 1.5× the prior 20-day avg · **Source:** NSE bhavcopy + screener.in
+**Date:** 2026-11-15 · **Universe:** NSE EQ, market cap ≥ Rs 5000 cr · **Signal:** last 5-day avg volume ≥ 1.5× the prior 20-day avg · **Source:** NSE bhavcopy + screener.in
 
 > Analytical research, **NOT investment advice**. A volume build-up is direction-agnostic — it can precede a breakdown as easily as a breakout. Check the chart, news and delivery quality before acting.
 
@@ -16,8 +16,8 @@ Scanned **2579** NSE EQ symbols over **25** trading days; **130** are ≥ Rs 500
 | 4 | Sun Pharma Advanced Research Company Ltd | SPARC | 6680 | **17.8×** | 13,516,820 | 759,526 | 6.4% | 39.73% | 288.018 |
 | 5 | Avanti Feeds Ltd | AVANTIFEED | 10172 | **16.69×** | 3,592,423 | 215,213 | 5.1% | 25.58% | 273.579 |
 | 6 | Godrej Industries Ltd | GODREJIND | 37631 | **16.51×** | 2,330,326 | 141,142 | 16.9% | 6.13% | 255.584 |
-| 7 | Fertilizers & Chemicals Travancore Ltd | FACT | 52296 | **9.08×** | 1,245,927 | 137,197 | 7.7% | 8.77% | 101.595 |
-| 8 | Knowledge Marine & Engineering Works Ltd | KMEW | 9143 | **9.08×** | 1,391,277 | 153,218 | 10.4% | 33.79% | 96.065 |
+| 7 | Knowledge Marine & Engineering Works Ltd | KMEW | 9143 | **9.08×** | 1,391,277 | 153,218 | 10.4% | 33.79% | 96.065 |
+| 8 | Fertilizers & Chemicals Travancore Ltd | FACT | 52296 | **9.08×** | 1,245,927 | 137,197 | 7.7% | 8.77% | 101.595 |
 | 9 | Kennametal India Ltd | KENNAMET | 8692 | **8.57×** | 185,364 | 21,620 | 10.3% | 29.37% | 74.5588 |
 | 10 | India Tourism Development Corporation Ltd | ITDC | 5729 | **7.66×** | 592,928 | 77,425 | 5.9% | 6.86% | 41.1684 |
 | 11 | MSTC Ltd | MSTCLTD | 5515 | **6.67×** | 1,573,082 | 235,687 | 32.8% | 20.22% | 117.113 |
@@ -51,8 +51,8 @@ Scanned **2579** NSE EQ symbols over **25** trading days; **130** are ≥ Rs 500
 | 39 | V2 Retail Ltd | V2RETAIL | 5984 | **3.04×** | 25,104,360 | 8,249,427 | -5.4% | 32.51% | 441 |
 | 40 | Indian Railway Catering & Tourism Corporation Ltd | IRCTC | 36616 | **2.98×** | 2,378,335 | 797,438 | 0.2% | 40.1% | 111.694 |
 | 41 | Raghav Productivity Enhancers Ltd | RPEL | 8937 | **2.74×** | 229,541 | 83,827 | 9.3% | 34.34% | 43.8115 |
-| 42 | Anupam Rasayan India Ltd | ANURAS | 14807 | **2.69×** | 1,057,109 | 393,586 | 11.6% | 42.99% | 128.397 |
-| 43 | Alivus Life Sciences Ltd | ALIVUS | 17961 | **2.69×** | 797,795 | 296,528 | -1.4% | 42.65% | 118.301 |
+| 42 | Alivus Life Sciences Ltd | ALIVUS | 17961 | **2.69×** | 797,795 | 296,528 | -1.4% | 42.65% | 118.301 |
+| 43 | Anupam Rasayan India Ltd | ANURAS | 14807 | **2.69×** | 1,057,109 | 393,586 | 11.6% | 42.99% | 128.397 |
 | 44 | Power Mech Projects Ltd | POWERMECH | 7613 | **2.67×** | 104,125 | 38,956 | 6% | 36.75% | 25.1644 |
 | 45 | Olectra Greentech Ltd | OLECTRA | 8415 | **2.62×** | 787,864 | 300,165 | -0.1% | 46.68% | 84.1881 |
 | 46 | Manappuram Finance Ltd | MANAPPURAM | 28932 | **2.62×** | 10,433,261 | 3,978,043 | -5.3% | 25.43% | 329.522 |
@@ -65,11 +65,11 @@ Scanned **2579** NSE EQ symbols over **25** trading days; **130** are ≥ Rs 500
 | 53 | Jubilant Foodworks Ltd | JUBLFOOD | 28885 | **2.45×** | 4,257,049 | 1,736,934 | -4.3% | 34.86% | 184.826 |
 | 54 | Piccadily Agro Industries Ltd | PICCADIL | 5444 | **2.43×** | 380,164 | 156,216 | -5.2% | 28.86% | 21.3919 |
 | 55 | Oberoi Realty Ltd | OBEROIRLTY | 65361 | **2.41×** | 800,157 | 331,592 | 3.4% | 50.59% | 142.24 |
-| 56 | Coromandel International Ltd | COROMANDEL | 57676 | **2.4×** | 429,761 | 179,177 | 7.2% | 37.21% | 83.5983 |
-| 57 | Time Technoplast Ltd | TIMETECHNO | 9364 | **2.4×** | 5,076,633 | 2,114,743 | 11.2% | 46.65% | 96.6428 |
-| 58 | Grasim Industries Ltd | GRASIM | 206475 | **2.39×** | 1,129,778 | 472,695 | -6% | 32.16% | 354.258 |
+| 56 | Time Technoplast Ltd | TIMETECHNO | 9364 | **2.4×** | 5,076,633 | 2,114,743 | 11.2% | 46.65% | 96.6428 |
+| 57 | Coromandel International Ltd | COROMANDEL | 57676 | **2.4×** | 429,761 | 179,177 | 7.2% | 37.21% | 83.5983 |
+| 58 | Tenneco Clean Air India Ltd | TENNIND | 18069 | **2.39×** | 1,680,000 | 703,833 | 5.8% | 55.54% | 72.7644 |
 | 59 | Bank of Baroda | BANKBARODA | 141613 | **2.39×** | 21,684,254 | 9,054,671 | 9.4% | 55.95% | 579.116 |
-| 60 | Tenneco Clean Air India Ltd | TENNIND | 18069 | **2.39×** | 1,680,000 | 703,833 | 5.8% | 55.54% | 72.7644 |
+| 60 | Grasim Industries Ltd | GRASIM | 206475 | **2.39×** | 1,129,778 | 472,695 | -6% | 32.16% | 354.258 |
 | 61 | Gujarat State Fertilizers & Chemicals Ltd | GSFC | 5786 | **2.39×** | 1,641,756 | 688,137 | 4.2% | 32.58% | 24.2699 |
 | 62 | Archean Chemical Industries Ltd | ACI | 5618 | **2.39×** | 966,735 | 405,150 | 9.3% | 23.19% | 43.3345 |
 | 63 | Punjab National Bank | PNB | 164131 | **2.37×** | 60,793,664 | 25,607,164 | 12.8% | 38.79% | 831.58 |
@@ -83,63 +83,63 @@ Scanned **2579** NSE EQ symbols over **25** trading days; **130** are ≥ Rs 500
 | 71 | Anthem Biosciences Ltd | ANTHEM | 52795 | **2.19×** | 918,155 | 418,435 | 2.3% | 48.03% | 88.5861 |
 | 72 | Natco Pharma Ltd | NATCOPHARM | 15898 | **2.18×** | 1,061,335 | 487,380 | 0.4% | 29.59% | 85.5762 |
 | 73 | NCC Ltd | NCC | 8450 | **2.16×** | 4,233,347 | 1,955,450 | 9.6% | 53.22% | 55.7764 |
-| 74 | Inventurus Knowledge Solutions Ltd | IKS | 28051 | **2.14×** | 221,204 | 103,301 | -1.4% | 65.99% | 36.9244 |
-| 75 | Indegene Ltd | INDGN | 16055 | **2.14×** | 996,753 | 465,702 | 9.3% | 50.25% | 64.3001 |
+| 74 | Indegene Ltd | INDGN | 16055 | **2.14×** | 996,753 | 465,702 | 9.3% | 50.25% | 64.3001 |
+| 75 | Inventurus Knowledge Solutions Ltd | IKS | 28051 | **2.14×** | 221,204 | 103,301 | -1.4% | 65.99% | 36.9244 |
 | 76 | Rashtriya Chemicals & Fertilizers Ltd | RCF | 6007 | **2.13×** | 1,854,964 | 869,996 | 7.7% | 26.36% | 20.0184 |
 | 77 | Man Industries (India) Ltd | MANINDS | 6162 | **2.12×** | 1,064,027 | 501,982 | 3% | 40.77% | 91.355 |
 | 78 | MRF Ltd | MRF | 54268 | **2.04×** | 6,478 | 3,169 | 2.1% | 47.03% | 81.7487 |
 | 79 | Prestige Estates Projects Ltd | PRESTIGE | 71070 | **2.03×** | 773,249 | 381,443 | 1.3% | 44.53% | 125.875 |
-| 80 | Aurobindo Pharma Ltd | AUROPHARMA | 104903 | **2.01×** | 2,133,689 | 1,060,641 | 1.3% | 46.47% | 389.878 |
-| 81 | Triveni Turbine Ltd | TRITURBINE | 16205 | **2.01×** | 1,100,496 | 547,784 | 3.5% | 49.15% | 55.8191 |
+| 80 | Triveni Turbine Ltd | TRITURBINE | 16205 | **2.01×** | 1,100,496 | 547,784 | 3.5% | 49.15% | 55.8191 |
+| 81 | Aurobindo Pharma Ltd | AUROPHARMA | 104903 | **2.01×** | 2,133,689 | 1,060,641 | 1.3% | 46.47% | 389.878 |
 | 82 | ITI Ltd | ITI | 25819 | **1.99×** | 4,854,900 | 2,437,689 | 7.7% | 3.88% | 128.832 |
 | 83 | Voltas Ltd | VOLTAS | 37493 | **1.97×** | 1,748,876 | 887,049 | 3.1% | 33.67% | 189.027 |
-| 84 | Motilal Oswal Financial Services Ltd | MOTILALOFS | 73563 | **1.96×** | 2,216,801 | 1,131,275 | 10.7% | 33.17% | 263.512 |
-| 85 | Sansera Engineering Ltd | SANSERA | 29389 | **1.96×** | 379,600 | 193,204 | 8.9% | 56.8% | 176.468 |
+| 84 | Sansera Engineering Ltd | SANSERA | 29389 | **1.96×** | 379,600 | 193,204 | 8.9% | 56.8% | 176.468 |
+| 85 | Motilal Oswal Financial Services Ltd | MOTILALOFS | 73563 | **1.96×** | 2,216,801 | 1,131,275 | 10.7% | 33.17% | 263.512 |
 | 86 | State Bank of India | SBIN | 996923 | **1.95×** | 23,166,551 | 11,901,174 | 6% | 56.54% | 2454.65 |
 | 87 | Lumax Auto Technologies Ltd | LUMAXTECH | 15534 | **1.93×** | 420,581 | 217,430 | -2.1% | 35.45% | 99.111 |
 | 88 | Oil & Natural Gas Corpn Ltd | ONGC | 283056 | **1.92×** | 19,840,018 | 10,351,826 | -2.9% | 49.77% | 459.317 |
 | 89 | Petronet LNG Ltd | PETRONET | 48608 | **1.9×** | 4,904,639 | 2,584,690 | 2.2% | 79.1% | 160.735 |
 | 90 | Pearl Global Industries Ltd | PGIL | 12330 | **1.86×** | 263,597 | 142,097 | -0.4% | 53.55% | 36.0877 |
-| 91 | Hindustan Copper Ltd | HINDCOPPER | 42535 | **1.84×** | 8,120,397 | 4,401,693 | 4.4% | 35.98% | 361.898 |
-| 92 | Dr Agarwals Health Care Ltd | AGARWALEYE | 17463 | **1.84×** | 383,205 | 208,113 | 6.7% | 40.29% | 20.948 |
-| 93 | Emami Ltd | EMAMILTD | 17814 | **1.81×** | 1,211,089 | 670,055 | 5.4% | 61.13% | 49.3 |
-| 94 | Karnataka Bank Ltd | KTKBANK | 13698 | **1.81×** | 3,526,750 | 1,944,404 | 13.5% | 48.34% | 122.937 |
-| 95 | Navin Fluorine International Ltd | NAVINFLUOR | 51325 | **1.81×** | 308,034 | 169,927 | 11% | 40.84% | 296.152 |
+| 91 | Dr Agarwals Health Care Ltd | AGARWALEYE | 17463 | **1.84×** | 383,205 | 208,113 | 6.7% | 40.29% | 20.948 |
+| 92 | Hindustan Copper Ltd | HINDCOPPER | 42535 | **1.84×** | 8,120,397 | 4,401,693 | 4.4% | 35.98% | 361.898 |
+| 93 | Navin Fluorine International Ltd | NAVINFLUOR | 51325 | **1.81×** | 308,034 | 169,927 | 11% | 40.84% | 296.152 |
+| 94 | Emami Ltd | EMAMILTD | 17814 | **1.81×** | 1,211,089 | 670,055 | 5.4% | 61.13% | 49.3 |
+| 95 | Karnataka Bank Ltd | KTKBANK | 13698 | **1.81×** | 3,526,750 | 1,944,404 | 13.5% | 48.34% | 122.937 |
 | 96 | Entero Healthcare Solutions Ltd | ENTERO | 8577 | **1.8×** | 424,500 | 235,337 | 3.6% | 35.23% | 86.5768 |
 | 97 | Balu Forge Industries Ltd | BALUFORGE | 6680 | **1.79×** | 1,118,840 | 625,085 | 9.7% | 45.17% | 59.8805 |
 | 98 | Emcure Pharmaceuticals Ltd | EMCURE | 44804 | **1.78×** | 398,434 | 223,247 | 6.7% | 46.5% | 91.1167 |
-| 99 | Lemon Tree Hotels Ltd | LEMONTREE | 9662 | **1.77×** | 6,239,867 | 3,531,503 | 3.9% | 42.92% | 74.9356 |
-| 100 | Bank of India | BANKINDIA | 70157 | **1.77×** | 16,064,540 | 9,051,954 | 11.2% | 39.83% | 237.61 |
-| 101 | NMDC Ltd | NMDC | 61367 | **1.74×** | 25,939,426 | 14,946,588 | -0.9% | 39.91% | 184.643 |
-| 102 | Jamna Auto Industries Ltd | JAMNAAUTO | 5958 | **1.74×** | 2,660,437 | 1,525,682 | 8.8% | 38.33% | 38.2579 |
+| 99 | Bank of India | BANKINDIA | 70157 | **1.77×** | 16,064,540 | 9,051,954 | 11.2% | 39.83% | 237.61 |
+| 100 | Lemon Tree Hotels Ltd | LEMONTREE | 9662 | **1.77×** | 6,239,867 | 3,531,503 | 3.9% | 42.92% | 74.9356 |
+| 101 | Jamna Auto Industries Ltd | JAMNAAUTO | 5958 | **1.74×** | 2,660,437 | 1,525,682 | 8.8% | 38.33% | 38.2579 |
+| 102 | NMDC Ltd | NMDC | 61367 | **1.74×** | 25,939,426 | 14,946,588 | -0.9% | 39.91% | 184.643 |
 | 103 | Manipal Health Enterprises Ltd | MANIPALHOS | 89630 | **1.73×** | 1,433,522 | 829,805 | 5.4% | 52.31% | 96.6226 |
 | 104 | Railtel Corporation of India Ltd | RAILTEL | 8158 | **1.73×** | 1,180,031 | 682,755 | 5.5% | 34.38% | 30.1264 |
 | 105 | Neuland Laboratories Ltd | NEULANDLAB | 27043 | **1.72×** | 88,453 | 51,488 | 7% | 45.11% | 182.593 |
-| 106 | SignatureGlobal India Ltd | SIGNATURE | 10785 | **1.7×** | 578,997 | 341,117 | 2.5% | 24.88% | 42.7965 |
-| 107 | Techno Electric & Engineering Company Ltd | TECHNOE | 11150 | **1.7×** | 410,474 | 241,301 | 3.3% | 38.23% | 39.9211 |
+| 106 | Techno Electric & Engineering Company Ltd | TECHNOE | 11150 | **1.7×** | 410,474 | 241,301 | 3.3% | 38.23% | 39.9211 |
+| 107 | SignatureGlobal India Ltd | SIGNATURE | 10785 | **1.7×** | 578,997 | 341,117 | 2.5% | 24.88% | 42.7965 |
 | 108 | Leap India Ltd | LEAPIND | 5728 | **1.69×** | 2,254,979 | 1,333,546 | 6.6% | 40.49% | 28.2063 |
 | 109 | PB Fintech Ltd | POLICYBZR | 51400 | **1.69×** | 4,538,753 | 2,683,276 | 14.3% | 27.46% | 461.532 |
-| 110 | Rain Industries Ltd | RAIN | 5467 | **1.66×** | 7,313,023 | 4,411,149 | -10.4% | 51.65% | 121.353 |
-| 111 | Godfrey Phillips India Ltd | GODFRYPHLP | 28186 | **1.66×** | 453,629 | 273,977 | 0.9% | 26.45% | 82.583 |
+| 110 | Godfrey Phillips India Ltd | GODFRYPHLP | 28186 | **1.66×** | 453,629 | 273,977 | 0.9% | 26.45% | 82.583 |
+| 111 | Rain Industries Ltd | RAIN | 5467 | **1.66×** | 7,313,023 | 4,411,149 | -10.4% | 51.65% | 121.353 |
 | 112 | Aster DM Quality Care Ltd | ASTERDM | 62978 | **1.65×** | 1,472,049 | 892,555 | 1.3% | 64.25% | 107.409 |
 | 113 | Vikram Solar Ltd | VIKRAMSOLR | 5212 | **1.64×** | 2,903,449 | 1,771,717 | 1% | 40.96% | 40.9093 |
-| 114 | GNG Electronics Ltd | EBGNG | 6581 | **1.63×** | 1,932,260 | 1,186,292 | -1.2% | 47.5% | 107.656 |
-| 115 | AIA Engineering Ltd | AIAENG | 29732 | **1.63×** | 159,689 | 98,239 | 2.3% | 71.83% | 50.3478 |
+| 114 | AIA Engineering Ltd | AIAENG | 29732 | **1.63×** | 159,689 | 98,239 | 2.3% | 71.83% | 50.3478 |
+| 115 | GNG Electronics Ltd | EBGNG | 6581 | **1.63×** | 1,932,260 | 1,186,292 | -1.2% | 47.5% | 107.656 |
 | 116 | Gujarat Pipavav Port Ltd | GPPL | 8392 | **1.62×** | 1,701,875 | 1,050,067 | 4.3% | 36.43% | 29.2915 |
-| 117 | Oil India Ltd | OIL | 71815 | **1.61×** | 2,518,178 | 1,564,357 | -0.5% | 42.33% | 111.067 |
-| 118 | Uno Minda Ltd | UNOMINDA | 80152 | **1.61×** | 1,573,786 | 976,039 | 4.7% | 57.92% | 215.867 |
+| 117 | Uno Minda Ltd | UNOMINDA | 80152 | **1.61×** | 1,573,786 | 976,039 | 4.7% | 57.92% | 215.867 |
+| 118 | Oil India Ltd | OIL | 71815 | **1.61×** | 2,518,178 | 1,564,357 | -0.5% | 42.33% | 111.067 |
 | 119 | Central Bank of India | CENTRALBK | 29164 | **1.57×** | 10,037,512 | 6,399,666 | 5.2% | 42.42% | 32.0913 |
 | 120 | Hindustan Aeronautics Ltd | HAL | 321667 | **1.56×** | 1,200,793 | 768,931 | -3.4% | 30.71% | 588.587 |
 | 121 | R R Kabel Ltd | RRKABEL | 22434 | **1.56×** | 841,223 | 539,325 | 3.3% | 45.66% | 167.379 |
-| 122 | Park Medi World Ltd | PARKHOSPS | 11039 | **1.55×** | 1,427,901 | 920,186 | 1.7% | 26.81% | 35.6468 |
-| 123 | Viyash Scientific Ltd | VIYASH | 11285 | **1.55×** | 3,327,537 | 2,144,012 | 11.3% | 54.01% | 82.4495 |
+| 122 | Viyash Scientific Ltd | VIYASH | 11285 | **1.55×** | 3,327,537 | 2,144,012 | 11.3% | 54.01% | 82.4495 |
+| 123 | Park Medi World Ltd | PARKHOSPS | 11039 | **1.55×** | 1,427,901 | 920,186 | 1.7% | 26.81% | 35.6468 |
 | 124 | Canara Bank | CANBK | 118744 | **1.55×** | 39,783,490 | 25,718,474 | 6.5% | 49.95% | 515.926 |
-| 125 | Maharashtra Seamless Ltd | MAHSEAMLES | 7248 | **1.53×** | 360,057 | 235,410 | -5.3% | 32.72% | 20.1334 |
-| 126 | Manorama Industries Ltd | MANORAMA | 12524 | **1.53×** | 197,005 | 128,781 | 1.3% | 35.69% | 40.0714 |
+| 125 | Manorama Industries Ltd | MANORAMA | 12524 | **1.53×** | 197,005 | 128,781 | 1.3% | 35.69% | 40.0714 |
+| 126 | Maharashtra Seamless Ltd | MAHSEAMLES | 7248 | **1.53×** | 360,057 | 235,410 | -5.3% | 32.72% | 20.1334 |
 | 127 | Thermax Ltd | THERMAX | 33080 | **1.52×** | 435,727 | 286,204 | 1.1% | 58.46% | 120.652 |
-| 128 | Indian Bank | INDIANB | 125652 | **1.5×** | 2,516,811 | 1,675,854 | 3.4% | 53.5% | 233.571 |
-| 129 | Tata Steel Ltd | TATASTEEL | 233042 | **1.5×** | 33,556,238 | 22,301,617 | 0.2% | 39.01% | 628.168 |
-| 130 | Action Construction Equipment Ltd | ACE | 14052 | **1.5×** | 457,441 | 303,986 | 1.1% | 20.86% | 54.5513 |
+| 128 | Tata Steel Ltd | TATASTEEL | 233042 | **1.5×** | 33,556,238 | 22,301,617 | 0.2% | 39.01% | 628.168 |
+| 129 | Action Construction Equipment Ltd | ACE | 14052 | **1.5×** | 457,441 | 303,986 | 1.1% | 20.86% | 54.5513 |
+| 130 | Indian Bank | INDIANB | 125652 | **1.5×** | 2,516,811 | 1,675,854 | 3.4% | 53.5% | 233.571 |
 
 ## Sources
 
@@ -149,8 +149,8 @@ Scanned **2579** NSE EQ symbols over **25** trading days; **130** are ≥ Rs 500
 - [SPARC](https://www.screener.in/company/SPARC/consolidated/)
 - [AVANTIFEED](https://www.screener.in/company/AVANTIFEED/consolidated/)
 - [GODREJIND](https://www.screener.in/company/GODREJIND/consolidated/)
-- [FACT](https://www.screener.in/company/FACT/consolidated/)
 - [KMEW](https://www.screener.in/company/KMEW/consolidated/)
+- [FACT](https://www.screener.in/company/FACT/consolidated/)
 - [KENNAMET](https://www.screener.in/company/KENNAMET/consolidated/)
 - [ITDC](https://www.screener.in/company/ITDC/consolidated/)
 - [MSTCLTD](https://www.screener.in/company/MSTCLTD/consolidated/)
@@ -184,8 +184,8 @@ Scanned **2579** NSE EQ symbols over **25** trading days; **130** are ≥ Rs 500
 - [V2RETAIL](https://www.screener.in/company/V2RETAIL/consolidated/)
 - [IRCTC](https://www.screener.in/company/IRCTC/consolidated/)
 - [RPEL](https://www.screener.in/company/RPEL/consolidated/)
-- [ANURAS](https://www.screener.in/company/ANURAS/consolidated/)
 - [ALIVUS](https://www.screener.in/company/ALIVUS/consolidated/)
+- [ANURAS](https://www.screener.in/company/ANURAS/consolidated/)
 - [POWERMECH](https://www.screener.in/company/POWERMECH/consolidated/)
 - [OLECTRA](https://www.screener.in/company/OLECTRA/consolidated/)
 - [MANAPPURAM](https://www.screener.in/company/MANAPPURAM/consolidated/)
@@ -198,11 +198,11 @@ Scanned **2579** NSE EQ symbols over **25** trading days; **130** are ≥ Rs 500
 - [JUBLFOOD](https://www.screener.in/company/JUBLFOOD/consolidated/)
 - [PICCADIL](https://www.screener.in/company/PICCADIL/consolidated/)
 - [OBEROIRLTY](https://www.screener.in/company/OBEROIRLTY/consolidated/)
-- [COROMANDEL](https://www.screener.in/company/COROMANDEL/consolidated/)
 - [TIMETECHNO](https://www.screener.in/company/TIMETECHNO/consolidated/)
-- [GRASIM](https://www.screener.in/company/GRASIM/consolidated/)
-- [BANKBARODA](https://www.screener.in/company/BANKBARODA/consolidated/)
+- [COROMANDEL](https://www.screener.in/company/COROMANDEL/consolidated/)
 - [TENNIND](https://www.screener.in/company/TENNIND/consolidated/)
+- [BANKBARODA](https://www.screener.in/company/BANKBARODA/consolidated/)
+- [GRASIM](https://www.screener.in/company/GRASIM/consolidated/)
 - [GSFC](https://www.screener.in/company/GSFC/consolidated/)
 - [ACI](https://www.screener.in/company/ACI/consolidated/)
 - [PNB](https://www.screener.in/company/PNB/consolidated/)
@@ -216,62 +216,62 @@ Scanned **2579** NSE EQ symbols over **25** trading days; **130** are ≥ Rs 500
 - [ANTHEM](https://www.screener.in/company/ANTHEM/consolidated/)
 - [NATCOPHARM](https://www.screener.in/company/NATCOPHARM/consolidated/)
 - [NCC](https://www.screener.in/company/NCC/consolidated/)
-- [IKS](https://www.screener.in/company/IKS/consolidated/)
 - [INDGN](https://www.screener.in/company/INDGN/consolidated/)
+- [IKS](https://www.screener.in/company/IKS/consolidated/)
 - [RCF](https://www.screener.in/company/RCF/consolidated/)
 - [MANINDS](https://www.screener.in/company/MANINDS/consolidated/)
 - [MRF](https://www.screener.in/company/MRF/consolidated/)
 - [PRESTIGE](https://www.screener.in/company/PRESTIGE/consolidated/)
-- [AUROPHARMA](https://www.screener.in/company/AUROPHARMA/consolidated/)
 - [TRITURBINE](https://www.screener.in/company/TRITURBINE/consolidated/)
+- [AUROPHARMA](https://www.screener.in/company/AUROPHARMA/consolidated/)
 - [ITI](https://www.screener.in/company/ITI/consolidated/)
 - [VOLTAS](https://www.screener.in/company/VOLTAS/consolidated/)
-- [MOTILALOFS](https://www.screener.in/company/MOTILALOFS/consolidated/)
 - [SANSERA](https://www.screener.in/company/SANSERA/consolidated/)
+- [MOTILALOFS](https://www.screener.in/company/MOTILALOFS/consolidated/)
 - [SBIN](https://www.screener.in/company/SBIN/consolidated/)
 - [LUMAXTECH](https://www.screener.in/company/LUMAXTECH/consolidated/)
 - [ONGC](https://www.screener.in/company/ONGC/consolidated/)
 - [PETRONET](https://www.screener.in/company/PETRONET/consolidated/)
 - [PGIL](https://www.screener.in/company/PGIL/consolidated/)
-- [HINDCOPPER](https://www.screener.in/company/HINDCOPPER/consolidated/)
 - [AGARWALEYE](https://www.screener.in/company/AGARWALEYE/consolidated/)
+- [HINDCOPPER](https://www.screener.in/company/HINDCOPPER/consolidated/)
+- [NAVINFLUOR](https://www.screener.in/company/NAVINFLUOR/consolidated/)
 - [EMAMILTD](https://www.screener.in/company/EMAMILTD/consolidated/)
 - [KTKBANK](https://www.screener.in/company/KTKBANK/consolidated/)
-- [NAVINFLUOR](https://www.screener.in/company/NAVINFLUOR/consolidated/)
 - [ENTERO](https://www.screener.in/company/ENTERO/consolidated/)
 - [BALUFORGE](https://www.screener.in/company/BALUFORGE/consolidated/)
 - [EMCURE](https://www.screener.in/company/EMCURE/consolidated/)
-- [LEMONTREE](https://www.screener.in/company/LEMONTREE/consolidated/)
 - [BANKINDIA](https://www.screener.in/company/BANKINDIA/consolidated/)
-- [NMDC](https://www.screener.in/company/NMDC/consolidated/)
+- [LEMONTREE](https://www.screener.in/company/LEMONTREE/consolidated/)
 - [JAMNAAUTO](https://www.screener.in/company/JAMNAAUTO/consolidated/)
+- [NMDC](https://www.screener.in/company/NMDC/consolidated/)
 - [MANIPALHOS](https://www.screener.in/company/MANIPALHOS/consolidated/)
 - [RAILTEL](https://www.screener.in/company/RAILTEL/consolidated/)
 - [NEULANDLAB](https://www.screener.in/company/NEULANDLAB/consolidated/)
-- [SIGNATURE](https://www.screener.in/company/SIGNATURE/consolidated/)
 - [TECHNOE](https://www.screener.in/company/TECHNOE/consolidated/)
+- [SIGNATURE](https://www.screener.in/company/SIGNATURE/consolidated/)
 - [LEAPIND](https://www.screener.in/company/LEAPIND/consolidated/)
 - [POLICYBZR](https://www.screener.in/company/POLICYBZR/consolidated/)
-- [RAIN](https://www.screener.in/company/RAIN/consolidated/)
 - [GODFRYPHLP](https://www.screener.in/company/GODFRYPHLP/consolidated/)
+- [RAIN](https://www.screener.in/company/RAIN/consolidated/)
 - [ASTERDM](https://www.screener.in/company/ASTERDM/consolidated/)
 - [VIKRAMSOLR](https://www.screener.in/company/VIKRAMSOLR/consolidated/)
-- [EBGNG](https://www.screener.in/company/EBGNG/consolidated/)
 - [AIAENG](https://www.screener.in/company/AIAENG/consolidated/)
+- [EBGNG](https://www.screener.in/company/EBGNG/consolidated/)
 - [GPPL](https://www.screener.in/company/GPPL/consolidated/)
-- [OIL](https://www.screener.in/company/OIL/consolidated/)
 - [UNOMINDA](https://www.screener.in/company/UNOMINDA/consolidated/)
+- [OIL](https://www.screener.in/company/OIL/consolidated/)
 - [CENTRALBK](https://www.screener.in/company/CENTRALBK/consolidated/)
 - [HAL](https://www.screener.in/company/HAL/consolidated/)
 - [RRKABEL](https://www.screener.in/company/RRKABEL/consolidated/)
-- [PARKHOSPS](https://www.screener.in/company/PARKHOSPS/consolidated/)
 - [VIYASH](https://www.screener.in/company/VIYASH/consolidated/)
+- [PARKHOSPS](https://www.screener.in/company/PARKHOSPS/consolidated/)
 - [CANBK](https://www.screener.in/company/CANBK/consolidated/)
-- [MAHSEAMLES](https://www.screener.in/company/MAHSEAMLES/consolidated/)
 - [MANORAMA](https://www.screener.in/company/MANORAMA/consolidated/)
+- [MAHSEAMLES](https://www.screener.in/company/MAHSEAMLES/consolidated/)
 - [THERMAX](https://www.screener.in/company/THERMAX/consolidated/)
-- [INDIANB](https://www.screener.in/company/INDIANB/consolidated/)
 - [TATASTEEL](https://www.screener.in/company/TATASTEEL/consolidated/)
 - [ACE](https://www.screener.in/company/ACE/consolidated/)
+- [INDIANB](https://www.screener.in/company/INDIANB/consolidated/)
 
 *Volume surge = mean(last 5d volume) ÷ mean(prior 20d volume), NSE EQ series. Liquidity floor: avg turnover ≥ Rs 20 cr/day. Not investment advice.*
