@@ -1,6 +1,6 @@
 # Volume Surge Scanner — NSE large-caps
 
-**Date:** 2026-11-21 · **Universe:** NSE EQ, market cap ≥ Rs 5000 cr · **Signal:** last 5-day avg volume ≥ 1.5× the prior 20-day avg · **Source:** NSE bhavcopy + screener.in
+**Date:** 2026-11-22 · **Universe:** NSE EQ, market cap ≥ Rs 5000 cr · **Signal:** last 5-day avg volume ≥ 1.5× the prior 20-day avg · **Source:** NSE bhavcopy + screener.in
 
 > Analytical research, **NOT investment advice**. A volume build-up is direction-agnostic — it can precede a breakdown as easily as a breakout. Check the chart, news and delivery quality before acting.
 
@@ -38,8 +38,8 @@ Scanned **2591** NSE EQ symbols over **25** trading days; **89** are ≥ Rs 5000
 | 26 | Vijaya Diagnostic Centre Ltd | VIJAYA | 16194 | **3.34×** | 430,534 | 129,092 | 11.5% | 16.55% | 65.1879 |
 | 27 | Azad Engineering Ltd | AZAD | 15121 | **3.29×** | 1,724,540 | 523,913 | -4.7% | 43.29% | 400.764 |
 | 28 | Tata Investment Corporation Ltd | TATAINVEST | 29479 | **3.28×** | 811,159 | 247,227 | -0.6% | 31.04% | 48.4094 |
-| 29 | SG Finserve Ltd | SGFIN | 5410 | **3.06×** | 1,080,290 | 352,851 | 17.6% | 30.06% | 84.5267 |
-| 30 | Tata Chemicals Ltd | TATACHEM | 16287 | **3.06×** | 4,331,166 | 1,416,099 | 5.5% | 17.12% | 280.109 |
+| 29 | Tata Chemicals Ltd | TATACHEM | 16287 | **3.06×** | 4,331,166 | 1,416,099 | 5.5% | 17.12% | 280.109 |
+| 30 | SG Finserve Ltd | SGFIN | 5410 | **3.06×** | 1,080,290 | 352,851 | 17.6% | 30.06% | 84.5267 |
 | 31 | Senco Gold Ltd | SENCO | 5246 | **2.97×** | 3,462,728 | 1,167,812 | -5.7% | 40.3% | 112.193 |
 | 32 | Physicswallah Ltd | PWL | 39753 | **2.95×** | 19,974,955 | 6,771,757 | 3.8% | 23.3% | 269.506 |
 | 33 | Tata Motors Passenger Vehicles Ltd | TMPV | 98098 | **2.92×** | 23,061,051 | 7,902,737 | -7.3% | 35.74% | 605.054 |
@@ -67,37 +67,37 @@ Scanned **2591** NSE EQ symbols over **25** trading days; **89** are ≥ Rs 5000
 | 55 | AXISCADES Technologies Ltd | AXISCADES | 8013 | **2.01×** | 243,611 | 121,323 | -2.1% | 63.99% | 45.0519 |
 | 56 | SignatureGlobal India Ltd | SIGNATURE | 12091 | **1.97×** | 835,511 | 423,385 | 12.1% | 18.52% | 69.2493 |
 | 57 | Amber Enterprises India Ltd | AMBER | 23772 | **1.88×** | 635,948 | 337,753 | -0.5% | 20.55% | 412.298 |
-| 58 | Sharda Motor Industries Ltd | SHARDAMOTR | 5599 | **1.85×** | 488,114 | 264,012 | 1.1% | 38.98% | 48.0344 |
-| 59 | Jain Resource Recycling Ltd | JAINREC | 9942 | **1.85×** | 1,167,031 | 629,903 | 2% | 40.26% | 33.7345 |
-| 60 | Eicher Motors Ltd | EICHERMOT | 222740 | **1.85×** | 875,978 | 472,349 | 6.1% | 46.55% | 684.326 |
+| 58 | Eicher Motors Ltd | EICHERMOT | 222740 | **1.85×** | 875,978 | 472,349 | 6.1% | 46.55% | 684.326 |
+| 59 | Sharda Motor Industries Ltd | SHARDAMOTR | 5599 | **1.85×** | 488,114 | 264,012 | 1.1% | 38.98% | 48.0344 |
+| 60 | Jain Resource Recycling Ltd | JAINREC | 9942 | **1.85×** | 1,167,031 | 629,903 | 2% | 40.26% | 33.7345 |
 | 61 | IIFL Capital Services Ltd | IIFLCAPS | 9827 | **1.84×** | 3,903,371 | 2,121,636 | -12.1% | 43.11% | 133.334 |
 | 62 | Aptus Value Housing Finance India Ltd | APTUS | 9796 | **1.83×** | 8,610,978 | 4,709,524 | 11.8% | 55.64% | 161.601 |
 | 63 | Leap India Ltd | LEAPIND | 5746 | **1.82×** | 3,016,187 | 1,660,462 | 0.3% | 42.83% | 39.3502 |
 | 64 | Kalpataru Projects International Ltd | KPIL | 22638 | **1.82×** | 198,112 | 109,075 | -1.8% | 49.47% | 26.3546 |
-| 65 | Gokaldas Exports Ltd | GOKEX | 5552 | **1.8×** | 796,827 | 443,126 | 12% | 40.59% | 57.8639 |
-| 66 | Vedanta Aluminium Metal Ltd | VAML | 142944 | **1.8×** | 8,958,519 | 4,990,530 | -3.8% | 55.97% | 335.687 |
+| 65 | Vedanta Aluminium Metal Ltd | VAML | 142944 | **1.8×** | 8,958,519 | 4,990,530 | -3.8% | 55.97% | 335.687 |
+| 66 | Gokaldas Exports Ltd | GOKEX | 5552 | **1.8×** | 796,827 | 443,126 | 12% | 40.59% | 57.8639 |
 | 67 | Jamna Auto Industries Ltd | JAMNAAUTO | 5503 | **1.79×** | 3,214,881 | 1,800,244 | -7.6% | 53.62% | 45.8437 |
 | 68 | Sun TV Network Ltd | SUNTV | 27357 | **1.77×** | 1,333,017 | 753,393 | 7.3% | 20.45% | 91.6211 |
 | 69 | Tilaknagar Industries Ltd | TI | 13455 | **1.76×** | 1,040,733 | 590,599 | 4.7% | 43.03% | 55.4974 |
-| 70 | Meesho Ltd | MEESHO | 120388 | **1.74×** | 21,630,222 | 12,403,147 | 1.1% | 62.51% | 555.499 |
-| 71 | Concord Biotech Ltd | CONCORDBIO | 11470 | **1.74×** | 398,556 | 229,560 | -7.7% | 57.39% | 22.4538 |
+| 70 | Concord Biotech Ltd | CONCORDBIO | 11470 | **1.74×** | 398,556 | 229,560 | -7.7% | 57.39% | 22.4538 |
+| 71 | Meesho Ltd | MEESHO | 120388 | **1.74×** | 21,630,222 | 12,403,147 | 1.1% | 62.51% | 555.499 |
 | 72 | Coal India Ltd | COALINDIA | 240346 | **1.73×** | 13,260,816 | 7,687,399 | -3.3% | 57.29% | 520.395 |
 | 73 | Safari Industries (India) Ltd | SAFARI | 7035 | **1.71×** | 149,675 | 87,589 | 6.8% | 81.83% | 20.9712 |
-| 74 | Apollo Tyres Ltd | APOLLOTYRE | 26538 | **1.67×** | 1,218,788 | 727,960 | -0.7% | 83.63% | 51.2025 |
-| 75 | Maruti Suzuki India Ltd | MARUTI | 440509 | **1.67×** | 939,805 | 563,643 | 9% | 52.28% | 1249.46 |
+| 74 | Maruti Suzuki India Ltd | MARUTI | 440509 | **1.67×** | 939,805 | 563,643 | 9% | 52.28% | 1249.46 |
+| 75 | Apollo Tyres Ltd | APOLLOTYRE | 26538 | **1.67×** | 1,218,788 | 727,960 | -0.7% | 83.63% | 51.2025 |
 | 76 | APL Apollo Tubes Ltd | APLAPOLLO | 58908 | **1.66×** | 1,235,828 | 743,414 | -5.8% | 45.02% | 267.203 |
 | 77 | K P R Mill Ltd | KPRMILL | 40720 | **1.64×** | 537,442 | 327,738 | 2.8% | 67% | 64.8723 |
 | 78 | Voltas Ltd | VOLTAS | 40864 | **1.63×** | 1,912,624 | 1,175,460 | 9% | 29.29% | 230.867 |
-| 79 | Tata Power Company Ltd | TATAPOWER | 108546 | **1.62×** | 9,780,027 | 6,030,723 | -2.4% | 57.38% | 334.21 |
-| 80 | Neogen Chemicals Ltd | NEOGEN | 8773 | **1.62×** | 259,860 | 160,808 | 4% | 30.92% | 73.017 |
-| 81 | Narayana Hrudayalaya Ltd | NH | 39722 | **1.62×** | 265,156 | 163,617 | 4.5% | 29.12% | 50.8782 |
+| 79 | Narayana Hrudayalaya Ltd | NH | 39722 | **1.62×** | 265,156 | 163,617 | 4.5% | 29.12% | 50.8782 |
+| 80 | Tata Power Company Ltd | TATAPOWER | 108546 | **1.62×** | 9,780,027 | 6,030,723 | -2.4% | 57.38% | 334.21 |
+| 81 | Neogen Chemicals Ltd | NEOGEN | 8773 | **1.62×** | 259,860 | 160,808 | 4% | 30.92% | 73.017 |
 | 82 | General Insurance Corporation of India | GICRE | 58299 | **1.6×** | 1,127,884 | 704,646 | -1.8% | 65.72% | 37.9139 |
 | 83 | Max Healthcare Institute Ltd | MAXHEALTH | 105217 | **1.58×** | 5,695,561 | 3,609,251 | 14.1% | 29.78% | 588.979 |
 | 84 | Lloyds Metals & Energy Ltd | LLOYDSME | 97058 | **1.57×** | 466,494 | 297,272 | -3.5% | 61.92% | 81.1106 |
-| 85 | CCL Products (India) Ltd | CCL | 12726 | **1.55×** | 298,730 | 192,848 | -2.6% | 63.68% | 28.5523 |
-| 86 | Wockhardt Ltd | WOCKPHARMA | 35499 | **1.55×** | 996,079 | 641,824 | 7.8% | 32.89% | 209.863 |
-| 87 | Ashok Leyland Ltd | ASHOKLEY | 95949 | **1.52×** | 30,184,798 | 19,838,437 | -3.5% | 36.86% | 498.835 |
-| 88 | Coforge Ltd | COFORGE | 92454 | **1.52×** | 3,760,815 | 2,467,979 | 2.9% | 45.39% | 780.912 |
+| 85 | Wockhardt Ltd | WOCKPHARMA | 35499 | **1.55×** | 996,079 | 641,824 | 7.8% | 32.89% | 209.863 |
+| 86 | CCL Products (India) Ltd | CCL | 12726 | **1.55×** | 298,730 | 192,848 | -2.6% | 63.68% | 28.5523 |
+| 87 | Coforge Ltd | COFORGE | 92454 | **1.52×** | 3,760,815 | 2,467,979 | 2.9% | 45.39% | 780.912 |
+| 88 | Ashok Leyland Ltd | ASHOKLEY | 95949 | **1.52×** | 30,184,798 | 19,838,437 | -3.5% | 36.86% | 498.835 |
 | 89 | Balu Forge Industries Ltd | BALUFORGE | 6260 | **1.5×** | 1,199,993 | 800,052 | -6.3% | 54.7% | 63.3159 |
 
 ## Sources
@@ -130,8 +130,8 @@ Scanned **2591** NSE EQ symbols over **25** trading days; **89** are ≥ Rs 5000
 - [VIJAYA](https://www.screener.in/company/VIJAYA/consolidated/)
 - [AZAD](https://www.screener.in/company/AZAD/consolidated/)
 - [TATAINVEST](https://www.screener.in/company/TATAINVEST/consolidated/)
-- [SGFIN](https://www.screener.in/company/SGFIN/consolidated/)
 - [TATACHEM](https://www.screener.in/company/TATACHEM/consolidated/)
+- [SGFIN](https://www.screener.in/company/SGFIN/consolidated/)
 - [SENCO](https://www.screener.in/company/SENCO/consolidated/)
 - [PWL](https://www.screener.in/company/PWL/consolidated/)
 - [TMPV](https://www.screener.in/company/TMPV/consolidated/)
@@ -159,37 +159,37 @@ Scanned **2591** NSE EQ symbols over **25** trading days; **89** are ≥ Rs 5000
 - [AXISCADES](https://www.screener.in/company/AXISCADES/consolidated/)
 - [SIGNATURE](https://www.screener.in/company/SIGNATURE/consolidated/)
 - [AMBER](https://www.screener.in/company/AMBER/consolidated/)
+- [EICHERMOT](https://www.screener.in/company/EICHERMOT/consolidated/)
 - [SHARDAMOTR](https://www.screener.in/company/SHARDAMOTR/consolidated/)
 - [JAINREC](https://www.screener.in/company/JAINREC/consolidated/)
-- [EICHERMOT](https://www.screener.in/company/EICHERMOT/consolidated/)
 - [IIFLCAPS](https://www.screener.in/company/IIFLCAPS/consolidated/)
 - [APTUS](https://www.screener.in/company/APTUS/consolidated/)
 - [LEAPIND](https://www.screener.in/company/LEAPIND/consolidated/)
 - [KPIL](https://www.screener.in/company/KPIL/consolidated/)
-- [GOKEX](https://www.screener.in/company/GOKEX/consolidated/)
 - [VAML](https://www.screener.in/company/VAML/consolidated/)
+- [GOKEX](https://www.screener.in/company/GOKEX/consolidated/)
 - [JAMNAAUTO](https://www.screener.in/company/JAMNAAUTO/consolidated/)
 - [SUNTV](https://www.screener.in/company/SUNTV/consolidated/)
 - [TI](https://www.screener.in/company/TI/consolidated/)
-- [MEESHO](https://www.screener.in/company/MEESHO/consolidated/)
 - [CONCORDBIO](https://www.screener.in/company/CONCORDBIO/consolidated/)
+- [MEESHO](https://www.screener.in/company/MEESHO/consolidated/)
 - [COALINDIA](https://www.screener.in/company/COALINDIA/consolidated/)
 - [SAFARI](https://www.screener.in/company/SAFARI/consolidated/)
-- [APOLLOTYRE](https://www.screener.in/company/APOLLOTYRE/consolidated/)
 - [MARUTI](https://www.screener.in/company/MARUTI/consolidated/)
+- [APOLLOTYRE](https://www.screener.in/company/APOLLOTYRE/consolidated/)
 - [APLAPOLLO](https://www.screener.in/company/APLAPOLLO/consolidated/)
 - [KPRMILL](https://www.screener.in/company/KPRMILL/consolidated/)
 - [VOLTAS](https://www.screener.in/company/VOLTAS/consolidated/)
+- [NH](https://www.screener.in/company/NH/consolidated/)
 - [TATAPOWER](https://www.screener.in/company/TATAPOWER/consolidated/)
 - [NEOGEN](https://www.screener.in/company/NEOGEN/consolidated/)
-- [NH](https://www.screener.in/company/NH/consolidated/)
 - [GICRE](https://www.screener.in/company/GICRE/consolidated/)
 - [MAXHEALTH](https://www.screener.in/company/MAXHEALTH/consolidated/)
 - [LLOYDSME](https://www.screener.in/company/LLOYDSME/consolidated/)
-- [CCL](https://www.screener.in/company/CCL/consolidated/)
 - [WOCKPHARMA](https://www.screener.in/company/WOCKPHARMA/consolidated/)
-- [ASHOKLEY](https://www.screener.in/company/ASHOKLEY/consolidated/)
+- [CCL](https://www.screener.in/company/CCL/consolidated/)
 - [COFORGE](https://www.screener.in/company/COFORGE/consolidated/)
+- [ASHOKLEY](https://www.screener.in/company/ASHOKLEY/consolidated/)
 - [BALUFORGE](https://www.screener.in/company/BALUFORGE/consolidated/)
 
 *Volume surge = mean(last 5d volume) ÷ mean(prior 20d volume), NSE EQ series. Liquidity floor: avg turnover ≥ Rs 20 cr/day. Not investment advice.*
